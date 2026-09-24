@@ -1,0 +1,78 @@
+{
+  "format": "byte-split-v1",
+  "output": "when_predictions_become_inputs_anonymous_reproduction_v9.zip",
+  "bytes": 1346412781,
+  "sha256": "037b202de1e19f76f5cb460ed1d5c3678f36b3ee017eed819547fa95d20ea6d3",
+  "parts": [
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part001",
+      "bytes": 100000000,
+      "sha256": "84525dca21bb557788272b35ac2a66f1590a81c94faae390cf8dcc5b455fc8dd"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part002",
+      "bytes": 100000000,
+      "sha256": "03d6ca61ad1b71a5268472dcd1e032d38330a11f9bb02f296a9f971079eea902"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part003",
+      "bytes": 100000000,
+      "sha256": "49d9514f6c89536ff7c8c863133d3a7f9a92f3116c499bafb00a98b6f352ceb3"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part004",
+      "bytes": 100000000,
+      "sha256": "1e8719602b30c288f5e00b6d97fe9cd5a87e1404b2498e386e2847f257608fff"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part005",
+      "bytes": 100000000,
+      "sha256": "6dff68fe46c42d9472bd0d41f9b278ee3349f5147ed604fbf9f8eb81092068ec"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part006",
+      "bytes": 100000000,
+      "sha256": "8050b2f3a3550f26c14c7d082d7e7ad3429b42c0ef1536e02722d08e58e99e9b"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part007",
+      "bytes": 100000000,
+      "sha256": "3f573fbccbb39fe55ec5650a2f4997238b1ef2134939828a96b1261b64519a53"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part008",
+      "bytes": 100000000,
+      "sha256": "ab9fdfb2aa908aeaa722d2a1fb147999ebc4abaa34ce23c7187658234204ff94"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part009",
+      "bytes": 100000000,
+      "sha256": "651f3027ad256c8327ffa5e5d39f81be5b305c42e078c7b07baafd391f4c977e"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part010",
+      "bytes": 100000000,
+      "sha256": "f3dd1061de7d5a42c0a1d8cbf350d0e7c586ef212d4d31012a7d3b62b9fd93f8"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part011",
+      "bytes": 100000000,
+      "sha256": "ee2285c92b7340630f2db1e25245bfd3de301a53ae437742b84fa11150753054"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part012",
+      "bytes": 100000000,
+      "sha256": "4920afe3f695b05113e6de096298c3a9a194057f8b4705326147a6a370b40f2c"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part013",
+      "bytes": 100000000,
+      "sha256": "e80ac9d43d2609388408819f3acf5978a0f68546ee31c3f88274a910b8510385"
+    },
+    {
+      "file": "when_predictions_become_inputs_anonymous_reproduction_v9.zip.part014",
+      "bytes": 46412781,
+      "sha256": "7b71f11bc2705fc49e4fbbf75811d7dd31d87d79c240ca3a6a0d46a7db876c6b"
+    }
+  ]
+}

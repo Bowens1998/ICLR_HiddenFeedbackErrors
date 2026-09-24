@@ -6,7 +6,9 @@ The code follows the paper's experimental workflow: construct latent-model predi
 
 ## Download materials
 
-**[Download the code package (4.5 MB)](downloads/when_predictions_become_inputs_anonymous_code_v9.zip)**
+**[Download the complete reproduction materials (1.35 GB)](https://osf.io/csgra/files?view_only=280626d2fc5e44c9b72620d0a2ffd0ee)**
+
+On OSF, choose **Download As Zip** and extract that download. Run `python assemble_reproduction.py` in the extracted directory to reconstruct and verify the original reproduction ZIP from its 14 parts. No OSF account is required. The complete package contains the code and all nine experiment archives.
 
 | File | Contents |
 |---|---|
@@ -15,7 +17,7 @@ The code follows the paper's experimental workflow: construct latent-model predi
 | [ARCHIVE_MANIFEST.json](ARCHIVE_MANIFEST.json) | Filenames, sizes, and checksums for the nine experiment archives |
 | [Material access](downloads/README.md) | Package contents and access instructions |
 
-The complete reproduction package (1.35 GB) contains the code and all nine experiment archives. Its anonymous download endpoint is being prepared. The code package and saved-result analysis below are available now.
+Extract the complete package into its own directory, or copy its `archives/` directory into an existing code checkout.
 
 ## Repository structure
 

@@ -3031,9 +3031,9 @@
     "README.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "3bc3b103bd45f9ea4db039987d4346df5eb07b1787bbb78c07958c3008cc634c",
+      "supplied_sha256": "12c2fd66de4fc1203dff01525807d7f2faa255ce68b94a8d39679b70ab3f64a7",
       "publication_documentation_updated": true,
-      "publication_note": "Review-branch documentation uses relative links to the frozen code ZIP, checksums and archive inventory. The separate full reproduction archive remains unchanged; its anonymous hosting endpoint is pending."
+      "publication_note": "Documentation links anonymous OSF material hosting. The full v9 ZIP is transported in 14 byte-range parts; the supplied assembly utility verifies all parts and the original full-archive checksum. Scientific files and accepted ZIP payloads are unchanged."
     },
     "archives/README.md": {
       "original_sha256": null,
