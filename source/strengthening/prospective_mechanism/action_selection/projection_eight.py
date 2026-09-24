@@ -10,7 +10,7 @@ import sys
 import numpy as np
 
 PHASE = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(PHASE / 'stage2'))
+sys.path.insert(0, str(PHASE / 'training_response'))
 # Reuse numerical primitives only, never the T0-only four-member wrapper.
 import projection_four as primitives
 

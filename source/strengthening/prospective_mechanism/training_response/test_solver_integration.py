@@ -18,8 +18,8 @@ from projection_four import (project_t0_four_family, accept_t0_four_family,
 
 SEED = 23092026
 SOURCE_PATHS = (
-    PHASE / 'stage2/projection_four.py',
-    PHASE / 'stage2/test_solver_integration.py',
+    PHASE / 'training_response/projection_four.py',
+    PHASE / 'training_response/test_solver_integration.py',
     PHASE / 'scripts/s1_projection.py',
     PHASE / 'scripts/s1_common.py',
     PHASE / 'scripts/s1_readout.py',

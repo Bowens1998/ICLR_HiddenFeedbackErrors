@@ -7,7 +7,7 @@ import numpy as np
 PHASE = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(PHASE/'scripts'))
 from score_reserved_readouts import assemble_group_shard, decode_all, frozen_bootstrap
-from independent_stage1_reference import independent_gelu_forward
+from independent_measurement_reference import independent_gelu_forward
 
 
 class IndependentInterfaceParity(unittest.TestCase):

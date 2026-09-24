@@ -55,7 +55,7 @@ def main():
                             np.testing.assert_allclose(actual,independent,rtol=0,atol=1e-9,equal_nan=True)
                             maximum=max(maximum,float(np.nanmax(abs(actual-np.asarray(independent)))));checks+=1
     receipt={'status':'PASS_REVIEW_FOLLOWUP_ARRAYS_AND_STATISTICS','summary_sha256':sha(out/'summary.json'),
-        'analysis_source_sha256':sha(ROOT/'scripts/visual/analyze_review_followup_v2.py'),'verifier_source_sha256':sha(__file__),
+        'analysis_source_sha256':sha(ROOT/'scripts/visual/analyze_followup_measurements.py'),'verifier_source_sha256':sha(__file__),
         'paired_gap_estimate':float(delta.mean()),'paired_gap_ci95':ci,'all_72_existing_branch_metric_means_match':True,
         'independently_reconstructed_branch_score_cases':checks,'maximum_sampled_metric_error':maximum,
         'decision_model_goal_rows':9216,'scope':'All original branch means and paired objective-gap statistics reconciled. Independent physical-cost and SciPy rank reconstruction on 144 fixed model-goal rows (1152 branch-score cases). New arrays retain all 9216 rows. Exploratory, not a new confirmation.'}

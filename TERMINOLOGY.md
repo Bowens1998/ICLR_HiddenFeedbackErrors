@@ -1,4 +1,4 @@
-# Frozen identifiers and manuscript terminology
+# Code and manuscript terminology
 
 The manuscript uses one displayed term for each concept. Original array keys, Python identifiers, filenames and frozen protocol text retain their historical spelling to preserve their numerical and hash bindings.
 

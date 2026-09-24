@@ -1,98 +1,65 @@
 [
   {
-    "original_archive": "feedback_diagnostic_evidence.zip",
     "supplied_archive": "feedback_diagnostic_evidence.zip",
-    "unchanged": true,
     "sha256": "b812f8ac12370d1034f8837d7314e3a72c227347843a507dad03257882fd5b21",
     "bytes": 19991587,
     "payload_files": 55,
     "uncompressed_bytes": 20137123
   },
   {
-    "original_archive": "feedback_diagnostic_end_to_end_v1.zip",
-    "supplied_archive": "feedback_diagnostic_end_to_end_v1.zip",
-    "unchanged": true,
+    "supplied_archive": "feedback_diagnostic_end_to_end.zip",
     "sha256": "240da1314b7c3c173fe9bde912b6c4df0ac6e79ac5115a5722859491907a5c23",
     "bytes": 203157544,
     "payload_files": 35,
     "uncompressed_bytes": 219765728
   },
   {
-    "original_archive": "feedback_confirmation_evidence_v1.zip",
-    "supplied_archive": "feedback_confirmation_evidence_v1.zip",
-    "unchanged": true,
+    "supplied_archive": "feedback_confirmation_evidence.zip",
     "sha256": "416727c7ce38a18a6cc264b69fe1b2661624834ad4eabc02f3a934e255efe593",
     "bytes": 48746564,
     "payload_files": 24,
     "uncompressed_bytes": 57268022
   },
   {
-    "original_archive": "velocity_readout_qualification_v1.zip",
-    "supplied_archive": "velocity_readout_qualification_v1.zip",
-    "unchanged": true,
+    "supplied_archive": "velocity_readout_qualification.zip",
     "sha256": "1a9cdb0c6c7735c645684f7fcecddcfd3d83eb9b410df81f853a4e2cd58bed0f",
     "bytes": 14608711,
     "payload_files": 88,
     "uncompressed_bytes": 14970773
   },
   {
-    "original_archive": "feedback_reporting_supplement_v1.zip",
-    "supplied_archive": "feedback_reporting_supplement_anonymous_v2.zip",
-    "unchanged": false,
-    "original_sha256": "72c6d25f26c46f71e7f673a5c32f5107b6daba64ef28141ea2a5a3fd557ca23d",
+    "supplied_archive": "feedback_reporting_supplement.zip",
     "sha256": "d47b16ec941bac724a3f29b4824ab7181aa82744462e1fb097de5b8e2faf44df",
     "bytes": 39726067,
     "payload_files": 20,
-    "uncompressed_bytes": 43573820,
-    "unchanged_numerical_binary_files": 4,
-    "changed_text_files": 13
+    "uncompressed_bytes": 43573820
   },
   {
-    "original_archive": "feedback_second_readout_scoring_v1.zip",
-    "supplied_archive": "feedback_second_readout_scoring_anonymous_v2.zip",
-    "unchanged": false,
-    "original_sha256": "a12e9f4d73fe3ddbdd1be7c60e26aca265c18ab63a5794e168a8d69b3dc1a93f",
+    "supplied_archive": "feedback_second_readout_scoring.zip",
     "sha256": "78cb2fda6beb2f9b1323d570d11ca5ff0fb702a4b473fcec9287ccb227ea5849",
     "bytes": 34302697,
     "payload_files": 15,
-    "uncompressed_bytes": 34707276,
-    "unchanged_numerical_binary_files": 2,
-    "changed_text_files": 9
+    "uncompressed_bytes": 34707276
   },
   {
-    "original_archive": "feedback_motion_mechanism_v2.zip",
-    "supplied_archive": "feedback_motion_mechanism_anonymous_v3.zip",
-    "unchanged": false,
-    "original_sha256": "ddc640e72aede6ab22ebe535da4e18fbaa1401793698837b436d2eb36e0791d4",
+    "supplied_archive": "feedback_motion_mechanism.zip",
     "sha256": "af523333bc52320b3d488d44eec24086de140c5614f1998148c14ec0fd56de7d",
     "bytes": 464012976,
     "payload_files": 10754,
-    "uncompressed_bytes": 866423561,
-    "unchanged_numerical_binary_files": 4778,
-    "changed_text_files": 26
+    "uncompressed_bytes": 866423561
   },
   {
-    "original_archive": null,
-    "supplied_archive": "independent_evaluation_readout_anonymous_staged_v1.zip",
-    "unchanged": false,
-    "new_frozen_evidence_package": true,
+    "supplied_archive": "independent_evaluation_readout.zip",
     "sha256": "891286d2689b22700e4f9db189b8ab9d4483d793c97ab958e7d237c442fdb423",
     "bytes": 215484406,
     "payload_files": 128,
-    "uncompressed_bytes": 216840383,
-    "cpu_cold_replay": "PASS",
-    "unchanged_numerical_binary_files": 33
+    "uncompressed_bytes": 216840383
   },
   {
-    "original_archive": null,
-    "supplied_archive": "pointmaze_confirmation_anonymous_v1.zip",
-    "unchanged": false,
-    "new_frozen_evidence_package": true,
+    "supplied_archive": "pointmaze_confirmation.zip",
     "sha256": "0cf56d1f78fd947f494bd6ce39b8ccadbc39fe76cbee6b2ef1d43ac875e0927f",
     "bytes": 301862665,
     "payload_files": 396,
-    "uncompressed_bytes": 304633407,
-    "cpu_cold_replay": "PASS",
-    "unchanged_numerical_binary_files": 9
+    "uncompressed_bytes": 304633407
   }
 ]

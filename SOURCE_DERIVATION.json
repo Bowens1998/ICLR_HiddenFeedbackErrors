@@ -1,62 +1,79 @@
 {
-  "scope": "Scientific source text changes only anonymize machine/account paths; numerical arrays unchanged. Reviewer documentation and Figure 1 sampling labels are updated for the final manuscript; exceptions are recorded per file. Original sources are not overwritten.",
+  "scope": "Scientific source text changes only anonymize machine/account paths; numerical arrays unchanged. Reviewer documentation and Figure 1 sampling labels are updated for the final manuscript; exceptions are recorded per file. Original sources are not overwritten. Public paths and package documentation were subsequently normalized; historical protocol identifiers and numerical payloads are preserved.",
   "files": {
     "verify_saved_evidence.py": {
       "original_sha256": "b18a71ddd5a39b64fc49a045335ab6ef68f1dc4f99c563e52528f4bbbcd5c1a2",
-      "supplied_sha256": "b18a71ddd5a39b64fc49a045335ab6ef68f1dc4f99c563e52528f4bbbcd5c1a2",
-      "path_metadata_changed": false
+      "supplied_sha256": "1812a09efbd6bec8d1a46cf66ff75cf6a0d546217349ec21f24836bb0b4f5eed",
+      "path_metadata_changed": false,
+      "publication_path_or_documentation_updated": true
     },
     "ARCHIVE_MANIFEST.json": {
       "original_sha256": "11ccd37a8647fb59b1a5bd69848bbf1d825143d3202fd337852fd0a95ffe7040",
-      "supplied_sha256": "11ccd37a8647fb59b1a5bd69848bbf1d825143d3202fd337852fd0a95ffe7040",
-      "path_metadata_changed": false
+      "supplied_sha256": "a5986b8d79f7d9d6133ad2893f7190c37675f3c55830665b0f90d03f0b123ea5",
+      "path_metadata_changed": false,
+      "publication_path_or_documentation_updated": true
     },
     "RUNTIMES.md": {
       "original_sha256": "e004980b24c4c96d9b8d09a0d095c57db1d08e054e2a866eaa1dcdb877352aa1",
-      "supplied_sha256": "f02f98e3d57fbda4091fede8ce0efb2a72344e24630fd95bf0ee899353ae50ba",
+      "supplied_sha256": "9a39e31ef99e3d6dacfcbe336082014a459d64c57f576e554ca20bb9b42aa627",
       "path_metadata_changed": false,
-      "reviewer_documentation_updated": true
+      "reviewer_documentation_updated": true,
+      "publication_path_or_documentation_updated": true
     },
     "TERMINOLOGY.md": {
       "original_sha256": "ac4ff77c2f74e11dcc2d1f386390032f929fda020096dc6694409a732dc966c9",
-      "supplied_sha256": "07bfbe272c8cd80c90e7d88e45cd26052639d3d7ffbffa09bfe8c01a51a11694",
+      "supplied_sha256": "02549e828133535397f347f326937ad6a53a8633d010a8a769fa3a472bdad37b",
       "path_metadata_changed": false,
-      "reviewer_documentation_updated": true
+      "reviewer_documentation_updated": true,
+      "publication_path_or_documentation_updated": true
     },
     "historical_boundaries/MANIFEST.json": {
       "original_sha256": "ffdf3ccffa1c885d594dc1bb30433903a355df095a86499358cfdb00200fe3f1",
-      "supplied_sha256": "ffdf3ccffa1c885d594dc1bb30433903a355df095a86499358cfdb00200fe3f1",
-      "path_metadata_changed": false
+      "supplied_sha256": "e3c340d680ae410d1dcb3c27b25c9e57f8cfaa615f06e5651a87b06a93ef9a4e",
+      "path_metadata_changed": false,
+      "publication_path_or_documentation_updated": true
     },
-    "historical_boundaries/nearest_donor_v1/summary_compact.json": {
+    "historical_boundaries/nearest_donor/summary_compact.json": {
       "original_sha256": "8fb58213bf607b84a1abe048043261349b0a36f24cb5eb587273ba9ace405e7f",
       "supplied_sha256": "8fb58213bf607b84a1abe048043261349b0a36f24cb5eb587273ba9ace405e7f",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "historical_boundaries/nearest_donor_v1/summary_compact.json",
+      "publication_path_renamed": true
     },
-    "historical_boundaries/nearest_donor_v1/independent_full_revalidation.json": {
+    "historical_boundaries/nearest_donor/independent_full_revalidation.json": {
       "original_sha256": "ab1f4d861b052079c54e06dca86e1e538f40e9a3ca63751e7e6ae11a6e110b10",
       "supplied_sha256": "ab1f4d861b052079c54e06dca86e1e538f40e9a3ca63751e7e6ae11a6e110b10",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "historical_boundaries/nearest_donor_v1/independent_full_revalidation.json",
+      "publication_path_renamed": true
     },
-    "historical_boundaries/reacher_fiber_transfer_v1/local_rollout_reacceptance.json": {
+    "historical_boundaries/reacher_fiber_transfer/local_rollout_reacceptance.json": {
       "original_sha256": "d7e04226356d955bff27b239100a48b1715b4d8d9978e93e3203a09e43a73cb5",
       "supplied_sha256": "d7e04226356d955bff27b239100a48b1715b4d8d9978e93e3203a09e43a73cb5",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "historical_boundaries/reacher_fiber_transfer_v1/local_rollout_reacceptance.json",
+      "publication_path_renamed": true
     },
-    "historical_boundaries/reacher_fiber_transfer_v1/fiber_rollout_summary.json": {
+    "historical_boundaries/reacher_fiber_transfer/fiber_rollout_summary.json": {
       "original_sha256": "7c5a0935ab560e03983d95e7de8c2cc958765106ccaa7e54aa520ff16eb8c27f",
       "supplied_sha256": "7c5a0935ab560e03983d95e7de8c2cc958765106ccaa7e54aa520ff16eb8c27f",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "historical_boundaries/reacher_fiber_transfer_v1/fiber_rollout_summary.json",
+      "publication_path_renamed": true
     },
-    "historical_boundaries/reacher_fiber_transfer_v1/local_horizon_reacceptance.json": {
+    "historical_boundaries/reacher_fiber_transfer/local_horizon_reacceptance.json": {
       "original_sha256": "ea8aefdf73bf592dbf1a35acfd68d72b67783eaceae34012a3a248a364183cbc",
       "supplied_sha256": "ea8aefdf73bf592dbf1a35acfd68d72b67783eaceae34012a3a248a364183cbc",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "historical_boundaries/reacher_fiber_transfer_v1/local_horizon_reacceptance.json",
+      "publication_path_renamed": true
     },
-    "historical_boundaries/reacher_fiber_transfer_v1/native_metric_tail.json": {
+    "historical_boundaries/reacher_fiber_transfer/native_metric_tail.json": {
       "original_sha256": "8cd72f09ea75d86cfb7a0f0984ab7870dd87106c71cba4936d20a8134991425e",
       "supplied_sha256": "8cd72f09ea75d86cfb7a0f0984ab7870dd87106c71cba4936d20a8134991425e",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "historical_boundaries/reacher_fiber_transfer_v1/native_metric_tail.json",
+      "publication_path_renamed": true
     },
     "validation/ANONYMITY_VERIFICATION.json": {
       "original_sha256": "7c5bcef24fc505b599d2c9c4cf601eb4531cd4e683ae179c2a4b12ae9fbe5c51",
@@ -913,10 +930,12 @@
       "supplied_sha256": "bcca7aad9049985006daebb5ff62fb86d85e95468e3f55c049ee57a7237112b9",
       "path_metadata_changed": false
     },
-    "source/scripts/visual/analyze_review_followup_v2.py": {
+    "source/scripts/visual/analyze_followup_measurements.py": {
       "original_sha256": "62901ec6baae8a0f3b761469fc516770a8626b5e79affea2edb5396ca911f258",
       "supplied_sha256": "62901ec6baae8a0f3b761469fc516770a8626b5e79affea2edb5396ca911f258",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/scripts/visual/analyze_review_followup_v2.py",
+      "publication_path_renamed": true
     },
     "source/scripts/visual/analyze_scaling_summary.py": {
       "original_sha256": "5785812cd31dce0837beaeeac128814408a865187c36bc9ddf4a90bd5fb2fa9f",
@@ -1018,10 +1037,12 @@
       "supplied_sha256": "90c51b6607fe34877317edeb1dcd5888ab97d22d83c38313b2976b50480f0c12",
       "path_metadata_changed": false
     },
-    "source/scripts/visual/audit_review_followup_v2.py": {
+    "source/scripts/visual/audit_followup_measurements.py": {
       "original_sha256": "21bdc3b4cc357a10d1565398871a316142c0f7136e8b555e1170f8d4b7a428e2",
-      "supplied_sha256": "21bdc3b4cc357a10d1565398871a316142c0f7136e8b555e1170f8d4b7a428e2",
-      "path_metadata_changed": false
+      "supplied_sha256": "00a386705f365e255a098bef8c4329d1b7c991fe8cb31afe46f9124e4fb2f0b3",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/scripts/visual/audit_review_followup_v2.py",
+      "publication_path_renamed": true
     },
     "source/scripts/visual/audit_state_rollout.py": {
       "original_sha256": "025e650faaa43a48e6d6eb40a3d57ed159879748ce4728c32340a2082c02badb",
@@ -2238,370 +2259,516 @@
       "supplied_sha256": "eb529abe435ea1ea7434f1ee73f1b9f8cad0ef54f03867c88b3fc2c6024d834d",
       "path_metadata_changed": false
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/accept_s1_population.py": {
+    "source/strengthening/prospective_mechanism/scripts/accept_s1_population.py": {
       "original_sha256": "30c6a7c060d6a488298a1e9f279f8ad1293dcd66d0eec18da978a6140412f869",
       "supplied_sha256": "30c6a7c060d6a488298a1e9f279f8ad1293dcd66d0eec18da978a6140412f869",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/accept_s1_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/cache_inputs.py": {
+    "source/strengthening/prospective_mechanism/scripts/cache_inputs.py": {
       "original_sha256": "b7d9093e416aece5030e37332f56251c766c732e5c47b9c9c257601e6ba58bae",
       "supplied_sha256": "b7d9093e416aece5030e37332f56251c766c732e5c47b9c9c257601e6ba58bae",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/cache_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/fit_head.py": {
+    "source/strengthening/prospective_mechanism/scripts/fit_head.py": {
       "original_sha256": "b54444ae694c9b8d6dbebb3baca401d2516020de19640fb73240de8ef748f6be",
       "supplied_sha256": "b54444ae694c9b8d6dbebb3baca401d2516020de19640fb73240de8ef748f6be",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/fit_head.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/freeze_qp_shards.py": {
+    "source/strengthening/prospective_mechanism/scripts/freeze_qp_shards.py": {
       "original_sha256": "e49417272285d2edbbf76204725e4e9d732f96ca9f192ee7b247ef7e531e1082",
       "supplied_sha256": "e49417272285d2edbbf76204725e4e9d732f96ca9f192ee7b247ef7e531e1082",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/freeze_qp_shards.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/freeze_selected_heads.py": {
+    "source/strengthening/prospective_mechanism/scripts/freeze_selected_heads.py": {
       "original_sha256": "69e4c08bb47512496d0d10c6bfbf22096a3f33950542dc0434cc3b9532abfa1c",
       "supplied_sha256": "69e4c08bb47512496d0d10c6bfbf22096a3f33950542dc0434cc3b9532abfa1c",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/freeze_selected_heads.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/fresh_inputs.py": {
+    "source/strengthening/prospective_mechanism/scripts/fresh_inputs.py": {
       "original_sha256": "516eea0506c218331ac5c4e59b77b6e3450f6f4535d2f272ecb36ecc540154ea",
       "supplied_sha256": "516eea0506c218331ac5c4e59b77b6e3450f6f4535d2f272ecb36ecc540154ea",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/fresh_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/prepare_head_views.py": {
+    "source/strengthening/prospective_mechanism/scripts/prepare_head_views.py": {
       "original_sha256": "8cea5929f20cbb6a3112a52bb6ae88a53ebe27d1aa1afae2aaa3d02b9712eae4",
       "supplied_sha256": "8cea5929f20cbb6a3112a52bb6ae88a53ebe27d1aa1afae2aaa3d02b9712eae4",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/prepare_head_views.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/project_s1.py": {
+    "source/strengthening/prospective_mechanism/scripts/project_s1.py": {
       "original_sha256": "83b97519126ced272d7b9cfa78f3abceb280b17c2275332fa730d9fc6981ce99",
       "supplied_sha256": "83b97519126ced272d7b9cfa78f3abceb280b17c2275332fa730d9fc6981ce99",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/project_s1.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/qualify_heads.py": {
+    "source/strengthening/prospective_mechanism/scripts/qualify_heads.py": {
       "original_sha256": "44ebee67784a19770a3034f9e16604857003b9a3ec4bd8c2da377aa02fc95837",
       "supplied_sha256": "44ebee67784a19770a3034f9e16604857003b9a3ec4bd8c2da377aa02fc95837",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/qualify_heads.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/run_rollout.py": {
+    "source/strengthening/prospective_mechanism/scripts/run_rollout.py": {
       "original_sha256": "60afe0fe5d1507743245742bd695fb33835a2b3dded482b32b8e739e871a9869",
       "supplied_sha256": "60afe0fe5d1507743245742bd695fb33835a2b3dded482b32b8e739e871a9869",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/run_rollout.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/s1_common.py": {
+    "source/strengthening/prospective_mechanism/scripts/s1_common.py": {
       "original_sha256": "cc047a14b2be252c31a694d664fccebed42e6bd37970d5b5293898bb2dc2bf2a",
       "supplied_sha256": "cc047a14b2be252c31a694d664fccebed42e6bd37970d5b5293898bb2dc2bf2a",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/s1_common.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/s1_projection.py": {
+    "source/strengthening/prospective_mechanism/scripts/s1_projection.py": {
       "original_sha256": "106a92101f1e5cc3eddbb0b2d8bdf343b444501bbc3c8b831127ed8389fdb1ba",
       "supplied_sha256": "106a92101f1e5cc3eddbb0b2d8bdf343b444501bbc3c8b831127ed8389fdb1ba",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/s1_projection.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/s1_readout.py": {
+    "source/strengthening/prospective_mechanism/scripts/s1_readout.py": {
       "original_sha256": "5f7561a5e203a0584b5bc17e635e1e1db7168b397f828834016f011dd75b98bd",
       "supplied_sha256": "5f7561a5e203a0584b5bc17e635e1e1db7168b397f828834016f011dd75b98bd",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/s1_readout.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/score_reserved_readouts.py": {
+    "source/strengthening/prospective_mechanism/scripts/score_reserved_readouts.py": {
       "original_sha256": "211701faef582e59597fff4a23ee3eeab20541aa3f12635e8ec689ab25fe4041",
       "supplied_sha256": "211701faef582e59597fff4a23ee3eeab20541aa3f12635e8ec689ab25fe4041",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/score_reserved_readouts.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/scripts/summarize_s1.py": {
+    "source/strengthening/prospective_mechanism/scripts/summarize_s1.py": {
       "original_sha256": "ede40b0d1f8e2e013ca7bbd43d30581e8e1a9e85937572a3dc21e04763bd1abe",
       "supplied_sha256": "ede40b0d1f8e2e013ca7bbd43d30581e8e1a9e85937572a3dc21e04763bd1abe",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/scripts/summarize_s1.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/accept_probe_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/accept_probe_population.py": {
       "original_sha256": "09b6be5d881ccc79c65dbc9cfc5f38bcd48be8362ad069f71d2b04eec1a637a2",
       "supplied_sha256": "09b6be5d881ccc79c65dbc9cfc5f38bcd48be8362ad069f71d2b04eec1a637a2",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/accept_probe_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/accept_raw_inputs.py": {
+    "source/strengthening/prospective_mechanism/training_response/accept_raw_inputs.py": {
       "original_sha256": "45dffb8fd380b77c897be8122370b4e653caa7d7800dcff63cc02afe287ab6e6",
       "supplied_sha256": "45dffb8fd380b77c897be8122370b4e653caa7d7800dcff63cc02afe287ab6e6",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/accept_raw_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/assemble_scalars.py": {
+    "source/strengthening/prospective_mechanism/training_response/assemble_scalars.py": {
       "original_sha256": "ad5afcc9f35722cad99bce9e77932886e139e4f427c9e2495622c001e563de5e",
       "supplied_sha256": "ad5afcc9f35722cad99bce9e77932886e139e4f427c9e2495622c001e563de5e",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/assemble_scalars.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/cache_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/cache_population.py": {
       "original_sha256": "a48005b70ac816337466fb690daaf1fe99309c35f098687592b917ebb3c751b1",
-      "supplied_sha256": "a48005b70ac816337466fb690daaf1fe99309c35f098687592b917ebb3c751b1",
-      "path_metadata_changed": false
+      "supplied_sha256": "08bed7340df7b499833c69af37d5c3e9f51540b0f3306ab521069b9f65a6ecc2",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/cache_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/features.py": {
+    "source/strengthening/prospective_mechanism/training_response/features.py": {
       "original_sha256": "3327778d04c3b5334d9906279905ada4dc2323feadefa939dbbaaab6b5cec629",
       "supplied_sha256": "3327778d04c3b5334d9906279905ada4dc2323feadefa939dbbaaab6b5cec629",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/features.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/finalize_regression.py": {
+    "source/strengthening/prospective_mechanism/training_response/finalize_regression.py": {
       "original_sha256": "c0dfacd990bfd9489fcdde3d7bd631fad8154de9173859efb994b483fe5c4efb",
       "supplied_sha256": "c0dfacd990bfd9489fcdde3d7bd631fad8154de9173859efb994b483fe5c4efb",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/finalize_regression.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/independent_regression.py": {
+    "source/strengthening/prospective_mechanism/training_response/independent_regression.py": {
       "original_sha256": "9584f6ee7a77f318f0f6eae811ae58acef282908a66a41b10a74a950a75ade8d",
       "supplied_sha256": "9584f6ee7a77f318f0f6eae811ae58acef282908a66a41b10a74a950a75ade8d",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/independent_regression.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/model_runtime.py": {
+    "source/strengthening/prospective_mechanism/training_response/model_runtime.py": {
       "original_sha256": "9c576b2d30351dd43d76769d706e082e65e457e790c2c712fc4627890137510e",
       "supplied_sha256": "b8ad4bab8db2bb5b95aa9b54bf692a39df6f90be6a322513c4fee69f69e04773",
-      "path_metadata_changed": true
+      "path_metadata_changed": true,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/model_runtime.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/prepare_donor_assignments.py": {
+    "source/strengthening/prospective_mechanism/training_response/prepare_donor_assignments.py": {
       "original_sha256": "ed168bc43c33cb6e777a7eae2f9e51d687cf7d74f8096ac47d137eb73b22406b",
       "supplied_sha256": "ed168bc43c33cb6e777a7eae2f9e51d687cf7d74f8096ac47d137eb73b22406b",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/prepare_donor_assignments.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/project_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/project_population.py": {
       "original_sha256": "aea8d509c27d0df73c975b87cfaa5ce04751fb153e65da59f0a5dfeaf55e7c2b",
       "supplied_sha256": "aea8d509c27d0df73c975b87cfaa5ce04751fb153e65da59f0a5dfeaf55e7c2b",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/project_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/projection_four.py": {
+    "source/strengthening/prospective_mechanism/training_response/projection_four.py": {
       "original_sha256": "e64f112da2f53f85c0278ccded5fbc52d318d25c2482b1f369c52f770047c91d",
       "supplied_sha256": "e64f112da2f53f85c0278ccded5fbc52d318d25c2482b1f369c52f770047c91d",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/projection_four.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/raw_inputs.py": {
+    "source/strengthening/prospective_mechanism/training_response/raw_inputs.py": {
       "original_sha256": "59841d51fbdbb2ba0c31bf1829c99e90a622fef2e857ca908b6cb258a19a1edf",
       "supplied_sha256": "59841d51fbdbb2ba0c31bf1829c99e90a622fef2e857ca908b6cb258a19a1edf",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/raw_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/regression.py": {
+    "source/strengthening/prospective_mechanism/training_response/regression.py": {
       "original_sha256": "856224a8e931d14403b574725e45c30e2378f1449944a4552a122a2127e23adc",
       "supplied_sha256": "856224a8e931d14403b574725e45c30e2378f1449944a4552a122a2127e23adc",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/regression.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/response_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/response_population.py": {
       "original_sha256": "634949ba8ba4f5a8b49ae8ea67c1884696da3b460d21251b159028b6654623fb",
       "supplied_sha256": "634949ba8ba4f5a8b49ae8ea67c1884696da3b460d21251b159028b6654623fb",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/response_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/rollout_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/rollout_population.py": {
       "original_sha256": "89069a86b3297dd818038a866fe4c1b134918a2c61849a37ecb8c1469e2c16c7",
       "supplied_sha256": "89069a86b3297dd818038a866fe4c1b134918a2c61849a37ecb8c1469e2c16c7",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/rollout_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/score_probe_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/score_probe_population.py": {
       "original_sha256": "250c96feb2cfcc91d51541058fc42c9920b3819bd3c540af031cc61c16164e25",
       "supplied_sha256": "250c96feb2cfcc91d51541058fc42c9920b3819bd3c540af031cc61c16164e25",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/score_probe_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_accept_probe_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_accept_probe_population.py": {
       "original_sha256": "6ab83c38ea44f93cbeb18c7a9a716f9d583235e342d56fe2f208bb9de3a6c984",
       "supplied_sha256": "6ab83c38ea44f93cbeb18c7a9a716f9d583235e342d56fe2f208bb9de3a6c984",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_accept_probe_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_accept_raw_inputs.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_accept_raw_inputs.py": {
       "original_sha256": "08d35f1683da7cb661d48e81ce49ada872e9c4fa6fd248143558c29e3d0d1c06",
       "supplied_sha256": "08d35f1683da7cb661d48e81ce49ada872e9c4fa6fd248143558c29e3d0d1c06",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_accept_raw_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_assemble_scalars.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_assemble_scalars.py": {
       "original_sha256": "018e62516fa3b502a80f5605f103d17fe8795f513e1de70ab9d347fcfc114472",
       "supplied_sha256": "018e62516fa3b502a80f5605f103d17fe8795f513e1de70ab9d347fcfc114472",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_assemble_scalars.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_cache_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_cache_population.py": {
       "original_sha256": "7bcc9da54923f279727387f46f2cfca3e6d5b035bbfb760fb0b49c16fbbdfd72",
       "supplied_sha256": "7bcc9da54923f279727387f46f2cfca3e6d5b035bbfb760fb0b49c16fbbdfd72",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_cache_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_features.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_features.py": {
       "original_sha256": "8edd6528f598eab433c464948f5a159b7d2cfdcdeaba355c9cb39a5e983c5ccb",
       "supplied_sha256": "8edd6528f598eab433c464948f5a159b7d2cfdcdeaba355c9cb39a5e983c5ccb",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_features.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_finalize_regression.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_finalize_regression.py": {
       "original_sha256": "4963543254586af286f465afe03dc57a999ce9166d24d5b3b75768c25d8aa9fc",
       "supplied_sha256": "4963543254586af286f465afe03dc57a999ce9166d24d5b3b75768c25d8aa9fc",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_finalize_regression.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_independent_regression.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_independent_regression.py": {
       "original_sha256": "03b5b064104539ec03c7b1427948a4d25f94c893f6eaf23782c753e65c2a108d",
       "supplied_sha256": "03b5b064104539ec03c7b1427948a4d25f94c893f6eaf23782c753e65c2a108d",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_independent_regression.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_model_runtime.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_model_runtime.py": {
       "original_sha256": "0d5d7c337d091f9b87d6f5f08303f762578451be6a402e431e5f89528faf520c",
       "supplied_sha256": "0d5d7c337d091f9b87d6f5f08303f762578451be6a402e431e5f89528faf520c",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_model_runtime.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_prepare_donor_assignments.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_prepare_donor_assignments.py": {
       "original_sha256": "c1875f5dde0bdfd968f7ed55abb30584b0ae4d0722cffe01dab0d75887353e47",
       "supplied_sha256": "c1875f5dde0bdfd968f7ed55abb30584b0ae4d0722cffe01dab0d75887353e47",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_prepare_donor_assignments.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_project_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_project_population.py": {
       "original_sha256": "fce82d118b0d90f186ca1150c69aa0b61085cfc1d14f7e52e013eaaf64c3f8d2",
       "supplied_sha256": "fce82d118b0d90f186ca1150c69aa0b61085cfc1d14f7e52e013eaaf64c3f8d2",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_project_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_projection_four.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_projection_four.py": {
       "original_sha256": "d0d045a8ee6e1114b0cbd836de78d491bd41a4d016950a9d64e7d81a6f77daa4",
       "supplied_sha256": "d0d045a8ee6e1114b0cbd836de78d491bd41a4d016950a9d64e7d81a6f77daa4",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_projection_four.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_raw_inputs.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_raw_inputs.py": {
       "original_sha256": "ee1d7ea6954a2cf118db8d7908f8455af974eaed14cb1b4b6a88ada39fc6759c",
       "supplied_sha256": "ee1d7ea6954a2cf118db8d7908f8455af974eaed14cb1b4b6a88ada39fc6759c",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_raw_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_regression.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_regression.py": {
       "original_sha256": "afcacf4f10f5035ce1d8f16bb9e1db3319282e60cae768dacf852558f9ce479f",
       "supplied_sha256": "afcacf4f10f5035ce1d8f16bb9e1db3319282e60cae768dacf852558f9ce479f",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_regression.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_response_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_response_population.py": {
       "original_sha256": "11144007c3bc248dffc859186686d46bb252ed377eba742989930c2cf7d5ce3c",
       "supplied_sha256": "11144007c3bc248dffc859186686d46bb252ed377eba742989930c2cf7d5ce3c",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_response_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_rollout_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_rollout_population.py": {
       "original_sha256": "609b806a7f628cd50bf8fcb25ab4ab074a44cb789e71d734c31490ee7f0091c0",
       "supplied_sha256": "609b806a7f628cd50bf8fcb25ab4ab074a44cb789e71d734c31490ee7f0091c0",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_rollout_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_score_probe_population.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_score_probe_population.py": {
       "original_sha256": "9d2b8ab889764adcf2d278c12beff5593e7ad0176ea9fa7c1ff658c6073bd3a2",
       "supplied_sha256": "9d2b8ab889764adcf2d278c12beff5593e7ad0176ea9fa7c1ff658c6073bd3a2",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_score_probe_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_solver_integration.py": {
+    "source/strengthening/prospective_mechanism/training_response/test_solver_integration.py": {
       "original_sha256": "611e8e4c0c6e85b3cb15a1c7558a967e36c604f6370ec4a3f52b499e8dd5c6cb",
-      "supplied_sha256": "611e8e4c0c6e85b3cb15a1c7558a967e36c604f6370ec4a3f52b499e8dd5c6cb",
-      "path_metadata_changed": false
+      "supplied_sha256": "ebfe488267eb65d917785393547200c0d83ba4056aafe7ea207e62d3439a2fc5",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage2/test_solver_integration.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/accept_inputs.py": {
+    "source/strengthening/prospective_mechanism/action_selection/accept_inputs.py": {
       "original_sha256": "7d2108de59a10173fb1182e87859bb9b9f785aa68f81ebd3192a2ad4923794e2",
       "supplied_sha256": "7d2108de59a10173fb1182e87859bb9b9f785aa68f81ebd3192a2ad4923794e2",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/accept_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/common_prefix.py": {
+    "source/strengthening/prospective_mechanism/action_selection/common_prefix.py": {
       "original_sha256": "60cab351a4cb04f9befd6026e46f0b1d635fb784676a6d57d9700030f252c26b",
       "supplied_sha256": "60cab351a4cb04f9befd6026e46f0b1d635fb784676a6d57d9700030f252c26b",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/common_prefix.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/decision_statistics.py": {
+    "source/strengthening/prospective_mechanism/action_selection/decision_statistics.py": {
       "original_sha256": "7b933e8bf73e445c99f322e235a218deb5ef38913fbf72c71547ac87fe5c303f",
       "supplied_sha256": "7b933e8bf73e445c99f322e235a218deb5ef38913fbf72c71547ac87fe5c303f",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/decision_statistics.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/model_runtime.py": {
+    "source/strengthening/prospective_mechanism/action_selection/model_runtime.py": {
       "original_sha256": "6da9d9bdb184ca5d558ac5cd5a11de3f2be2ec41a036589e316600adc5448710",
-      "supplied_sha256": "6da9d9bdb184ca5d558ac5cd5a11de3f2be2ec41a036589e316600adc5448710",
-      "path_metadata_changed": false
+      "supplied_sha256": "028354f4dd389c10d434e49f55e6ca01d8119971c041e286e0a6517b8034d890",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/model_runtime.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/population.py": {
+    "source/strengthening/prospective_mechanism/action_selection/population.py": {
       "original_sha256": "72ededcd9c7dbbc5ba39809013050487686cbe658927873e4db455e98fffa235",
       "supplied_sha256": "72ededcd9c7dbbc5ba39809013050487686cbe658927873e4db455e98fffa235",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/projection_eight.py": {
+    "source/strengthening/prospective_mechanism/action_selection/projection_eight.py": {
       "original_sha256": "f75b3b8a2688b5f94173c21aad6ea45a0b363165d6373be8f9b21157be508ddf",
-      "supplied_sha256": "f75b3b8a2688b5f94173c21aad6ea45a0b363165d6373be8f9b21157be508ddf",
-      "path_metadata_changed": false
+      "supplied_sha256": "2f01382aa8611717f762f8e3c6566eeba351a8b4666c770f675d5ab0eb22a333",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/projection_eight.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/raw_inputs.py": {
+    "source/strengthening/prospective_mechanism/action_selection/raw_inputs.py": {
       "original_sha256": "192ba300d8a039783484c54cd25ba24ca3cbe5fb5ad11c09db41c80d235b0455",
-      "supplied_sha256": "192ba300d8a039783484c54cd25ba24ca3cbe5fb5ad11c09db41c80d235b0455",
-      "path_metadata_changed": false
+      "supplied_sha256": "6d635edd1b7de124931a3440d4dfe8d5d76d00d5fc8cc123d4a14f44ac7ba0d4",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/raw_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_common_prefix.py": {
+    "source/strengthening/prospective_mechanism/action_selection/test_common_prefix.py": {
       "original_sha256": "c74023ee66bc864e109f6fafc8ac69ab2112bca84d9ca00227915abc60b2b008",
       "supplied_sha256": "c74023ee66bc864e109f6fafc8ac69ab2112bca84d9ca00227915abc60b2b008",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_common_prefix.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_decision_statistics.py": {
+    "source/strengthening/prospective_mechanism/action_selection/test_decision_statistics.py": {
       "original_sha256": "ebe44a8d7df7f7ace6b8c78ef5e1e2aa8a4dbaf3609f8ab16c14f1bf63811ee1",
       "supplied_sha256": "ebe44a8d7df7f7ace6b8c78ef5e1e2aa8a4dbaf3609f8ab16c14f1bf63811ee1",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_decision_statistics.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_model_runtime.py": {
+    "source/strengthening/prospective_mechanism/action_selection/test_model_runtime.py": {
       "original_sha256": "6aa172bad5ce9a467e5ef381d5365b2bf1582161c4d92ca363152b34cf0c1df2",
       "supplied_sha256": "6aa172bad5ce9a467e5ef381d5365b2bf1582161c4d92ca363152b34cf0c1df2",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_model_runtime.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_population.py": {
+    "source/strengthening/prospective_mechanism/action_selection/test_population.py": {
       "original_sha256": "7efb16a3ad1c9695787558551078847eccc186def0e29c16d5981741b94d9b05",
       "supplied_sha256": "7efb16a3ad1c9695787558551078847eccc186def0e29c16d5981741b94d9b05",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_projection_eight.py": {
+    "source/strengthening/prospective_mechanism/action_selection/test_projection_eight.py": {
       "original_sha256": "2e82f08dcfc0accce9b4e9995c247f62e3eddb88d83686443f7c4b8761a4cc22",
       "supplied_sha256": "2e82f08dcfc0accce9b4e9995c247f62e3eddb88d83686443f7c4b8761a4cc22",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_projection_eight.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_raw_inputs.py": {
+    "source/strengthening/prospective_mechanism/action_selection/test_raw_inputs.py": {
       "original_sha256": "4f9c4d6f2143d62eac15a27ac1b95628e64fb9d6973cc219c1a6382a9f7ad283",
       "supplied_sha256": "4f9c4d6f2143d62eac15a27ac1b95628e64fb9d6973cc219c1a6382a9f7ad283",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/stage3/test_raw_inputs.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/accept_development_population.py": {
+    "source/strengthening/prospective_mechanism/verification/accept_development_population.py": {
       "original_sha256": "f2628e18fff01e18618fdd78b70a12bf3f5167a8d208d56c40df37f402b59ebe",
       "supplied_sha256": "f2628e18fff01e18618fdd78b70a12bf3f5167a8d208d56c40df37f402b59ebe",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/accept_development_population.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/compare_synthetic_statistics.py": {
+    "source/strengthening/prospective_mechanism/verification/compare_synthetic_statistics.py": {
       "original_sha256": "52aa404c19b2c2bffe08640ae1de40d6dfef2db2c75b3aeb043f31409afd6836",
-      "supplied_sha256": "52aa404c19b2c2bffe08640ae1de40d6dfef2db2c75b3aeb043f31409afd6836",
-      "path_metadata_changed": false
+      "supplied_sha256": "98870539cf5b796f2e31a7c61b92736fa6e484841c518dc769ce5c41d59d569c",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/compare_synthetic_statistics.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/independent_stage1_reference.py": {
+    "source/strengthening/prospective_mechanism/verification/independent_measurement_reference.py": {
       "original_sha256": "5431ce81bb48e4a22848fea9ae039e52390a9605779fe9295bbc1db64b97e381",
       "supplied_sha256": "5431ce81bb48e4a22848fea9ae039e52390a9605779fe9295bbc1db64b97e381",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/independent_stage1_reference.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_accept_development_population_guards.py": {
+    "source/strengthening/prospective_mechanism/verification/test_accept_development_population_guards.py": {
       "original_sha256": "c5cceb8b48458a12ebe82f346f5dc027294998ec926730ca348df41e4ca0b468",
       "supplied_sha256": "c5cceb8b48458a12ebe82f346f5dc027294998ec926730ca348df41e4ca0b468",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_accept_development_population_guards.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_confirmation_projection_launcher.py": {
+    "source/strengthening/prospective_mechanism/verification/test_confirmation_projection_launcher.py": {
       "original_sha256": "757c4a34bfac6503c8b2d4350bda1b89951b79bf980b1df5d7834a7895a33256",
       "supplied_sha256": "757c4a34bfac6503c8b2d4350bda1b89951b79bf980b1df5d7834a7895a33256",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_confirmation_projection_launcher.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_finalize_s1_evidence.py": {
+    "source/strengthening/prospective_mechanism/verification/test_finalize_s1_evidence.py": {
       "original_sha256": "b65b1b9cdaa79bebd4088298d0ba7c70f741846796d97a1621064519a9cd5692",
-      "supplied_sha256": "b65b1b9cdaa79bebd4088298d0ba7c70f741846796d97a1621064519a9cd5692",
-      "path_metadata_changed": false
+      "supplied_sha256": "26ee911694841388b4c752a9cec3cfc402ef32f402eb7d8a8925e7d6c441b087",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_finalize_s1_evidence.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_independent_stage1_reference.py": {
+    "source/strengthening/prospective_mechanism/verification/test_independent_measurement_reference.py": {
       "original_sha256": "fdeb066c4dcadd32528a5c6202415674edea7120c4266d027c5aeed235350cee",
-      "supplied_sha256": "fdeb066c4dcadd32528a5c6202415674edea7120c4266d027c5aeed235350cee",
-      "path_metadata_changed": false
+      "supplied_sha256": "bc12fd6911fb8ecd6761a9880137b3ff140fb30b57d127727cbd563168b1fc2e",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_independent_stage1_reference.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_population_scoring_independent_parity.py": {
+    "source/strengthening/prospective_mechanism/verification/test_population_scoring_independent_parity.py": {
       "original_sha256": "e128d487750b6b206dfd42a32f0ee20932a0e2843e0b41bb91378995ad258634",
-      "supplied_sha256": "e128d487750b6b206dfd42a32f0ee20932a0e2843e0b41bb91378995ad258634",
-      "path_metadata_changed": false
+      "supplied_sha256": "6aa76ec98ea5c9311709647613725a36a6baed997af3c3d89799aaf9271bdb9c",
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_population_scoring_independent_parity.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_s1_projection_guards.py": {
+    "source/strengthening/prospective_mechanism/verification/test_s1_projection_guards.py": {
       "original_sha256": "50dfeef68abcdbb5bbcc341dea9a2f5e6fdbc1fc0f18fc2d9a4b1170a0dc2885",
       "supplied_sha256": "50dfeef68abcdbb5bbcc341dea9a2f5e6fdbc1fc0f18fc2d9a4b1170a0dc2885",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_s1_projection_guards.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/test_verify_actual_selected_heads.py": {
+    "source/strengthening/prospective_mechanism/verification/test_verify_actual_selected_heads.py": {
       "original_sha256": "04dd0ddbf3c285dda266c21b2167e934713498a48626c5d92914be27d5a88447",
       "supplied_sha256": "04dd0ddbf3c285dda266c21b2167e934713498a48626c5d92914be27d5a88447",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/test_verify_actual_selected_heads.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/verify_actual_qualification.py": {
+    "source/strengthening/prospective_mechanism/verification/verify_actual_qualification.py": {
       "original_sha256": "1ae0ecbc046eb1ef367751df76c4fef10df2f4d5d5d99d0140485e92729b9767",
       "supplied_sha256": "1ae0ecbc046eb1ef367751df76c4fef10df2f4d5d5d99d0140485e92729b9767",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/verify_actual_qualification.py",
+      "publication_path_renamed": true
     },
-    "source/strengthening/prospective_mechanism_v9_20260923/verification/verify_actual_selected_heads.py": {
+    "source/strengthening/prospective_mechanism/verification/verify_actual_selected_heads.py": {
       "original_sha256": "b3a769d173cc5a48488379687387cc224de8a7e35dfb328121cf967b3a531efe",
       "supplied_sha256": "b3a769d173cc5a48488379687387cc224de8a7e35dfb328121cf967b3a531efe",
-      "path_metadata_changed": false
+      "path_metadata_changed": false,
+      "original_supplied_path": "source/strengthening/prospective_mechanism_v9_20260923/verification/verify_actual_selected_heads.py",
+      "publication_path_renamed": true
     },
     "source/strengthening/scripts/accept_C_results.py": {
       "original_sha256": "2c89ee3de724c194c2a877cddbec12b14f7daaaba156d6e4ce804b6cfeed0ff5",
@@ -3031,9 +3198,10 @@
     "README.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "12c2fd66de4fc1203dff01525807d7f2faa255ce68b94a8d39679b70ab3f64a7",
+      "supplied_sha256": "7c7b3cde7744b7024f3f9aa3d24b8d3331e639f061fa3ec71052248c4ad18bf5",
       "publication_documentation_updated": true,
-      "publication_note": "Documentation links anonymous OSF material hosting. The full v9 ZIP is transported in 14 byte-range parts; the supplied assembly utility verifies all parts and the original full-archive checksum. Scientific files and accepted ZIP payloads are unchanged."
+      "publication_note": "Documentation links anonymous OSF material hosting. The full v9 ZIP is transported in 14 byte-range parts; the supplied assembly utility verifies all parts and the original full-archive checksum. Scientific files and accepted ZIP payloads are unchanged.",
+      "publication_path_or_documentation_updated": true
     },
     "archives/README.md": {
       "original_sha256": null,
@@ -3045,9 +3213,10 @@
     "ARTIFACTS.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "69eb6ac4dad3538049a5987cc6d04054fe87f4dfa963e8ecf007c4d89ee4c3bd",
+      "supplied_sha256": "977d46a859cbc7d4d165edde0189588f4647bfeba9c2afa60ee97de16806d03a",
       "publication_documentation_updated": true,
-      "publication_note": "v9 companion release access and artifact scope; no scientific change."
+      "publication_note": "v9 companion release access and artifact scope; no scientific change.",
+      "publication_path_or_documentation_updated": true
     }
   }
 }

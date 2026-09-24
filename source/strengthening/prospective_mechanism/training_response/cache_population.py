@@ -105,7 +105,7 @@ def context(protocol,protocol_sha256,sources,sources_sha256,role,pool):
             source.get('source_root')==str(ROOT) and source.get('authorized_roles')==list(raw.ROLES),'Wrong cache source freeze')
     raw_source=pair(source['raw_input_sources'])
     ctx=raw.context(protocol,protocol_sha256,raw_source['path'],raw_source['sha256'],role)
-    required=(Path(__file__),Path(raw.__file__),Path(runtime.__file__),POSE_SOURCE,PHASE/'stage2/accept_raw_inputs.py')
+    required=(Path(__file__),Path(raw.__file__),Path(runtime.__file__),POSE_SOURCE,PHASE/'training_response/accept_raw_inputs.py')
     files=source['files'];resolved={}
     for name,digest in files.items():
         path=raw.resolve(ctx,name);require(raw.sha(path)==digest,'Changed cache source/runtime closure: '+str(path))

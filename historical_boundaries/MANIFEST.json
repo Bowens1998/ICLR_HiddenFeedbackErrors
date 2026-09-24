@@ -2,42 +2,42 @@
   {
     "source": "runs/hpg/reacher_fiber_transfer_v1/fiber_rollout_summary.json",
     "original_sha256": "e39c3b9d35adfd78bf61efcc826bcd25a450726b78ecd703f3d0309789d53f41",
-    "supplied": "historical_boundaries/reacher_fiber_transfer_v1/fiber_rollout_summary.json",
+    "supplied": "historical_boundaries/reacher_fiber_transfer/fiber_rollout_summary.json",
     "sha256": "7c5a0935ab560e03983d95e7de8c2cc958765106ccaa7e54aa520ff16eb8c27f",
     "scope": "Retained scientific summary or acceptance receipt; not a new saved-array reconstruction."
   },
   {
     "source": "runs/hpg/reacher_fiber_transfer_v1/local_horizon_reacceptance.json",
     "original_sha256": "ea8aefdf73bf592dbf1a35acfd68d72b67783eaceae34012a3a248a364183cbc",
-    "supplied": "historical_boundaries/reacher_fiber_transfer_v1/local_horizon_reacceptance.json",
+    "supplied": "historical_boundaries/reacher_fiber_transfer/local_horizon_reacceptance.json",
     "sha256": "ea8aefdf73bf592dbf1a35acfd68d72b67783eaceae34012a3a248a364183cbc",
     "scope": "Retained scientific summary or acceptance receipt; not a new saved-array reconstruction."
   },
   {
     "source": "runs/hpg/reacher_fiber_transfer_v1/local_rollout_reacceptance.json",
     "original_sha256": "d7e04226356d955bff27b239100a48b1715b4d8d9978e93e3203a09e43a73cb5",
-    "supplied": "historical_boundaries/reacher_fiber_transfer_v1/local_rollout_reacceptance.json",
+    "supplied": "historical_boundaries/reacher_fiber_transfer/local_rollout_reacceptance.json",
     "sha256": "d7e04226356d955bff27b239100a48b1715b4d8d9978e93e3203a09e43a73cb5",
     "scope": "Retained scientific summary or acceptance receipt; not a new saved-array reconstruction."
   },
   {
     "source": "runs/hpg/reacher_fiber_transfer_v1/native_metric_tail.json",
     "original_sha256": "8cd72f09ea75d86cfb7a0f0984ab7870dd87106c71cba4936d20a8134991425e",
-    "supplied": "historical_boundaries/reacher_fiber_transfer_v1/native_metric_tail.json",
+    "supplied": "historical_boundaries/reacher_fiber_transfer/native_metric_tail.json",
     "sha256": "8cd72f09ea75d86cfb7a0f0984ab7870dd87106c71cba4936d20a8134991425e",
     "scope": "Retained scientific summary or acceptance receipt; not a new saved-array reconstruction."
   },
   {
     "source": "runs/hpg/nearest_donor_v1/summary_compact.json",
     "original_sha256": "8fb58213bf607b84a1abe048043261349b0a36f24cb5eb587273ba9ace405e7f",
-    "supplied": "historical_boundaries/nearest_donor_v1/summary_compact.json",
+    "supplied": "historical_boundaries/nearest_donor/summary_compact.json",
     "sha256": "8fb58213bf607b84a1abe048043261349b0a36f24cb5eb587273ba9ace405e7f",
     "scope": "Retained scientific summary or acceptance receipt; not a new saved-array reconstruction."
   },
   {
     "source": "runs/hpg/nearest_donor_v1/independent_full_revalidation.json",
     "original_sha256": "ab1f4d861b052079c54e06dca86e1e538f40e9a3ca63751e7e6ae11a6e110b10",
-    "supplied": "historical_boundaries/nearest_donor_v1/independent_full_revalidation.json",
+    "supplied": "historical_boundaries/nearest_donor/independent_full_revalidation.json",
     "sha256": "ab1f4d861b052079c54e06dca86e1e538f40e9a3ca63751e7e6ae11a6e110b10",
     "scope": "Retained scientific summary or acceptance receipt; not a new saved-array reconstruction."
   }

@@ -8,14 +8,14 @@ The code follows the paper's experimental workflow: construct latent-model predi
 
 **[Download the complete reproduction materials (1.35 GB)](https://osf.io/csgra/files?view_only=280626d2fc5e44c9b72620d0a2ffd0ee)**
 
-On OSF, choose **Download As Zip** and extract that download. Run `python assemble_reproduction.py` in the extracted directory to reconstruct and verify the original reproduction ZIP from its 14 parts. No OSF account is required. The complete package contains the code and all nine experiment archives.
+Download `hidden_feedback_reproduction.zip` from OSF and extract it. No account is required. The package contains the code and all nine experiment archives.
 
 | File | Contents |
 |---|---|
-| [Code package](downloads/when_predictions_become_inputs_anonymous_code_v9.zip) | Frozen v9 source code, configurations, plotting inputs, and saved analysis arrays |
-| [SHA256SUMS.txt](downloads/SHA256SUMS.txt) | Checksums for the code and complete reproduction ZIP files |
+| [Code package](downloads/hidden_feedback_code.zip) | Source code, configurations, plotting inputs, and saved analysis arrays |
+| [SHA256SUMS.txt](downloads/SHA256SUMS.txt) | Checksums for the code and reproduction packages |
 | [ARCHIVE_MANIFEST.json](ARCHIVE_MANIFEST.json) | Filenames, sizes, and checksums for the nine experiment archives |
-| [Material access](downloads/README.md) | Package contents and access instructions |
+| [Material access](downloads/README.md) | Download and extraction instructions |
 
 Extract the complete package into its own directory, or copy its `archives/` directory into an existing code checkout.
 
@@ -27,10 +27,10 @@ source/
   strengthening/
     adapters/                     # Shared model and training utilities
     scripts/                      # Readout fitting and model training
-    prospective_mechanism_v9_20260923/
+    prospective_mechanism/
       scripts/                    # Measurement and reserved-readout evaluation
-      stage2/                     # Training-response diagnosis
-      stage3/                     # Candidate-action evaluation and selection
+      training_response/                     # Training-response diagnosis
+      action_selection/                     # Candidate-action evaluation and selection
       verification/               # Reference implementations and checks
 prospective/
   protocols/                      # Experiment configurations and data assignments
@@ -48,7 +48,7 @@ verify_saved_evidence.py          # Run analysis for archived experiments
 - **Models and task readouts:** [`factorial_model.py`](source/scripts/visual/factorial_model.py) and [`nonlinear_pose_cost.py`](source/scripts/visual/nonlinear_pose_cost.py) define model construction and nonlinear pose evaluation.
 - **Feedback interventions:** [`readout_fiber.py`](source/scripts/visual/readout_fiber.py) implements the readout-preserving projection. Related scripts in `source/scripts/visual/` prepare inputs, run rollout branches, and compute comparison statistics.
 - **Recursive training:** [`train_rolling.py`](source/strengthening/scripts/train_rolling.py) runs the training conditions, using the prediction and loss functions in [`rolling_training.py`](source/strengthening/adapters/rolling_training.py).
-- **Measurement, diagnosis, and decisions:** [`prospective_mechanism_v9_20260923/`](source/strengthening/prospective_mechanism_v9_20260923/) contains the three experiment pipelines. Their configurations and saved analysis inputs are in `prospective/`.
+- **Measurement, diagnosis, and decisions:** [`prospective_mechanism/`](source/strengthening/prospective_mechanism/) contains the three experiment pipelines. Their configurations and saved analysis inputs are in `prospective/`.
 
 ## Run the saved-result analysis
 
@@ -74,7 +74,7 @@ The runner extracts the selected package and writes its outputs under `--work-di
 
 Training and rollout scripts are under `source/`. GPU experiments use the dataset, checkpoint, readout, and normalizer paths specified in their experiment manifests.
 
-For a raw-image example, extract `archives/feedback_diagnostic_end_to_end_v1.zip` and follow its README. That package contains checkpoints, readouts, normalizers, input images, and commands for projection and rollout.
+For a raw-image example, extract `archives/feedback_diagnostic_end_to_end.zip` and follow its README. That package contains checkpoints, readouts, normalizers, input images, and commands for projection and rollout.
 
 ## Generate figures
 

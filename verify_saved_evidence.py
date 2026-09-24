@@ -12,14 +12,14 @@ import time
 ROOT=Path(__file__).resolve().parent
 TASKS={
  'legacy':('feedback_diagnostic_evidence.zip',['verify.py']),
- 'core':('feedback_confirmation_evidence_v1.zip',['verify_statistics.py','--root','.','--output','REPLAY_STATISTICS.json']),
- 'decision':('feedback_confirmation_evidence_v1.zip',['verify_decisions.py']),
- 'velocity_qualification':('velocity_readout_qualification_v1.zip',['verify_qualification.py','--artifacts','artifacts','--output','REPLAY_QUALIFICATION.json']),
- 'motion':('feedback_motion_mechanism_anonymous_v3.zip',['run_verification.py']),
- 'reporting':('feedback_reporting_supplement_anonymous_v2.zip',['strengthening/posthoc_analyses_20260922/supplement_v1/verify.py']),
- 'second_readout':('feedback_second_readout_scoring_anonymous_v2.zip',['strengthening/posthoc_analyses_20260922/second_readout_v1/verify.py']),
- 'independent_readout':('independent_evaluation_readout_anonymous_staged_v1.zip',['verify.py','--output','REPLAY_EVALUATION_READOUT']),
- 'pointmaze':('pointmaze_confirmation_anonymous_v1.zip',['verify.py','--output','REPLAY_POINTMAZE']),
+ 'core':('feedback_confirmation_evidence.zip',['verify_statistics.py','--root','.','--output','REPLAY_STATISTICS.json']),
+ 'decision':('feedback_confirmation_evidence.zip',['verify_decisions.py']),
+ 'velocity_qualification':('velocity_readout_qualification.zip',['verify_qualification.py','--artifacts','artifacts','--output','REPLAY_QUALIFICATION.json']),
+ 'motion':('feedback_motion_mechanism.zip',['run_verification.py']),
+ 'reporting':('feedback_reporting_supplement.zip',['strengthening/posthoc_analyses_20260922/supplement_v1/verify.py']),
+ 'second_readout':('feedback_second_readout_scoring.zip',['strengthening/posthoc_analyses_20260922/second_readout_v1/verify.py']),
+ 'independent_readout':('independent_evaluation_readout.zip',['verify.py','--output','REPLAY_EVALUATION_READOUT']),
+ 'pointmaze':('pointmaze_confirmation.zip',['verify.py','--output','REPLAY_POINTMAZE']),
 }
 
 def main():

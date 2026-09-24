@@ -5,7 +5,7 @@ import hashlib
 import json
 import datetime
 import numpy as np
-from independent_stage1_reference import goal_vectors, count_weighted_bootstrap, NAMES
+from independent_measurement_reference import goal_vectors, count_weighted_bootstrap, NAMES
 
 BASE = Path(__file__).resolve().parents[1]
 PRODUCTION = BASE / 'scripts/summarize_s1.py'
@@ -42,7 +42,7 @@ report = {'status':'PASS_SYNTHETIC_PRODUCTION_REFERENCE_PARITY_ONLY',
           'max_mean_interval_residual':residual,
           'reference_algorithm':'per-goal count-matrix bootstrap',
           'production_algorithm':'index-gather bootstrap',
-          'sources':{str(f.relative_to(BASE)):sha(f) for f in [Path(__file__),Path(__file__).with_name('independent_stage1_reference.py'),PRODUCTION,BASE/'protocol/DESIGN.lock.json']},
+          'sources':{str(f.relative_to(BASE)):sha(f) for f in [Path(__file__),Path(__file__).with_name('independent_measurement_reference.py'),PRODUCTION,BASE/'protocol/DESIGN.lock.json']},
           'experimental_data_accessed':False}
 output=BASE/'verification/SYNTHETIC_STATISTICS_PARITY.json'
 output.write_text(json.dumps(report,indent=2)+'\n')

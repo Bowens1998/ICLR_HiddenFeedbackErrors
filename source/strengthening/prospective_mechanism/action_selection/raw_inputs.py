@@ -34,7 +34,7 @@ def _load(path, name):
 
 
 # Pure metadata validators; no S2 context, admission, model or public loader.
-prior = _load(PHASE / 'stage2/raw_inputs.py', '_s3_prior_attempt_validators')
+prior = _load(PHASE / 'training_response/raw_inputs.py', '_s3_prior_attempt_validators')
 sha, checked_json, write_exclusive = prior.sha, prior.checked_json, prior.write_exclusive
 require = common_prefix.require
 
@@ -107,7 +107,7 @@ def context(protocol_path, protocol_sha256, source_path, source_sha256, role):
         path = resolve(ctx, name); require(sha(path) == digest, 'Changed source/runtime dependency: ' + str(path))
         actual[str(path.resolve())] = digest
     required = [Path(__file__), Path(common_prefix.__file__), common_prefix.LEGACY, KERNEL,
-        PHASE / 'stage2/raw_inputs.py', ROOT / 'scripts/visual/prepare_prospective_pusht.py',
+        PHASE / 'training_response/raw_inputs.py', ROOT / 'scripts/visual/prepare_prospective_pusht.py',
         ROOT / 'scripts/visual/accept_adaptation_contexts.py']
     require(all(str(p.resolve()) in actual for p in required), 'Missing direct S3/source validator closure')
     require(all(files.get(k) == v for k, v in old['files'].items()), 'Changed or omitted inherited original closure')

@@ -3,7 +3,7 @@ import unittest
 import copy
 import math
 import numpy as np
-from independent_stage1_reference import (goal_vectors, count_weighted_bootstrap,
+from independent_measurement_reference import (goal_vectors, count_weighted_bootstrap,
                                           independent_gelu_forward, validate_accepted_population,
                                           validate_reserved_head_binding)
 

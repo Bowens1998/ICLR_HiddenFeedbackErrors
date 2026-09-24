@@ -40,9 +40,9 @@ class Fixture:
     def __init__(self, root):
         self.root = Path(root); self.output = self.root / 'result'; self.records = {}; self.calls = []
         self.protocol_path = self.root / 'protocol.json'
-        self.phase = self.root / 'source/strengthening/prospective_mechanism_v9_20260923'
+        self.phase = self.root / 'source/strengthening/prospective_mechanism'
         scripts = ['scripts/accept_s1_population.py', 'scripts/score_reserved_readouts.py',
-                   'scripts/summarize_s1.py', 'verification/independent_stage1_reference.py']
+                   'scripts/summarize_s1.py', 'verification/independent_measurement_reference.py']
         files = {}
         for script in scripts:
             f = self.phase / script; f.parent.mkdir(parents=True, exist_ok=True); f.write_text('# Synthetic inert source identity only\n')
@@ -104,13 +104,13 @@ class Fixture:
             prod.update(protocol_sha256=PROTOCOL_SHA,acceptance_sha256=args['--acceptance-sha256'],binding_sha256=args['--binding-sha256'])
             if self.production_change:self.production_change(prod)
             self.save(out/'summary.json',prod);np.savez(out/'goal_contrasts.npz',**dict(zip(NAMES,v.T)))
-        elif name=='independent_stage1_reference.py':
+        elif name=='independent_measurement_reference.py':
             _,ind,v=statistics();out.mkdir(parents=True,exist_ok=False)
             np.savez(out/'independent_vectors_and_bootstrap.npz',goal_vectors=v,contrast_ids=np.asarray(NAMES))
             ind.update(status='PASS_INDEPENDENT_STAGE1_ARITHMETIC',forward=dict(status=self.forward_status,token_count=self.forward_count),
                        vectors_sha256=finalizer.sha(out/'independent_vectors_and_bootstrap.npz'),design_sha256=PROTOCOL_SHA,
                        acceptance_sha256=finalizer.sha(self.output/'acceptance.json'),binding_sha256=args['--binding-sha256'],
-                       reference_source_sha256=finalizer.sha(self.phase/'verification/independent_stage1_reference.py'))
+                       reference_source_sha256=finalizer.sha(self.phase/'verification/independent_measurement_reference.py'))
             if self.independent_change:self.independent_change(ind)
             self.save(out/'report.json',ind)
         else:raise AssertionError('Unexpected process '+name)
@@ -168,7 +168,7 @@ class PipelineTests(unittest.TestCase):
     def test_exact_order_complete_binding_no_overwrite_and_negative_results_retained(self):
         with tempfile.TemporaryDirectory() as d:
             f=Fixture(d);f.run()
-            self.assertEqual(f.calls,['accept_s1_population.py','score_reserved_readouts.py','summarize_s1.py','independent_stage1_reference.py'])
+            self.assertEqual(f.calls,['accept_s1_population.py','score_reserved_readouts.py','summarize_s1.py','independent_measurement_reference.py'])
             report=json.loads((f.output/'report.json').read_text())
             self.assertEqual(report['status'],'COMPLETE_S1_SAVED_TOKEN_AND_STATISTICS_VERIFIED')
             self.assertEqual(len(report['primary'])+len(report['secondary']),8)

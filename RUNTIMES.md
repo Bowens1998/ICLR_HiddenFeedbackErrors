@@ -31,4 +31,4 @@ The four original reports and independent verification receipts are bound by `va
 
 ## Current prospective compact check
 
-Verified with Python 3.13.9 and NumPy 2.3.5, two BLAS threads. The measured complete saved-contrast check took 0.364 seconds on the packaging host, including manifest checks. This is a compact CPU check, not new training, projection or simulator timing. The exact receipt is validation/prospective_saved_contrasts_v9.json.
+Verified with Python 3.13.9 and NumPy 2.3.5, two BLAS threads. The measured complete saved-contrast check took 0.364 seconds on the packaging host, including manifest checks. This is a compact CPU check, not new training, projection or simulator timing. The exact receipt is validation/prospective_saved_contrasts.json.
