@@ -3031,9 +3031,9 @@
     "README.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "cc147b2d43733289c07dee50ee0706278e4f3bb5dd11599419aab4a211225453",
+      "supplied_sha256": "3bc3b103bd45f9ea4db039987d4346df5eb07b1787bbb78c07958c3008cc634c",
       "publication_documentation_updated": true,
-      "publication_note": "Add verified direct artifact-download links near the top of the repository README."
+      "publication_note": "Review-branch documentation uses relative links to the frozen code ZIP, checksums and archive inventory. The separate full reproduction archive remains unchanged; its anonymous hosting endpoint is pending."
     },
     "archives/README.md": {
       "original_sha256": null,

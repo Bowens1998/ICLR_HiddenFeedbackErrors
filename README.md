@@ -6,17 +6,16 @@ The code follows the paper's experimental workflow: construct latent-model predi
 
 ## Download materials
 
-**[Download the complete reproduction package (1.35 GB)](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/when_predictions_become_inputs_anonymous_reproduction_v9.zip)**
+**[Download the code package (4.5 MB)](downloads/when_predictions_become_inputs_anonymous_code_v9.zip)**
 
-The complete package contains the code and all nine experiment archives.
-
-| Download | Contents |
+| File | Contents |
 |---|---|
-| [Code-only package (4.5 MB)](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/when_predictions_become_inputs_anonymous_code_v9.zip) | Source code, configurations, plotting inputs, and saved analysis arrays |
-| [SHA256SUMS.txt](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/SHA256SUMS.txt) | Checksums for the two ZIP files |
-| [ARCHIVE_MANIFEST.json](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/ARCHIVE_MANIFEST.json) | Archive filenames, sizes, and checksums |
+| [Code package](downloads/when_predictions_become_inputs_anonymous_code_v9.zip) | Frozen v9 source code, configurations, plotting inputs, and saved analysis arrays |
+| [SHA256SUMS.txt](downloads/SHA256SUMS.txt) | Checksums for the code and complete reproduction ZIP files |
+| [ARCHIVE_MANIFEST.json](ARCHIVE_MANIFEST.json) | Filenames, sizes, and checksums for the nine experiment archives |
+| [Material access](downloads/README.md) | Package contents and access instructions |
 
-All files are available on the **[v9 Release page](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/tag/v9)**. Extract the complete package into its own directory, or copy its `archives/` directory into an existing clone.
+The complete reproduction package (1.35 GB) contains the code and all nine experiment archives. Its anonymous download endpoint is being prepared. The code package and saved-result analysis below are available now.
 
 ## Repository structure
 
