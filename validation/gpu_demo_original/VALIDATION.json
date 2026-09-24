@@ -1,0 +1,60 @@
+{
+  "clean_environment": true,
+  "contract_sha256": "0e1a75f6dbd8533defeaa4b07c948967437443962018569303eb91e85112a042",
+  "rows": [
+    {
+      "case": 0,
+      "corrected_and_reset_max_absolute_difference": {
+        "corrected": 0.0,
+        "reset": 0.0
+      },
+      "free_and_observed_bitwise_equal": true,
+      "head_change": 1.0643353853811988e-07,
+      "mode": "single",
+      "region_violation": 1.6190322388309752e-08,
+      "report_sha256": "49ce50bdda3ba523fd0a07882b7511a4861fba02d15209ff44abe110add35dea",
+      "verification_sha256": "f4cf6a303c8df5f3fb4c9064fdde418c35355893e1b0d512724913cdb435fe0c"
+    },
+    {
+      "case": 0,
+      "corrected_and_reset_max_absolute_difference": {
+        "corrected": 0.0,
+        "reset": 0.0
+      },
+      "free_and_observed_bitwise_equal": true,
+      "head_change": 1.127704405412544e-07,
+      "mode": "dual-comparison",
+      "region_violation": 3.3453480624556775e-08,
+      "report_sha256": "86488e7540573a2ab3263feb1f787a78c4d28a1a978f573df9e0ebf3c61896cf",
+      "verification_sha256": "52c0f1db3b1fa0b164658f95b7f7a773b69b4670e33ada1fa13255062563b8a4"
+    },
+    {
+      "case": 1,
+      "corrected_and_reset_max_absolute_difference": {
+        "corrected": 0.0,
+        "reset": 0.0
+      },
+      "free_and_observed_bitwise_equal": true,
+      "head_change": 9.515415877459077e-08,
+      "mode": "single",
+      "region_violation": 2.8794450643299108e-08,
+      "report_sha256": "3de43de474d24b283d28e64af03ef52d6675f859a89126b69e08b357e6bb584b",
+      "verification_sha256": "38ff9bb71aa91ae26f81411e710c1c5ca5532d4da86ac073eb61b56a7245808a"
+    },
+    {
+      "case": 1,
+      "corrected_and_reset_max_absolute_difference": {
+        "corrected": 0.0,
+        "reset": 0.0
+      },
+      "free_and_observed_bitwise_equal": true,
+      "head_change": 1.6019863346983243e-07,
+      "mode": "dual-comparison",
+      "region_violation": 2.380192526407754e-08,
+      "report_sha256": "28626971df1132e8dbc4a830972db9d85cb750359293716187e42093ff3b77a1",
+      "verification_sha256": "b7bbf3c212faa1671c2680a7451fb6b9ea46994003a7fbce14e89469e44dbc54"
+    }
+  ],
+  "scientific_confirmation_untouched": true,
+  "status": "PASS_CLEAN_RAW_INPUT_END_TO_END_REPRODUCTION"
+}

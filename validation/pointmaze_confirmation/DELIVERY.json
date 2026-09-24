@@ -1,0 +1,41 @@
+{
+  "status": "PASS_ANONYMOUS_ARCHIVE_AND_FRESH_EXTRACTION_CPU_REPLAY",
+  "archive": "../../archives/pointmaze_confirmation_anonymous_v1.zip",
+  "archive_sha256": "0cf56d1f78fd947f494bd6ce39b8ccadbc39fe76cbee6b2ef1d43ac875e0927f",
+  "bytes": 301862665,
+  "MiB": 287.87867069244385,
+  "manifest_sha256": "c466f8b4250ad56de4f1139604bb87896dd191ccdb5e0a17f9cc32ada8b7c8d3",
+  "archived_files": 396,
+  "scientific_binary_arrays_unchanged": 9,
+  "all_fixed_recipients": 256,
+  "checked_fp32_insertions": 512,
+  "positive_result_required": false,
+  "both_primary_intervals_cross_zero": true,
+  "old_eight_archives_untouched": true,
+  "public_upload": false,
+  "accepted_at_utc": "2026-09-23T04:16:09.176671+00:00",
+  "measured": {
+    "wall_seconds": 45.3,
+    "user_seconds": 64.23,
+    "system_seconds": 23.67,
+    "max_rss_kib": 535148,
+    "exit_code": 0
+  },
+  "fresh_extraction_replay_receipt": {
+    "path": "cold_cpu_receipt.json",
+    "sha256": "05d640579f75d7dac7404b8f7f16e56db09abb8fd977fd391cc30fce744890e0"
+  },
+  "replay_summary": {
+    "path": "summary.json",
+    "sha256": "23afb93526562cf9aa55ffbe441007043591c0e6bea0866875e860f1124e150b"
+  },
+  "anonymity_and_invariance": {
+    "path": "ANONYMITY_AND_INVARIANCE.json",
+    "sha256": "3a7f742a6443ee66a60f346104e34dc679c0ad2a35684b61cef2eacafa574ccf"
+  },
+  "scratch_cleanup": {
+    "path": "COLD_EXTRACTION_CLEANUP.json",
+    "sha256": "0d126c89b82116831df40177d129addc4191b12e5ea189e69df34f077af6e8f0"
+  },
+  "original_delivery_sha256": "1ecd50193fe3842d32b5f168c421857d6bc1b75bfc3b6b529cb9e48df1881480"
+}

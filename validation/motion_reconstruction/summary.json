@@ -1,0 +1,13 @@
+{
+  "status": "PASS_COMPLETE_PORTABLE_SAVED_EVIDENCE_RECONSTRUCTION",
+  "payload_files": 10752,
+  "measurement_contexts": 24576,
+  "formal_families": 4096,
+  "formal_insertions": 49152,
+  "corrected_trajectories": 49152,
+  "primary_contrasts": 6,
+  "secondary_contrasts": 6,
+  "numpy_version": "2.3.5",
+  "elapsed_seconds": 219.0946558450014,
+  "scope": "Reconstructs saved features, weights, complete FP32 inserted tokens and trajectories. Does not simulate, encode images, optimize projections or train models. Raw simulator target reconstruction is separately recorded in the original remote verifier."
+}

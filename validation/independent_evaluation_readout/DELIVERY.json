@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ANONYMOUS_ARCHIVE_AND_FRESH_EXTRACTION_CPU_REPLAY",
+  "archive": "../../archives/independent_evaluation_readout_anonymous_staged_v1.zip",
+  "archive_sha256": "891286d2689b22700e4f9db189b8ab9d4483d793c97ab958e7d237c442fdb423",
+  "bytes": 215484406,
+  "MiB": 205.50194358825684,
+  "manifest_sha256": "1416b152067185b386860caf07364a9ae2a873eaa15d43baf2028c0d85815086",
+  "archived_files": 128,
+  "scientific_binary_arrays_unchanged": 33,
+  "old_seven_archives_untouched": true,
+  "final_manuscript_and_external_integration_pending": true,
+  "public_upload": false,
+  "accepted_at_utc": "2026-09-22T23:21:51.742537+00:00",
+  "fresh_extraction_replay_receipt": {
+    "path": "cold_cpu_receipt.json",
+    "sha256": "e04777b9c81e41448441e843006abe66193493dcf32dfbb2169b6e2658d77488"
+  },
+  "replay_summary": {
+    "path": "summary.json",
+    "sha256": "0475636c6daaa098288b0a3e1c8f626e2c0939414beaac180360fa9859952267"
+  },
+  "anonymity_and_invariance": {
+    "path": "ANONYMITY_AND_INVARIANCE.json",
+    "sha256": "18ee3d5e27f502ca52dfa673c5cf0890b9cba1f1ede7e06ac7438656671ba570"
+  },
+  "measured": {
+    "wall_seconds": 4.63,
+    "user_seconds": 4.29,
+    "system_seconds": 0.78,
+    "max_rss_kib": 371516,
+    "exit_code": 0
+  },
+  "scratch_cleanup": {
+    "path": "COLD_EXTRACTION_CLEANUP.json",
+    "sha256": "6a5c18262796bcb3de52c810b2b545b42d7651236814fa9e1a920c686dab308c"
+  },
+  "original_delivery_sha256": "a9821cac7276e96705d3e209379270c92c3d158ba1cccfc2190416cf57bde727"
+}

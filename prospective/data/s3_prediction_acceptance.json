@@ -1,0 +1,260 @@
+{
+  "accepted_family_count": 1536,
+  "all_family_checks_passed": true,
+  "all_native_and_identity_checks_passed": true,
+  "arrays": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/predictions/costs.npz",
+    "sha256": "dc27631ce5da60aba9e7628ecc486b5770934ae0053022026f6740d3c9e148f1"
+  },
+  "axes": {
+    "branches": [
+      "free",
+      "actual",
+      "donor",
+      "reset"
+    ],
+    "candidate_count": 32,
+    "conditions": [
+      "T0",
+      "T1"
+    ],
+    "groups": [
+      0,
+      2,
+      4
+    ],
+    "horizon": 25,
+    "objectives": [
+      "decoded_teacher",
+      "physical_labels"
+    ],
+    "order": [
+      "recipient",
+      "pool",
+      "condition",
+      "objective",
+      "branch",
+      "candidate"
+    ],
+    "pools": [
+      0,
+      1,
+      2
+    ],
+    "recipient_count": 512
+  },
+  "branch_count": 4,
+  "candidate_actions_sha256": "f8b4d2eb26da0aa902bdc484bc4b054cf98ce0a5204cb6311c8955db459ce9bf",
+  "candidate_count": 32,
+  "complete_population_accepted": true,
+  "donor_assignment_sha256": "6b4eece34c8bb5b06df9a2460f45f04a3f8297e4f1412aa2529b02226b26cc25",
+  "goal_count": 512,
+  "independent_gA_cost_checks_passed": true,
+  "model_count": 12,
+  "model_records": [
+    {
+      "action_normalization_sha256": "6a22f8f9c3feea26e96484975fef66c99bd18ca537d1c954c8c78c2035d3ee77",
+      "checkpoint_sha256": "d83731116ed86a7dbac6af4dba251e5dffbd4ce4fdfed92babd210dcf6f103c8",
+      "condition": "T0",
+      "group": 0,
+      "head_A_sha256": "f318a47cf360741d0d233139b16f0507a1af6ae63fb18ba18c213d21b3873e28",
+      "objective": "decoded_teacher",
+      "pool": 0
+    },
+    {
+      "action_normalization_sha256": "6a22f8f9c3feea26e96484975fef66c99bd18ca537d1c954c8c78c2035d3ee77",
+      "checkpoint_sha256": "27e6fa43ace6ddc6455e50e36db9557eb1e7c45695a03a94a9114afe52cf44a1",
+      "condition": "T0",
+      "group": 0,
+      "head_A_sha256": "f318a47cf360741d0d233139b16f0507a1af6ae63fb18ba18c213d21b3873e28",
+      "objective": "physical_labels",
+      "pool": 0
+    },
+    {
+      "action_normalization_sha256": "6a22f8f9c3feea26e96484975fef66c99bd18ca537d1c954c8c78c2035d3ee77",
+      "checkpoint_sha256": "b709f861b3215422c43ed5c44e5e2215eece4445f0c8c9fab1fecae4ec02a269",
+      "condition": "T1",
+      "group": 0,
+      "head_A_sha256": "f318a47cf360741d0d233139b16f0507a1af6ae63fb18ba18c213d21b3873e28",
+      "objective": "decoded_teacher",
+      "pool": 0
+    },
+    {
+      "action_normalization_sha256": "6a22f8f9c3feea26e96484975fef66c99bd18ca537d1c954c8c78c2035d3ee77",
+      "checkpoint_sha256": "c8fc476a708d2493d6fffe1ec28c997f38b1aa3c6c47daf9f4014b28f49a1b3f",
+      "condition": "T1",
+      "group": 0,
+      "head_A_sha256": "f318a47cf360741d0d233139b16f0507a1af6ae63fb18ba18c213d21b3873e28",
+      "objective": "physical_labels",
+      "pool": 0
+    },
+    {
+      "action_normalization_sha256": "ab8d36623b54f22a83d4056730cb29f5dec886125ee62e2eb84d264a0d99a36f",
+      "checkpoint_sha256": "688a018f8d016d5824b7b2d04f7adf0c2a7f4a4cee2d641b9fa8f6d508ab7602",
+      "condition": "T0",
+      "group": 2,
+      "head_A_sha256": "b3c91a14b7c4f79b40bb773ff4bd953759dee1112debd582f170532cad9a5470",
+      "objective": "decoded_teacher",
+      "pool": 1
+    },
+    {
+      "action_normalization_sha256": "ab8d36623b54f22a83d4056730cb29f5dec886125ee62e2eb84d264a0d99a36f",
+      "checkpoint_sha256": "831cc09cf8f8e0a4bc0ddda662f6cdc767e481b356ebedb8d48766e2e955a3a2",
+      "condition": "T0",
+      "group": 2,
+      "head_A_sha256": "b3c91a14b7c4f79b40bb773ff4bd953759dee1112debd582f170532cad9a5470",
+      "objective": "physical_labels",
+      "pool": 1
+    },
+    {
+      "action_normalization_sha256": "ab8d36623b54f22a83d4056730cb29f5dec886125ee62e2eb84d264a0d99a36f",
+      "checkpoint_sha256": "a92e3e7228f7eb80b36675172f3da7d92276fab56bcdd08e97cd73b3f8e231ce",
+      "condition": "T1",
+      "group": 2,
+      "head_A_sha256": "b3c91a14b7c4f79b40bb773ff4bd953759dee1112debd582f170532cad9a5470",
+      "objective": "decoded_teacher",
+      "pool": 1
+    },
+    {
+      "action_normalization_sha256": "ab8d36623b54f22a83d4056730cb29f5dec886125ee62e2eb84d264a0d99a36f",
+      "checkpoint_sha256": "25f20bdddaef690d7fc72f1ca66a71cc6603c9bfc854d137294d41218db59bc9",
+      "condition": "T1",
+      "group": 2,
+      "head_A_sha256": "b3c91a14b7c4f79b40bb773ff4bd953759dee1112debd582f170532cad9a5470",
+      "objective": "physical_labels",
+      "pool": 1
+    },
+    {
+      "action_normalization_sha256": "89745d17542134420595b8a62035a99248bd356d3b17df31f4511ac6b40d4a68",
+      "checkpoint_sha256": "ebd6472cd9a27df40dbb826f6e16c544921dd7cffba56fb3f7519c58ba9bee2a",
+      "condition": "T0",
+      "group": 4,
+      "head_A_sha256": "8834978a1daac7e3ab4449f946a3da40323254771774decb6cb835d8a70ea3ee",
+      "objective": "decoded_teacher",
+      "pool": 2
+    },
+    {
+      "action_normalization_sha256": "89745d17542134420595b8a62035a99248bd356d3b17df31f4511ac6b40d4a68",
+      "checkpoint_sha256": "582da5a6e2d30bebd69e8430c60f3fe8db7778de311f8b7314f3886c71843165",
+      "condition": "T0",
+      "group": 4,
+      "head_A_sha256": "8834978a1daac7e3ab4449f946a3da40323254771774decb6cb835d8a70ea3ee",
+      "objective": "physical_labels",
+      "pool": 2
+    },
+    {
+      "action_normalization_sha256": "89745d17542134420595b8a62035a99248bd356d3b17df31f4511ac6b40d4a68",
+      "checkpoint_sha256": "5d7d55d1fa2023fbd8ff83dcca431c8878ba9d5e6ea04cc3f424ba0f8f514542",
+      "condition": "T1",
+      "group": 4,
+      "head_A_sha256": "8834978a1daac7e3ab4449f946a3da40323254771774decb6cb835d8a70ea3ee",
+      "objective": "decoded_teacher",
+      "pool": 2
+    },
+    {
+      "action_normalization_sha256": "89745d17542134420595b8a62035a99248bd356d3b17df31f4511ac6b40d4a68",
+      "checkpoint_sha256": "efe1c363ead1de5a72f008dc28be8aefeffb8085850138d5e7a2a345150b8398",
+      "condition": "T1",
+      "group": 4,
+      "head_A_sha256": "8834978a1daac7e3ab4449f946a3da40323254771774decb6cb835d8a70ea3ee",
+      "objective": "physical_labels",
+      "pool": 2
+    }
+  ],
+  "physical_outcomes_opened": false,
+  "pool_count": 3,
+  "population_binding": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/manifests/s3_v2/population_binding.json",
+    "sha256": "bc52efaea58bccb8e10091dfd106ac89e78db610ffa2df406547f7a98583f901"
+  },
+  "protocol_sha256": "8cad678e907b03ef08c210e47ff448d713ecebcb4ec0f27b3c6f08c83ce62d15",
+  "retained_prediction_payloads": [
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/report.json",
+      "sha256": "9241130835e8c287177e456815103d4835083908759d7210b8058a17d56319da"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/roots.npz",
+      "sha256": "cc0a26635891cb52303b1de88782b1f66bf69482e19fcb835ff38b9abd28b12e"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/projection.npz",
+      "sha256": "4c29888fc79a473b5fccfd36f14fb4cb11d9c62edb6644876313d23495722cf3"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/terminal_tokens.npz",
+      "sha256": "9261d79f2a9f5575c80d38edfff8ba1031caf65cb5acbf4a12b6a584e1ccd122"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/root_evidence.json",
+      "sha256": "f716787736fb5630893e9af22d61c4c5c9675c0e593c38c5d5352f11179adfb1"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/suffix_evidence.json",
+      "sha256": "4c27fd5d1631fa8de09b052d4fedba7d7a91cd0a587e7c009c654fca7ee5dbcf"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_0/family_reports.json",
+      "sha256": "6412e063c9a91f46265f8e792d7271bb8bd007c98c0fae0f2de0c758fab3c4d9"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/report.json",
+      "sha256": "d1bf27eb795fb434de59fdffca385cd2d560b9e6a61761264b947d1d8d1d7b9a"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/roots.npz",
+      "sha256": "c5428640d77942f7c0f94fd5822faf6ebe76367796e8b3a020552c10f204deaf"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/projection.npz",
+      "sha256": "83674c951bc721d1e9a5ce19acd92815d8d271277c4e3c276cde7c6d1f60ddf9"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/terminal_tokens.npz",
+      "sha256": "cd1f575ee9f82e5d787bdf413b142c6b1eddc903b50ac87a6e8d8ddb48cafe13"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/root_evidence.json",
+      "sha256": "abdb6a65a57ee72813abb913aaa9c0d886a9f7d4a233311732b38322b31c36a7"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/suffix_evidence.json",
+      "sha256": "0c89aeff2fb181f70ef771d88c5aa0b5a6f8727bb0cf1cff00b9745377202d80"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_1/family_reports.json",
+      "sha256": "b9f1a7d1c7b4182727a4c2779a35ea8b80db4340fad644565ef95f871f86c157"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/report.json",
+      "sha256": "10dfd09230d47a91e6e543a292006c9d644b04fc7541bb12f5e607e9101510e6"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/roots.npz",
+      "sha256": "3e079e0a498fdc5f6a7afa50433696247f908332725eda03f4142950180c6dd9"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/projection.npz",
+      "sha256": "7e47ec9f201566e33295e4605bdd19d21a09ef91d8a5ae608dd5d4594d68b1ae"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/terminal_tokens.npz",
+      "sha256": "06cca38755c9c0f1eb2f68377f86b31e7add0aa17ae8c97bb15950cfb7a8202b"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/root_evidence.json",
+      "sha256": "04ec2d7729e5921bb0e4ef122525e2a3cc4a74e8ed367c009f5d3d41c8a30c49"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/suffix_evidence.json",
+      "sha256": "aff375930b512afc015c7d57d0375d51b4a75615808169db2a66d6e6061bde9f"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/latent/pool_2/family_reports.json",
+      "sha256": "549e816c14198cbdb17d51af315dac544201d0c7fd35d927154eb1c8e25ce885"
+    }
+  ],
+  "rows_removed": 0,
+  "statistics_sources_sha256": "197cc7d9be860b449f516909d1db8ec392ab3ec77dd9a2a5072ee084336c3736",
+  "status": "S3_COMPLETE_PREDICTION_POPULATION_ACCEPTED_BEFORE_OUTCOME_JOIN"
+}

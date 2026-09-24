@@ -1,0 +1,913 @@
+{
+  "status": "PASS_INDEPENDENT_FULL_NEAREST_DONOR_REVALIDATION",
+  "time_utc": "2026-09-18T05:50:48.408370+00:00",
+  "phase": "development",
+  "goal_count": 128,
+  "group_count": 6,
+  "model_count": 18,
+  "model_goal_rows": 2304,
+  "all_goals_retained": true,
+  "source_sha256": {
+    "scripts/visual/accept_nearest_donor_rollout.py": "c6fe8a7683a0c2c6c7c47956be4b55736d45ca65f3ec660b51d12922185a76dd",
+    "scripts/visual/summarize_nearest_donor_rollout.py": "8d6682dffdc036d424fd4a1631860ccc5b448350571213fc11138d1d164ed332",
+    "scripts/visual/score_nearest_donor_rollout.py": "53cceb60de285f6116ff9e3b6cb216637f12ff429d979de4bc01dc0ff567ac6c",
+    "scripts/visual/audit_nearest_donor_geometry.py": "ad19cc75248691ddb3c43e3716f2c639794bb7baa6a61339f3249c0b5659b14d",
+    "docs/maintrack/NEAREST_DONOR_ROLLOUT_PROTOCOL.md": "3f0e60c936aee616dbbfa972b909678d7015d17c613991464d580601843bf9f8"
+  },
+  "downloaded_summary_sha256": "15d06ef49480dc324dfd079ba6a7960ecddc760b1b842940936d97002ab5c175",
+  "local_summary_sha256": "da2f44de8c11263e531860d7c8d58d3faa2e4af932bf5f2a1cfa2c579c99ab56",
+  "acceptance_bindings": [
+    {
+      "group": 0,
+      "remote_sha256": "4096dae0f491ee85108398e3b78fca7858102662bd2df5da36d39fa856f71286",
+      "local_sha256": "8a8cb356076fe55ce0ff926357f878900291284dc0468fa3dae1e57f8ddd9c4f"
+    },
+    {
+      "group": 1,
+      "remote_sha256": "e05a9aa3dc2e2251f07864b42030067cf90223f65012bbfe9338cbfaa797a0ea",
+      "local_sha256": "0b9ec50a44a3ba7d4610e43147894f630de54c6a5c46368e4e3e5053b1eb6dd5"
+    },
+    {
+      "group": 2,
+      "remote_sha256": "39d094c175866e7dcd6e741e817228446ab4833e7c41e1db67bbfc95805e7d4b",
+      "local_sha256": "08dc7e7a99f1dea1807f1f5d909c69c2e4ffde7bb3e9d1f9fd25d3103251a10e"
+    },
+    {
+      "group": 3,
+      "remote_sha256": "989ced5b90874b040cf470dda0881f7f5839ef51af6e5141e34e83e07588018c",
+      "local_sha256": "1320c72d1429693e98370b13e4071d0ff03db3e3a83a52fd53eadf2b1df2eab8"
+    },
+    {
+      "group": 4,
+      "remote_sha256": "8d888972d3a4a8cd78e62a8962c9e901066eafae15fc94363b8491e184543e80",
+      "local_sha256": "01689b076790862cbf9e706b2beced8de46a11072c8c4acee0745993d4c7eb5e"
+    },
+    {
+      "group": 5,
+      "remote_sha256": "e79d3214649f5c770e89917ba84e1910dd22e82ae38e51ba1e818bf28c91eb5d",
+      "local_sha256": "57a6ebf9ecdefe67371fa0a104d57940b61504be77260d7c76d7c3ffd844f58c"
+    }
+  ],
+  "comparison": {
+    "maximum_absolute_float_difference": {
+      "acceptance": 9.458744898438454e-11,
+      "summary": 3.637978807091713e-11
+    },
+    "different_float_counts": {
+      "acceptance": 43349,
+      "summary": 8677
+    },
+    "float_comparison_count": {
+      "acceptance": 63774,
+      "summary": 11207
+    },
+    "rtol": 1e-10,
+    "atol": 1e-07,
+    "excluded_hash_fields": [
+      "summary/sources/0/acceptance_sha256",
+      "summary/sources/1/acceptance_sha256",
+      "summary/sources/2/acceptance_sha256",
+      "summary/sources/3/acceptance_sha256",
+      "summary/sources/4/acceptance_sha256",
+      "summary/sources/5/acceptance_sha256"
+    ],
+    "excluded_hashes_independently_bound": true
+  },
+  "maximum_errors": {
+    "readout_error": 2.2311730957236264e-07,
+    "full_readout_error": 1.551103756547434e-07,
+    "pose_reconstruction_error": 0.0,
+    "norm_error": 1.4484755506138924e-07,
+    "region_violation": 8.076949332275207e-08
+  },
+  "all_six_endpoint_contrasts_per_objective": [
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_pose_nearest",
+      "estimate": -114.59877052649706,
+      "interval": [
+        -316.11637024145494,
+        100.55167796312807
+      ],
+      "relative_gain_percent_of_free": 2.2019302722890446,
+      "model_points": [
+        {
+          "model_index": 2,
+          "group": 0,
+          "estimate": 28.929167480661818
+        },
+        {
+          "model_index": 10,
+          "group": 1,
+          "estimate": -167.14290451762918
+        },
+        {
+          "model_index": 18,
+          "group": 2,
+          "estimate": 300.096576992868
+        },
+        {
+          "model_index": 26,
+          "group": 3,
+          "estimate": -264.22232412355197
+        },
+        {
+          "model_index": 34,
+          "group": 4,
+          "estimate": -272.8725542362863
+        },
+        {
+          "model_index": 42,
+          "group": 5,
+          "estimate": -312.3805847550411
+        }
+      ],
+      "negative_model_count": 4,
+      "positive_model_count": 2,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_latent_nearest",
+      "estimate": -204.82549453438025,
+      "interval": [
+        -363.3409101895475,
+        -33.081650859353964
+      ],
+      "relative_gain_percent_of_free": 3.9355697699003245,
+      "model_points": [
+        {
+          "model_index": 2,
+          "group": 0,
+          "estimate": -206.43157959483415
+        },
+        {
+          "model_index": 10,
+          "group": 1,
+          "estimate": -16.087361644443263
+        },
+        {
+          "model_index": 18,
+          "group": 2,
+          "estimate": -251.54353431521758
+        },
+        {
+          "model_index": 26,
+          "group": 3,
+          "estimate": -266.12553403071206
+        },
+        {
+          "model_index": 34,
+          "group": 4,
+          "estimate": -228.0036140656075
+        },
+        {
+          "model_index": 42,
+          "group": 5,
+          "estimate": -260.7613435554631
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_random",
+      "estimate": -438.49061179928617,
+      "interval": [
+        -687.202466435563,
+        -188.1428986612356
+      ],
+      "relative_gain_percent_of_free": 8.425271473677347,
+      "model_points": [
+        {
+          "model_index": 2,
+          "group": 0,
+          "estimate": -425.5765789110901
+        },
+        {
+          "model_index": 10,
+          "group": 1,
+          "estimate": -144.9861775201698
+        },
+        {
+          "model_index": 18,
+          "group": 2,
+          "estimate": -45.86469287079126
+        },
+        {
+          "model_index": 26,
+          "group": 3,
+          "estimate": -366.9309906254234
+        },
+        {
+          "model_index": 34,
+          "group": 4,
+          "estimate": -882.3883336784711
+        },
+        {
+          "model_index": 42,
+          "group": 5,
+          "estimate": -765.1968971897713
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_free",
+      "estimate": -5.767945532020818,
+      "interval": [
+        -210.40480604657694,
+        247.08494449537787
+      ],
+      "relative_gain_percent_of_free": 0.11082679000412479,
+      "model_points": [
+        {
+          "model_index": 2,
+          "group": 0,
+          "estimate": 215.78739847285397
+        },
+        {
+          "model_index": 10,
+          "group": 1,
+          "estimate": -133.580221755833
+        },
+        {
+          "model_index": 18,
+          "group": 2,
+          "estimate": 523.9591740871738
+        },
+        {
+          "model_index": 26,
+          "group": 3,
+          "estimate": -237.4965184120024
+        },
+        {
+          "model_index": 34,
+          "group": 4,
+          "estimate": -120.45439873145006
+        },
+        {
+          "model_index": 42,
+          "group": 5,
+          "estimate": -282.8231068528685
+        }
+      ],
+      "negative_model_count": 4,
+      "positive_model_count": 2,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "pose_nearest_minus_free",
+      "estimate": 108.83082499447625,
+      "interval": [
+        -90.26183258087616,
+        316.6419811885911
+      ],
+      "relative_gain_percent_of_free": -2.0911034822849195,
+      "model_points": [
+        {
+          "model_index": 2,
+          "group": 0,
+          "estimate": 186.85823099219215
+        },
+        {
+          "model_index": 10,
+          "group": 1,
+          "estimate": 33.56268276179617
+        },
+        {
+          "model_index": 18,
+          "group": 2,
+          "estimate": 223.86259709430578
+        },
+        {
+          "model_index": 26,
+          "group": 3,
+          "estimate": 26.725805711549583
+        },
+        {
+          "model_index": 34,
+          "group": 4,
+          "estimate": 152.41815550483625
+        },
+        {
+          "model_index": 42,
+          "group": 5,
+          "estimate": 29.55747790217265
+        }
+      ],
+      "negative_model_count": 0,
+      "positive_model_count": 6,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "latent_nearest_minus_free",
+      "estimate": 199.05754900235945,
+      "interval": [
+        15.355380249297541,
+        393.5080939348144
+      ],
+      "relative_gain_percent_of_free": -3.8247429798962,
+      "model_points": [
+        {
+          "model_index": 2,
+          "group": 0,
+          "estimate": 422.2189780676881
+        },
+        {
+          "model_index": 10,
+          "group": 1,
+          "estimate": -117.49286011138975
+        },
+        {
+          "model_index": 18,
+          "group": 2,
+          "estimate": 775.5027084023914
+        },
+        {
+          "model_index": 26,
+          "group": 3,
+          "estimate": 28.629015618709673
+        },
+        {
+          "model_index": 34,
+          "group": 4,
+          "estimate": 107.54921533415745
+        },
+        {
+          "model_index": 42,
+          "group": 5,
+          "estimate": -22.061763297405378
+        }
+      ],
+      "negative_model_count": 2,
+      "positive_model_count": 4,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_pose_nearest",
+      "estimate": -400.2082539484264,
+      "interval": [
+        -655.5112316344504,
+        -160.53036758997894
+      ],
+      "relative_gain_percent_of_free": 4.463120279900597,
+      "model_points": [
+        {
+          "model_index": 3,
+          "group": 0,
+          "estimate": -608.119914193102
+        },
+        {
+          "model_index": 11,
+          "group": 1,
+          "estimate": 33.943846810136165
+        },
+        {
+          "model_index": 19,
+          "group": 2,
+          "estimate": -398.3593867708769
+        },
+        {
+          "model_index": 27,
+          "group": 3,
+          "estimate": -675.2847014143454
+        },
+        {
+          "model_index": 35,
+          "group": 4,
+          "estimate": -377.2406532133882
+        },
+        {
+          "model_index": 43,
+          "group": 5,
+          "estimate": -376.1887149089871
+        }
+      ],
+      "negative_model_count": 5,
+      "positive_model_count": 1,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_latent_nearest",
+      "estimate": -229.87278557458518,
+      "interval": [
+        -395.18210813608033,
+        -59.50664558448745
+      ],
+      "relative_gain_percent_of_free": 2.5635400593896387,
+      "model_points": [
+        {
+          "model_index": 3,
+          "group": 0,
+          "estimate": -367.3447246515525
+        },
+        {
+          "model_index": 11,
+          "group": 1,
+          "estimate": -177.5517941140788
+        },
+        {
+          "model_index": 19,
+          "group": 2,
+          "estimate": 43.01756922437744
+        },
+        {
+          "model_index": 27,
+          "group": 3,
+          "estimate": -216.04624242056616
+        },
+        {
+          "model_index": 35,
+          "group": 4,
+          "estimate": -403.32979791087746
+        },
+        {
+          "model_index": 43,
+          "group": 5,
+          "estimate": -257.9817235748178
+        }
+      ],
+      "negative_model_count": 5,
+      "positive_model_count": 1,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_random",
+      "estimate": -1067.4453345494005,
+      "interval": [
+        -1343.469169000956,
+        -802.4453233366827
+      ],
+      "relative_gain_percent_of_free": 11.904144587999046,
+      "model_points": [
+        {
+          "model_index": 3,
+          "group": 0,
+          "estimate": -1187.9910991882416
+        },
+        {
+          "model_index": 11,
+          "group": 1,
+          "estimate": -913.395262978449
+        },
+        {
+          "model_index": 19,
+          "group": 2,
+          "estimate": -1044.6550229286604
+        },
+        {
+          "model_index": 27,
+          "group": 3,
+          "estimate": -1237.47226708365
+        },
+        {
+          "model_index": 35,
+          "group": 4,
+          "estimate": -1101.4876904206885
+        },
+        {
+          "model_index": 43,
+          "group": 5,
+          "estimate": -919.6706646967195
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_free",
+      "estimate": -871.2796252357024,
+      "interval": [
+        -1113.7155278825937,
+        -629.2819431506204
+      ],
+      "relative_gain_percent_of_free": 9.716505660462392,
+      "model_points": [
+        {
+          "model_index": 3,
+          "group": 0,
+          "estimate": -752.8038328132943
+        },
+        {
+          "model_index": 11,
+          "group": 1,
+          "estimate": -1096.8624330242073
+        },
+        {
+          "model_index": 19,
+          "group": 2,
+          "estimate": -622.5490942814395
+        },
+        {
+          "model_index": 27,
+          "group": 3,
+          "estimate": -979.9367612430933
+        },
+        {
+          "model_index": 35,
+          "group": 4,
+          "estimate": -814.1444685697898
+        },
+        {
+          "model_index": 43,
+          "group": 5,
+          "estimate": -961.3811614823917
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "pose_nearest_minus_free",
+      "estimate": -471.07137128727595,
+      "interval": [
+        -723.8601948957438,
+        -214.17462385130804
+      ],
+      "relative_gain_percent_of_free": 5.253385380561795,
+      "model_points": [
+        {
+          "model_index": 3,
+          "group": 0,
+          "estimate": -144.68391862019234
+        },
+        {
+          "model_index": 11,
+          "group": 1,
+          "estimate": -1130.8062798343435
+        },
+        {
+          "model_index": 19,
+          "group": 2,
+          "estimate": -224.18970751056258
+        },
+        {
+          "model_index": 27,
+          "group": 3,
+          "estimate": -304.65205982874795
+        },
+        {
+          "model_index": 35,
+          "group": 4,
+          "estimate": -436.90381535640154
+        },
+        {
+          "model_index": 43,
+          "group": 5,
+          "estimate": -585.1924465734046
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "latent_nearest_minus_free",
+      "estimate": -641.4068396611171,
+      "interval": [
+        -869.9080320845509,
+        -427.0353875776083
+      ],
+      "relative_gain_percent_of_free": 7.1529656010727525,
+      "model_points": [
+        {
+          "model_index": 3,
+          "group": 0,
+          "estimate": -385.4591081617418
+        },
+        {
+          "model_index": 11,
+          "group": 1,
+          "estimate": -919.3106389101285
+        },
+        {
+          "model_index": 19,
+          "group": 2,
+          "estimate": -665.5666635058169
+        },
+        {
+          "model_index": 27,
+          "group": 3,
+          "estimate": -763.8905188225272
+        },
+        {
+          "model_index": 35,
+          "group": 4,
+          "estimate": -410.8146706589123
+        },
+        {
+          "model_index": 43,
+          "group": 5,
+          "estimate": -703.3994379075739
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_pose_nearest",
+      "estimate": -107.14571437528208,
+      "interval": [
+        -351.89045588708194,
+        161.87568668073283
+      ],
+      "relative_gain_percent_of_free": 0.9238564380880651,
+      "model_points": [
+        {
+          "model_index": 4,
+          "group": 0,
+          "estimate": -345.8493506283885
+        },
+        {
+          "model_index": 12,
+          "group": 1,
+          "estimate": 138.0101868581878
+        },
+        {
+          "model_index": 20,
+          "group": 2,
+          "estimate": 70.85453743642756
+        },
+        {
+          "model_index": 28,
+          "group": 3,
+          "estimate": -428.2946148217434
+        },
+        {
+          "model_index": 36,
+          "group": 4,
+          "estimate": -16.11280946932493
+        },
+        {
+          "model_index": 44,
+          "group": 5,
+          "estimate": -61.48223562684143
+        }
+      ],
+      "negative_model_count": 4,
+      "positive_model_count": 2,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_latent_nearest",
+      "estimate": -154.27012256531742,
+      "interval": [
+        -361.7800545678236,
+        79.6493966267286
+      ],
+      "relative_gain_percent_of_free": 1.3301833560734815,
+      "model_points": [
+        {
+          "model_index": 4,
+          "group": 0,
+          "estimate": -431.2151005661326
+        },
+        {
+          "model_index": 12,
+          "group": 1,
+          "estimate": 274.88650819068425
+        },
+        {
+          "model_index": 20,
+          "group": 2,
+          "estimate": 454.1239692657455
+        },
+        {
+          "model_index": 28,
+          "group": 3,
+          "estimate": -650.6390858222094
+        },
+        {
+          "model_index": 36,
+          "group": 4,
+          "estimate": -539.3872764115949
+        },
+        {
+          "model_index": 44,
+          "group": 5,
+          "estimate": -33.389750048401766
+        }
+      ],
+      "negative_model_count": 4,
+      "positive_model_count": 2,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_random",
+      "estimate": -422.4036183058844,
+      "interval": [
+        -728.5238937351295,
+        -103.77254064724059
+      ],
+      "relative_gain_percent_of_free": 3.6421456940102424,
+      "model_points": [
+        {
+          "model_index": 4,
+          "group": 0,
+          "estimate": -1085.919060957518
+        },
+        {
+          "model_index": 12,
+          "group": 1,
+          "estimate": -322.96952200071064
+        },
+        {
+          "model_index": 20,
+          "group": 2,
+          "estimate": 106.7232741463904
+        },
+        {
+          "model_index": 28,
+          "group": 3,
+          "estimate": 100.3488741338424
+        },
+        {
+          "model_index": 36,
+          "group": 4,
+          "estimate": -1350.8841372707993
+        },
+        {
+          "model_index": 44,
+          "group": 5,
+          "estimate": 18.27886211348232
+        }
+      ],
+      "negative_model_count": 3,
+      "positive_model_count": 3,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_free",
+      "estimate": -632.9664788149992,
+      "interval": [
+        -886.470638606603,
+        -354.3858892742878
+      ],
+      "relative_gain_percent_of_free": 5.457709250964433,
+      "model_points": [
+        {
+          "model_index": 4,
+          "group": 0,
+          "estimate": -720.8344160368706
+        },
+        {
+          "model_index": 12,
+          "group": 1,
+          "estimate": -868.6243528897285
+        },
+        {
+          "model_index": 20,
+          "group": 2,
+          "estimate": -62.00082406475485
+        },
+        {
+          "model_index": 28,
+          "group": 3,
+          "estimate": -780.9242457103683
+        },
+        {
+          "model_index": 36,
+          "group": 4,
+          "estimate": -1007.3335289402403
+        },
+        {
+          "model_index": 44,
+          "group": 5,
+          "estimate": -358.0815052480302
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "pose_nearest_minus_free",
+      "estimate": -525.8207644397171,
+      "interval": [
+        -720.7134770127672,
+        -328.67544732251804
+      ],
+      "relative_gain_percent_of_free": 4.5338528128763675,
+      "model_points": [
+        {
+          "model_index": 4,
+          "group": 0,
+          "estimate": -374.9850654084821
+        },
+        {
+          "model_index": 12,
+          "group": 1,
+          "estimate": -1006.6345397479163
+        },
+        {
+          "model_index": 20,
+          "group": 2,
+          "estimate": -132.85536150118241
+        },
+        {
+          "model_index": 28,
+          "group": 3,
+          "estimate": -352.6296308886249
+        },
+        {
+          "model_index": 36,
+          "group": 4,
+          "estimate": -991.2207194709154
+        },
+        {
+          "model_index": 44,
+          "group": 5,
+          "estimate": -296.5992696211888
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "latent_nearest_minus_free",
+      "estimate": -478.6963562496818,
+      "interval": [
+        -687.7111755536854,
+        -266.8432514535795
+      ],
+      "relative_gain_percent_of_free": 4.127525894890952,
+      "model_points": [
+        {
+          "model_index": 4,
+          "group": 0,
+          "estimate": -289.619315470738
+        },
+        {
+          "model_index": 12,
+          "group": 1,
+          "estimate": -1143.5108610804127
+        },
+        {
+          "model_index": 20,
+          "group": 2,
+          "estimate": -516.1247933305003
+        },
+        {
+          "model_index": 28,
+          "group": 3,
+          "estimate": -130.2851598881589
+        },
+        {
+          "model_index": 36,
+          "group": 4,
+          "estimate": -467.94625252864535
+        },
+        {
+          "model_index": 44,
+          "group": 5,
+          "estimate": -324.69175519962846
+        }
+      ],
+      "negative_model_count": 6,
+      "positive_model_count": 0,
+      "zero_model_count": 0
+    }
+  ],
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 1390001,
+    "level": 0.95,
+    "unit": "goal; fixed groups averaged before paired resampling",
+    "shared_draws": true,
+    "method": "percentile",
+    "interpretation": "Exploratory development intervals, no familywise correction and no independent confirmation"
+  },
+  "correction_norms": {
+    "mean": 3.5239789134902555,
+    "median": 3.4768256691987975,
+    "minimum": 1.271836626466871,
+    "maximum": 7.160485544715944,
+    "zero_group_goal_count": 0,
+    "group_goal_count": 768
+  },
+  "scope": "Every frozen model-goal row retained; independent local NumPy reconstruction and shared-goal bootstrap match remote output. Exploratory source/locality sensitivity on reused development goals; no effect-driven filtering, independent confirmation, equivalence or identified physical variable."
+}

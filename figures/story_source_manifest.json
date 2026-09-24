@@ -1,0 +1,20 @@
+{
+  "script_sha256": "f689f7a35778db39591248eccc1f46c92fcaac81bed5d8e98f778a113d92c4a0",
+  "reversal_source": "runs/hpg/fiber_confirmation_v1/horizon_summary_protocol.json",
+  "reversal_source_sha256": "45dada23fcd42b448b9a19244777b0235e911cbba4db7fbdd1706a4f98fcb2c6",
+  "means": [
+    -2169.9789592951142,
+    2112.7563329509303
+  ],
+  "secondary_95_intervals": [
+    [
+      -2873.0293509478142,
+      -1544.85482345173
+    ],
+    [
+      1080.4267157097124,
+      3174.09468570503
+    ]
+  ],
+  "feedback_design": "Drawn separately from figures/draw_feedback_design.py; editable SVG and vector PDF, no quantitative data."
+}

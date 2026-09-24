@@ -1,0 +1,135 @@
+{
+  "status": "PASS_COMPLETE_LOCAL_FORMAL_RESULT_RECONSTRUCTION",
+  "checked_utc": "2026-09-22T21:43:16.276443+00:00",
+  "binding": {
+    "phase": "formal_mechanism_confirmation",
+    "protocol_sha256": "17b3658376f2ba9d0929462bc6c23bc25db2975de184d5924e84d8731e557985"
+  },
+  "recomputed_rollouts": 49152,
+  "max_pose_difference": 5.115907697472721e-13,
+  "max_velocity_difference": 8.659739592076221e-15,
+  "result_report_sha256": "5cfa77e086accf36708f7a63d7a76cc82535ff081dba12e1f3c437f67b07d599",
+  "remote_verification_sha256": "aba5a12cf677703932d5179653191e1c55c96bb7115e240ce44ab0fa30ea96d8",
+  "arrays_sha256": "37f5eeb8532b410e4ae09d14ffb707ee16550b808e7764a27a32462ea25b87c6",
+  "primary": [
+    {
+      "id": "M01",
+      "paired_change": 463.47125627632704,
+      "paired_interval": [
+        311.92695143427494,
+        622.2839815368994
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "id": "M02",
+      "paired_change": 81.03295255285552,
+      "paired_interval": [
+        3.994122922858552,
+        164.0835946500999
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "id": "M03",
+      "paired_change": 27.8561460499385,
+      "paired_interval": [
+        -59.68826717159163,
+        117.6718330656289
+      ],
+      "positive_confirmed": false
+    },
+    {
+      "id": "M11",
+      "paired_change": 534.0275611184379,
+      "paired_interval": [
+        311.90581580044056,
+        752.8699325042169
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "id": "M12",
+      "paired_change": -21.32212948667017,
+      "paired_interval": [
+        -147.52750309773543,
+        103.93472171430645
+      ],
+      "positive_confirmed": false
+    },
+    {
+      "id": "M13",
+      "paired_change": 4.263090974909044,
+      "paired_interval": [
+        -129.06583666803485,
+        136.67558857024275
+      ],
+      "positive_confirmed": false
+    }
+  ],
+  "secondary": [
+    {
+      "group": 0,
+      "condition": "pose",
+      "paired_change": 504.3869724109657,
+      "paired_interval": [
+        369.76833632860706,
+        644.0856161728675
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "group": 0,
+      "condition": "joint",
+      "paired_change": 415.953190122479,
+      "paired_interval": [
+        293.068906646438,
+        541.0712883945766
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "group": 0,
+      "condition": "rotated",
+      "paired_change": 432.1200760797856,
+      "paired_interval": [
+        308.2365420449465,
+        563.2172646249174
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "group": 1,
+      "condition": "pose",
+      "paired_change": 993.7931464788887,
+      "paired_interval": [
+        763.6509780782379,
+        1236.7460765588587
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "group": 1,
+      "condition": "joint",
+      "paired_change": 913.0497155485853,
+      "paired_interval": [
+        684.1186256053534,
+        1160.5694884397778
+      ],
+      "positive_confirmed": true
+    },
+    {
+      "group": 1,
+      "condition": "rotated",
+      "paired_change": 862.4586889280281,
+      "paired_interval": [
+        644.3696339601651,
+        1097.5688835334659
+      ],
+      "positive_confirmed": true
+    }
+  ],
+  "source_sha256": "0c0edb5245432da029e69bd630e2ec01c4ea214d223a50bcf65a70da9df338ae",
+  "elapsed_seconds": 26.758949043003668,
+  "scope": "All local saved tokens, readouts, labels in bound caches and every planned contrast reconstructed. Remote linked independent verification additionally reconstructs all labels from raw simulator archives; no new physics replay locally."
+}

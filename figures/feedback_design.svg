@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xml:space="preserve" width="7.5in" height="5.625in" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">Controlled diagnosis of hidden feedback errors</title>
+<desc id="desc">Matched training objectives; one pose-preserving feedback replacement with actual or donor guidance; three free continuations under identical actions; paired comparisons of future position error. Pose readout is a measurement branch, not a transition input.</desc>
+<rect x="0" y="0" width="1440" height="1080" rx="0" fill="white" stroke="white" stroke-width="0"/>
+<g id="title-and-question" inkscape:groupmode="layer" inkscape:label="title and question">
+<text x="20" y="36" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Hold the task readout fixed. Test the feedback.</text>
+<text x="20" y="73" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">One intervention at action 5; compare prediction of the same executed future at action 25.</text>
+<path d="M20,94 L1420,94" fill="none" stroke="#D7E0E8" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<g id="A-shared-prediction" inkscape:groupmode="layer" inkscape:label="A shared prediction">
+<circle cx="36" cy="129" r="16" fill="#203247" stroke="#203247" stroke-width="0"/>
+<text x="36" y="138" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle" fill="white">A</text>
+<text x="63" y="139" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Predict once</text>
+<text x="20" y="178" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">Observed history</text>
+<rect x="20" y="198" width="240" height="100" rx="8" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="47.1014404296875" y="234" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">H</text>
+<text x="68.4041748046875" y="239.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">0</text>
+<text x="79.7418017578125" y="234" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> = (</text>
+<text x="130.06357910156248" y="234" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">E</text>
+<text x="148.12314941406248" y="234" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="158.65684082031248" y="234" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">o</text>
+<text x="176.17588378906248" y="239.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">−</text>
+<text x="191.10709472656248" y="239.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">1</text>
+<text x="202.4447216796875" y="239.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">0</text>
+<text x="213.78234863281247" y="234" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">),</text>
+<text x="50.701406250000005" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">E</text>
+<text x="68.7609765625" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="79.29466796875" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">o</text>
+<text x="96.8137109375" y="280.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">−</text>
+<text x="111.744921875" y="280.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="123.082548828125" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">), </text>
+<text x="150.781279296875" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">E</text>
+<text x="168.840849609375" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="179.374541015625" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">o</text>
+<text x="196.893583984375" y="280.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">0</text>
+<text x="208.2312109375" y="275" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">))</text>
+<path d="M140,298 L140,330" fill="none" stroke="#203247" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="140,330 144.0,322.0 136.0,322.0" fill="#203247"/>
+<rect x="93" y="330" width="94" height="64" rx="7" fill="#F3F6F9" stroke="#203247" stroke-width="1.8"/>
+<text x="122.857099609375" y="370" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">F</text>
+<text x="143.41374023437498" y="377.48" font-family="DejaVu Sans, sans-serif" font-size="22.44" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">θ</text>
+<text x="219.7982373046875" y="347" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">U</text>
+<text x="242.0243115234375" y="353.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">0</text>
+<path d="M235,354 L235,362 L187,362" fill="none" stroke="#203247" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="187,362 195.0,366.0 195.0,358.0" fill="#203247"/>
+<path d="M140,394 L140,449" fill="none" stroke="#203247" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="140,449 144.0,441.0 136.0,441.0" fill="#203247"/>
+<circle cx="140" cy="484" r="35" fill="white" stroke="#203247" stroke-width="2.4"/>
+<text x="123.438154296875" y="494" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="142.28483398437498" y="501.48" font-family="DejaVu Sans, sans-serif" font-size="22.44" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="140" y="552" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">First prediction</text>
+<text x="20" y="625" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Matched models</text>
+<text x="20" y="662" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">Transformer / GRU</text>
+<text x="20" y="697" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">3 pools × 3 objectives</text>
+<text x="20" y="732" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">18 models in total</text>
+<path d="M175,484 L288,484" fill="none" stroke="#203247" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M288,268 L288,568" fill="none" stroke="#203247" stroke-width="2.2" stroke-linejoin="round"/>
+<circle cx="288" cy="484" r="3.5" fill="#203247" stroke="#203247" stroke-width="0"/>
+</g>
+<g id="B-single-feedback-intervention" inkscape:groupmode="layer" inkscape:label="B single feedback intervention">
+<circle cx="330" cy="129" r="16" fill="#203247" stroke="#203247" stroke-width="0"/>
+<text x="330" y="138" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle" fill="white">B</text>
+<text x="357" y="139" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Change feedback</text>
+<text x="314" y="178" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">One correction; six outputs fixed</text>
+<path d="M288,268 L679,268" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="679,268 671.0,264.0 671.0,272.0" fill="#718096"/>
+<text x="474" y="242" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="400" font-style="normal" text-anchor="middle" fill="#718096">Free: unchanged</text>
+<circle cx="714" cy="268" r="35" fill="white" stroke="#718096" stroke-width="2.4"/>
+<text x="685.889306640625" y="277" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">z</text>
+<text x="702.636376953125" y="283.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">5</text>
+<text x="702.636376953125" y="263.2" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">free</text>
+<rect x="526" y="375" width="111" height="232" rx="7" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<circle cx="581" cy="268" r="3" fill="#718096" stroke="#718096" stroke-width="0"/>
+<path d="M581,268 L581,375" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="581,375 585.0,367.0 577.0,367.0" fill="#718096"/>
+<text x="596.217412109375" y="348" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">z</text>
+<text x="610.864873046875" y="353.72" font-family="DejaVu Sans, sans-serif" font-size="17.16" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">5</text>
+<text x="581" y="407" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" font-style="normal" text-anchor="middle" fill="#203247">Match</text>
+<text x="581" y="439" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="700" font-style="normal" text-anchor="middle" fill="#203247">norm</text>
+<text x="564.427001953125" y="493" font-family="DejaVu Sans, sans-serif" font-size="33" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">m</text>
+<text x="581" y="541" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">Unscale</text>
+<text x="553.192509765625" y="578" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">+ </text>
+<text x="583.242314453125" y="578" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="597.889775390625" y="583.72" font-family="DejaVu Sans, sans-serif" font-size="17.16" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="409" y="319" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#087F83">Actual observation</text>
+<rect x="338" y="336" width="142" height="40" rx="6" fill="#E9F5F2" stroke="#E9F5F2" stroke-width="1.8"/>
+<text x="365.2997265625" y="364" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">E</text>
+<text x="383.9911328125" y="364" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">(</text>
+<text x="394.9149609375" y="364" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">o</text>
+<text x="413.0458203125" y="370.16" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">5</text>
+<text x="413.0458203125" y="351.12" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">act</text>
+<text x="441.77644531249996" y="364" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">)</text>
+<path d="M409,376 L409,391" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<polygon points="409,391 413.0,383.0 405.0,383.0" fill="#087F83"/>
+<path d="M288,418 L338,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="338,418 330.0,414.0 330.0,422.0" fill="#087F83"/>
+<rect x="338" y="391" width="142" height="54" rx="6" fill="#E9F5F2" stroke="#087F83" stroke-width="1.8"/>
+<text x="409" y="427" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="middle" fill="#087F83">Project</text>
+<path d="M480,418 L526,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="526,418 518.0,414.0 518.0,422.0" fill="#087F83"/>
+<text x="481.4001171875" y="406" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">d</text>
+<text x="496.9997265625" y="395.42" font-family="DejaVu Sans, sans-serif" font-size="15.180000000000001" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">act</text>
+<path d="M637,418 L679,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="679,418 671.0,414.0 671.0,422.0" fill="#087F83"/>
+<circle cx="714" cy="418" r="35" fill="white" stroke="#087F83" stroke-width="2.4"/>
+<text x="690.23505859375" y="427" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">z</text>
+<text x="706.98212890625" y="433.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">5</text>
+<text x="706.98212890625" y="413.2" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">act</text>
+<text x="409" y="469" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#C27A35">Donor observation</text>
+<rect x="338" y="486" width="142" height="40" rx="6" fill="#FFF3E7" stroke="#FFF3E7" stroke-width="1.8"/>
+<text x="362.29041015625" y="514" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">E</text>
+<text x="380.98181640625" y="514" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">(</text>
+<text x="391.90564453125" y="514" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">o</text>
+<text x="410.03650390625" y="520.16" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">5</text>
+<text x="410.03650390625" y="501.12" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">don</text>
+<text x="444.78576171875" y="514" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">)</text>
+<path d="M409,526 L409,541" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<polygon points="409,541 413.0,533.0 405.0,533.0" fill="#C27A35"/>
+<path d="M288,568 L338,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="338,568 330.0,564.0 330.0,572.0" fill="#C27A35"/>
+<rect x="338" y="541" width="142" height="54" rx="6" fill="#FFF3E7" stroke="#C27A35" stroke-width="1.8"/>
+<text x="409" y="577" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="middle" fill="#C27A35">Project</text>
+<path d="M480,568 L526,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="526,568 518.0,564.0 518.0,572.0" fill="#C27A35"/>
+<text x="478.9281787109375" y="556" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">d</text>
+<text x="494.5277880859375" y="545.42" font-family="DejaVu Sans, sans-serif" font-size="15.180000000000001" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">don</text>
+<path d="M637,568 L679,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="679,568 671.0,564.0 671.0,572.0" fill="#C27A35"/>
+<circle cx="714" cy="568" r="35" fill="white" stroke="#C27A35" stroke-width="2.4"/>
+<text x="687.010791015625" y="577" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">z</text>
+<text x="703.757861328125" y="583.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">5</text>
+<text x="703.757861328125" y="563.2" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">don</text>
+<rect x="314" y="635" width="440" height="108" rx="8" fill="#F3F6F9" stroke="#F3F6F9" stroke-width="1.8"/>
+<text x="358.41800781250004" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">J</text>
+<text x="366.49613281250004" y="675.28" font-family="DejaVu Sans, sans-serif" font-size="15.84" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="376.55082031250004" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> </text>
+<text x="384.17972656250004" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">d</text>
+<text x="400.41410156250004" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> = 0;  </text>
+<text x="474.39457031250004" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">x</text>
+<text x="489.59769531250004" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> + </text>
+<text x="524.9648828125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">d</text>
+<text x="541.1992578125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> ∈ </text>
+<text x="577.3633203125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">ℛ</text>
+<text x="597.5117578125" y="675.28" font-family="DejaVu Sans, sans-serif" font-size="15.84" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="607.5664453125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">;  </text>
+<text x="630.9101953125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="647.1445703125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> = </text>
+<text x="682.5117578125" y="670" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="698.7461328125" y="675.28" font-family="DejaVu Sans, sans-serif" font-size="15.84" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">A</text>
+<text x="534" y="703" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">Original ReLU activation region</text>
+<text x="316.6796875" y="733" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">m</text>
+<text x="341.05859375" y="733" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">: minimum norm over 6 directions</text>
+</g>
+<g id="C-independent-rollouts" inkscape:groupmode="layer" inkscape:label="C independent rollouts">
+<circle cx="810" cy="129" r="16" fill="#203247" stroke="#203247" stroke-width="0"/>
+<text x="810" y="138" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle" fill="white">C</text>
+<text x="837" y="139" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Roll each branch forward</text>
+<text x="794" y="178" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">Same actions; no further observation inputs</text>
+<path d="M749,268 L795,268" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="795,268 787.0,264.0 787.0,272.0" fill="#718096"/>
+<text x="825.55130859375" y="228" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">H</text>
+<text x="847.60599609375" y="234.16" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">5</text>
+<text x="847.60599609375" y="215.12" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">free</text>
+<rect x="795" y="244" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="814" y="276" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">−5</text>
+<rect x="838" y="244" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="857" y="276" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">0</text>
+<rect x="881" y="244" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#718096" stroke-width="1.8"/>
+<text x="900" y="276" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#718096">5</text>
+<path d="M920,268 L958,268" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="958,268 950.0,264.0 950.0,272.0" fill="#718096"/>
+<rect x="958" y="238" width="135" height="60" rx="7" fill="#F3F6F9" stroke="#718096" stroke-width="1.8"/>
+<text x="1010.3045849609375" y="267" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">F</text>
+<text x="1027.9852490234375" y="273.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">θ</text>
+<text x="1025" y="291" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#718096">4 steps</text>
+<text x="1011.1253759765625" y="205" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">U</text>
+<text x="1031.8875830078125" y="210.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">t</text>
+<path d="M1025,214 L1025,238" fill="none" stroke="#596B7C" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1025,238 1029.0,230.0 1021.0,230.0" fill="#596B7C"/>
+<path d="M1093,268 L1133,268" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1133,268 1125.0,264.0 1125.0,272.0" fill="#718096"/>
+<text x="1143.8096630859375" y="277" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">z</text>
+<text x="1160.0318310546875" y="283.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">2</text>
+<text x="1172.2092822265624" y="283.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">5</text>
+<text x="1160.0318310546875" y="263.66" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">free</text>
+<path d="M1211,268 L1250,268" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1250,268 1242.0,264.0 1242.0,272.0" fill="#718096"/>
+<rect x="1250" y="243" width="67" height="50" rx="5" fill="white" stroke="#718096" stroke-width="1.8"/>
+<text x="1258.18154296875" y="276" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">g</text>
+<text x="1276.32021484375" y="281.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">pos</text>
+<path d="M1317,268 L1354,268" fill="none" stroke="#718096" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1354,268 1346.0,264.0 1346.0,272.0" fill="#718096"/>
+<text x="1362.3423779296875" y="277" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#718096">L</text>
+<text x="1379.4991162109375" y="283.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">2</text>
+<text x="1391.6765673828124" y="283.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">5</text>
+<text x="1379.4991162109375" y="263.66" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#718096">free</text>
+<path d="M749,418 L795,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="795,418 787.0,414.0 787.0,422.0" fill="#087F83"/>
+<text x="829.60734375" y="378" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">H</text>
+<text x="851.66203125" y="384.16" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">5</text>
+<text x="851.66203125" y="365.12" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">act</text>
+<rect x="795" y="394" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="814" y="426" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">−5</text>
+<rect x="838" y="394" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="857" y="426" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">0</text>
+<rect x="881" y="394" width="39" height="48" rx="4" fill="#E9F5F2" stroke="#087F83" stroke-width="1.8"/>
+<text x="900" y="426" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#087F83">5</text>
+<path d="M920,418 L958,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="958,418 950.0,414.0 950.0,422.0" fill="#087F83"/>
+<rect x="958" y="388" width="135" height="60" rx="7" fill="#E9F5F2" stroke="#087F83" stroke-width="1.8"/>
+<text x="1010.3045849609375" y="417" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">F</text>
+<text x="1027.9852490234375" y="423.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">θ</text>
+<text x="1025" y="441" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#087F83">4 steps</text>
+<text x="1011.1253759765625" y="355" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">U</text>
+<text x="1031.8875830078125" y="360.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">t</text>
+<path d="M1025,364 L1025,388" fill="none" stroke="#596B7C" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1025,388 1029.0,380.0 1021.0,380.0" fill="#596B7C"/>
+<path d="M1093,418 L1133,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1133,418 1125.0,414.0 1125.0,422.0" fill="#087F83"/>
+<text x="1148.010556640625" y="427" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">z</text>
+<text x="1164.232724609375" y="433.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">2</text>
+<text x="1176.41017578125" y="433.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">5</text>
+<text x="1164.232724609375" y="413.66" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">act</text>
+<path d="M1211,418 L1250,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1250,418 1242.0,414.0 1242.0,422.0" fill="#087F83"/>
+<rect x="1250" y="393" width="67" height="50" rx="5" fill="white" stroke="#087F83" stroke-width="1.8"/>
+<text x="1258.18154296875" y="426" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">g</text>
+<text x="1276.32021484375" y="431.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">pos</text>
+<path d="M1317,418 L1354,418" fill="none" stroke="#087F83" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1354,418 1346.0,414.0 1346.0,422.0" fill="#087F83"/>
+<text x="1366.543271484375" y="427" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#087F83">L</text>
+<text x="1383.700009765625" y="433.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">2</text>
+<text x="1395.8774609375" y="433.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">5</text>
+<text x="1383.700009765625" y="413.66" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">act</text>
+<path d="M749,568 L795,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="795,568 787.0,564.0 787.0,572.0" fill="#C27A35"/>
+<text x="826.59802734375" y="528" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">H</text>
+<text x="848.65271484375" y="534.16" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">5</text>
+<text x="848.65271484375" y="515.12" font-family="DejaVu Sans, sans-serif" font-size="18.48" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">don</text>
+<rect x="795" y="544" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="814" y="576" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">−5</text>
+<rect x="838" y="544" width="39" height="48" rx="4" fill="#F3F6F9" stroke="#D7E0E8" stroke-width="1.8"/>
+<text x="857" y="576" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">0</text>
+<rect x="881" y="544" width="39" height="48" rx="4" fill="#FFF3E7" stroke="#C27A35" stroke-width="1.8"/>
+<text x="900" y="576" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#C27A35">5</text>
+<path d="M920,568 L958,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="958,568 950.0,564.0 950.0,572.0" fill="#C27A35"/>
+<rect x="958" y="538" width="135" height="60" rx="7" fill="#FFF3E7" stroke="#C27A35" stroke-width="1.8"/>
+<text x="1010.3045849609375" y="567" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">F</text>
+<text x="1027.9852490234375" y="573.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">θ</text>
+<text x="1025" y="591" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#C27A35">4 steps</text>
+<text x="1011.1253759765625" y="505" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">U</text>
+<text x="1031.8875830078125" y="510.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">t</text>
+<path d="M1025,514 L1025,538" fill="none" stroke="#596B7C" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1025,538 1029.0,530.0 1021.0,530.0" fill="#596B7C"/>
+<path d="M1093,568 L1133,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1133,568 1125.0,564.0 1125.0,572.0" fill="#C27A35"/>
+<text x="1144.8937646484376" y="577" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">z</text>
+<text x="1161.1159326171876" y="583.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">2</text>
+<text x="1173.2933837890625" y="583.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">5</text>
+<text x="1161.1159326171876" y="563.66" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">don</text>
+<path d="M1211,568 L1250,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1250,568 1242.0,564.0 1242.0,572.0" fill="#C27A35"/>
+<rect x="1250" y="543" width="67" height="50" rx="5" fill="white" stroke="#C27A35" stroke-width="1.8"/>
+<text x="1258.18154296875" y="576" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">g</text>
+<text x="1276.32021484375" y="581.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">pos</text>
+<path d="M1317,568 L1354,568" fill="none" stroke="#C27A35" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="1354,568 1346.0,564.0 1346.0,572.0" fill="#C27A35"/>
+<text x="1363.4264794921876" y="577" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="400" font-style="oblique" text-anchor="start" fill="#C27A35">L</text>
+<text x="1380.5832177734376" y="583.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">2</text>
+<text x="1392.7606689453125" y="583.38" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">5</text>
+<text x="1380.5832177734376" y="563.66" font-family="DejaVu Sans, sans-serif" font-size="19.14" font-weight="400" font-style="normal" text-anchor="start" fill="#C27A35">don</text>
+<rect x="794" y="635" width="626" height="108" rx="8" fill="#F3F6F9" stroke="#F3F6F9" stroke-width="1.8"/>
+<text x="954.382822265625" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">H</text>
+<text x="975.685556640625" y="675.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="975.685556640625" y="657.58" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">b</text>
+<text x="987.02318359375" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> = (</text>
+<text x="1037.3449609375" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">E</text>
+<text x="1055.40453125" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="1065.93822265625" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">o</text>
+<text x="1083.457265625" y="675.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">−</text>
+<text x="1098.3884765625" y="675.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="1109.726103515625" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">), </text>
+<text x="1137.424833984375" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">E</text>
+<text x="1155.484404296875" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="1166.018095703125" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">o</text>
+<text x="1183.537138671875" y="675.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">0</text>
+<text x="1194.874765625" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">), </text>
+<text x="1222.57349609375" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="1237.745859375" y="675.94" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="1237.745859375" y="657.58" font-family="DejaVu Sans, sans-serif" font-size="17.82" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">b</text>
+<text x="1249.083486328125" y="670" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">)</text>
+<text x="1107" y="703" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">Shift + append; three aligned action blocks</text>
+<text x="858.5703125" y="733" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">t</text>
+<text x="868.98046875" y="733" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C"> ∈ {5, 10, 15, 20};  </text>
+<text x="1111.6875" y="733" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="oblique" text-anchor="start" fill="#596B7C">b</text>
+<text x="1127.921875" y="733" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C"> ∈ {free, act, don}</text>
+</g>
+<g id="D-preserved-measurement-and-outcome" inkscape:groupmode="layer" inkscape:label="D preserved measurement and outcome">
+<path d="M20,768 L1420,768" fill="none" stroke="#D7E0E8" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="36" cy="801" r="16" fill="#203247" stroke="#203247" stroke-width="0"/>
+<text x="36" y="810" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle" fill="white">D</text>
+<text x="63" y="811" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Same current readout</text>
+<text x="146.5799169921875" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="167.2576513671875" y="867.82" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">A</text>
+<text x="181.2539697265625" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="193.3482080078125" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="210.6201806640625" y="867.82" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="210.6201806640625" y="846.74" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">free</text>
+<text x="251.4103076171875" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">) = </text>
+<text x="309.1871630859375" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="329.8648974609375" y="867.82" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">A</text>
+<text x="343.8612158203125" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="355.9554541015625" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="373.2274267578125" y="867.82" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="373.2274267578125" y="846.74" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">act</text>
+<text x="405.0363330078125" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">) = </text>
+<text x="462.8131884765625" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="483.4909228515625" y="867.82" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">A</text>
+<text x="497.4872412109375" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="509.5814794921875" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="526.8534521484376" y="867.82" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="526.8534521484376" y="846.74" font-family="DejaVu Sans, sans-serif" font-size="20.46" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">don</text>
+<text x="565.3258447265625" y="861" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">)</text>
+<text x="362" y="900" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" fill="#596B7C">Equality at insertion, within each model.</text>
+<text x="795" y="811" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Terminal block-position error</text>
+<text x="795" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">L</text>
+<text x="812.7138671875" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">2</text>
+<text x="825.31123046875" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="812.7138671875" y="843.2" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">b</text>
+<text x="837.90859375" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="normal" text-anchor="start" fill="#203247"> = ‖</text>
+<text x="897.117578125" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="917.160546875" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">pos</text>
+<text x="952.15859375" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">(</text>
+<text x="963.8626953125" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">z</text>
+<text x="980.609765625" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">2</text>
+<text x="993.20712890625" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="980.609765625" y="843.2" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">b</text>
+<text x="1005.8044921875" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">) − </text>
+<text x="1061.717578125" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">p</text>
+<text x="1081.760546875" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">2</text>
+<text x="1094.35791015625" y="863.6" font-family="DejaVu Sans, sans-serif" font-size="19.8" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">5</text>
+<text x="1106.9552734375" y="857" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">‖₂²</text>
+<text x="795" y="895" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">Actual − free: useful correction?</text>
+<text x="795" y="927" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="normal" text-anchor="start" fill="#087F83">Actual − donor: source sensitivity?</text>
+<text x="20" y="931" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">Core: 256 recipients · 6 groups · 4 reference streams</text>
+</g>
+<g id="E-extensions" inkscape:groupmode="layer" inkscape:label="E extensions">
+<path d="M20,953 L1420,953" fill="none" stroke="#D7E0E8" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="36" cy="983" r="16" fill="#203247" stroke="#203247" stroke-width="0"/>
+<text x="36" y="992" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" font-style="normal" text-anchor="middle" fill="white">E</text>
+<text x="63" y="993" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Test the boundary</text>
+<text x="20" y="1033" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">Measurement · diagnosis · decisions</text>
+<path d="M452,975 L452,1054" fill="none" stroke="#D7E0E8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="475" y="988" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Reserved evaluator</text>
+<text x="475" y="1023" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="491.869140625" y="1028.5" font-family="DejaVu Sans, sans-serif" font-size="16.5" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">A</text>
+<text x="503.156494140625" y="1023" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">, </text>
+<text x="519.050048828125" y="1023" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="535.919189453125" y="1028.5" font-family="DejaVu Sans, sans-serif" font-size="16.5" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">C</text>
+<text x="547.440185546875" y="1023" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">; score </text>
+<text x="639.481201171875" y="1023" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="400" font-style="oblique" text-anchor="start" fill="#203247">g</text>
+<text x="656.350341796875" y="1028.5" font-family="DejaVu Sans, sans-serif" font-size="16.5" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">D</text>
+<text x="475" y="1052" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">8 directions</text>
+<text x="475" y="1075" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">256 fresh recipients</text>
+<path d="M723,975 L723,1054" fill="none" stroke="#D7E0E8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="746" y="988" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Incremental diagnosis</text>
+<text x="746" y="1023" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">T0 probe + errors + norm²</text>
+<text x="746" y="1052" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">Free error: T0 − T1</text>
+<text x="746" y="1075" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">256 calibration; 512 test</text>
+<path d="M1107,975 L1107,1054" fill="none" stroke="#D7E0E8" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="1130" y="988" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" font-style="normal" text-anchor="start" fill="#203247">Matched decision</text>
+<text x="1130" y="1023" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#203247">T0 / T1; 32 candidates</text>
+<text x="1130" y="1052" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">8 directions</text>
+<text x="1130" y="1075" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" fill="#596B7C">512 fresh recipients</text>
+</g>
+</svg>

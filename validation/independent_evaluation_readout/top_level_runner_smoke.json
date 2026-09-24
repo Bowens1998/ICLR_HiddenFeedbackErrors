@@ -1,0 +1,15 @@
+{
+  "package": "independent_readout",
+  "archive": "independent_evaluation_readout_anonymous_staged_v1.zip",
+  "archive_sha256": "891286d2689b22700e4f9db189b8ab9d4483d793c97ab958e7d237c442fdb423",
+  "command": [
+    "python",
+    "-B",
+    "verify.py",
+    "--output",
+    "REPLAY_EVALUATION_READOUT"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 4.654119581000032,
+  "scope": "Saved-evidence reconstruction; no model training, image encoding, simulator replay or new constrained optimization."
+}

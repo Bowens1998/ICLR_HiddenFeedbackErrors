@@ -1,0 +1,10 @@
+{
+  "status": "PASS_INDEPENDENT_SECOND_READOUT_RECONSTRUCTION",
+  "checked_utc": "2026-09-22T21:39:29.924220+00:00",
+  "report_sha256": "0aa84ca2234dea3480bf3e847af4b5962de60a5c2697b047e9ca43a1dd493293",
+  "lock_sha256": "0e524cc232b1bc69468ed59c848d70f6e4e53646802cc984b4514598a1fde20d",
+  "exploratory_intervals": 3,
+  "all_recipients_models_streams_retained": true,
+  "original_sources_unchanged": true,
+  "method": "Explicit recipient/group/stream loops and bootstrap count weights"
+}

@@ -1,0 +1,130 @@
+{
+  "actual_norms": [
+    2.308492603425259,
+    2.308492614416888,
+    2.308492587815836,
+    2.3084925989148304,
+    2.3084926396226444,
+    2.3084926578323763,
+    2.3084925790727446,
+    2.3084926295731854,
+    2.30849260787733,
+    2.3084925609981255,
+    2.3084926193682063,
+    2.3084926092383027
+  ],
+  "common_standardized_norm": 2.308492617494662,
+  "corrected_endpoint_error": [
+    1318.1941497864857,
+    3466.835593137343,
+    2274.43427560665,
+    2884.8824351994035,
+    3443.020617329061,
+    7460.675838652895,
+    1666.425213481539,
+    2480.8878252333798,
+    1537.4256071253849,
+    3034.2545792039164,
+    3890.372748665021,
+    8129.920021767196
+  ],
+  "corrected_minus_free_endpoint_error": [
+    -2569.151306958378,
+    -420.5098636075204,
+    174.56429400533716,
+    785.0124535980908,
+    -2877.756094859086,
+    1139.8991264647484,
+    -2220.9202432633247,
+    -1406.4576315114837,
+    -562.4443744759278,
+    934.3845976026037,
+    -2430.403963523126,
+    1809.143309579049
+  ],
+  "family_size": 12,
+  "free_endpoint_error": [
+    3887.3454567448634,
+    2099.8699816013127,
+    6320.776712188147
+  ],
+  "input_sha256": "4fbfc1dac5d48f44f3dd3a4f01c831189c71210d31eab9d7e54f9435c9a0418c",
+  "max_normalized_readout_change": 1.6019863346983243e-07,
+  "max_region_violation": 2.380192526407754e-08,
+  "members": [
+    {
+      "constraint": "single_A",
+      "model_index": 0,
+      "objective": "latent",
+      "source": "actual"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 0,
+      "objective": "latent",
+      "source": "donor"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 1,
+      "objective": "decoded_teacher",
+      "source": "actual"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 1,
+      "objective": "decoded_teacher",
+      "source": "donor"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 2,
+      "objective": "physical_labels",
+      "source": "actual"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 2,
+      "objective": "physical_labels",
+      "source": "donor"
+    },
+    {
+      "constraint": "dual_A_B",
+      "model_index": 0,
+      "objective": "latent",
+      "source": "actual"
+    },
+    {
+      "constraint": "dual_A_B",
+      "model_index": 0,
+      "objective": "latent",
+      "source": "donor"
+    },
+    {
+      "constraint": "dual_A_B",
+      "model_index": 1,
+      "objective": "decoded_teacher",
+      "source": "actual"
+    },
+    {
+      "constraint": "dual_A_B",
+      "model_index": 1,
+      "objective": "decoded_teacher",
+      "source": "donor"
+    },
+    {
+      "constraint": "dual_A_B",
+      "model_index": 2,
+      "objective": "physical_labels",
+      "source": "actual"
+    },
+    {
+      "constraint": "dual_A_B",
+      "model_index": 2,
+      "objective": "physical_labels",
+      "source": "donor"
+    }
+  ],
+  "scope": "Single-case descriptive numbers; no population claim. Head preservation refers to the specified readouts, not the complete physical state.",
+  "status": "PASS_INDEPENDENT_NUMPY_VERIFICATION"
+}

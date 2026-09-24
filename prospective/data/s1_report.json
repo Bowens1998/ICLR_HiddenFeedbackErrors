@@ -1,0 +1,145 @@
+{
+  "status": "COMPLETE_S1_SAVED_TOKEN_AND_STATISTICS_VERIFIED",
+  "protocol_sha256": "5ce812fe7259bb7489bef214d733d2f370d6eb7650db0f3b7a9d1860f3e41fe3",
+  "sources_sha256": "8927c6d3f575e51180de03afc6cd0e88dfdea282e688fe4e8883314fee38dad4",
+  "acceptance_sha256": "7bb4e1705786bfdc2057bf641d8e7c03325b93cb9603e083a9d5248d3316b988",
+  "production_summary_sha256": "902e88bb87bded51950bfa3b44d5e01ff26d24a9450452913fb2fdd35fd5e9d1",
+  "independent_report_sha256": "073d95592701d6231ceae51a710ee3eb5a61ece7ff099c7d6a123c845da437f3",
+  "production_vectors_sha256": "4343dd400f957df7c5d600fa1a00fd390a97de1b979d8ef61a3068b86e6953db",
+  "independent_vectors_sha256": "1a06a970a87adaa93fab04c957f230d80d457b74dc1e8450e5a5919fc0aa2d6c",
+  "pipeline_source_sha256": "2431b7997511d14eee5ee634b32830fc1da5efa53252e291574759d66e53bcda",
+  "comparison": {
+    "maximum_goal_vector_difference": 1.8189894035458565e-12,
+    "maximum_mean_interval_difference": 6.821210263296962e-13,
+    "atol": 1e-09,
+    "rtol": 1e-12,
+    "all_eight_classifications_equal": true
+  },
+  "independent_forward": {
+    "status": "PASS_COMPLETE_RESERVED_FORWARD",
+    "max_abs": 3.979039320256561e-13,
+    "token_count": 163840,
+    "rtol": 1e-12,
+    "atol": 1e-09,
+    "scope": "All bound saved tokens; not raw-image encoder or world-model rollout reconstruction"
+  },
+  "primary": [
+    {
+      "id": "decoded_teacher/U_AC",
+      "objective": "decoded_teacher",
+      "contrast": "loss_free-loss_actual_AC",
+      "endpoint": 25,
+      "estimate": 676.5605642917658,
+      "ci": [
+        398.2365174336236,
+        960.8650179146521
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    },
+    {
+      "id": "decoded_teacher/S_AC",
+      "objective": "decoded_teacher",
+      "contrast": "loss_donor_AC-loss_actual_AC",
+      "endpoint": 25,
+      "estimate": 732.9943877780738,
+      "ci": [
+        459.7597122605845,
+        1033.4260313947127
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    },
+    {
+      "id": "physical_labels/U_AC",
+      "objective": "physical_labels",
+      "contrast": "loss_free-loss_actual_AC",
+      "endpoint": 25,
+      "estimate": 670.6556994806668,
+      "ci": [
+        421.55014431234474,
+        922.4626770542883
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    },
+    {
+      "id": "physical_labels/S_AC",
+      "objective": "physical_labels",
+      "contrast": "loss_donor_AC-loss_actual_AC",
+      "endpoint": 25,
+      "estimate": 371.6205284649476,
+      "ci": [
+        149.49850229041468,
+        601.4261154422234
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    }
+  ],
+  "secondary": [
+    {
+      "id": "decoded_teacher/U_A_minus_U_AC",
+      "objective": "decoded_teacher",
+      "contrast": "loss_actual_AC-loss_actual_A",
+      "endpoint": 25,
+      "estimate": 194.05873780808392,
+      "ci": [
+        10.845844523717837,
+        383.6476900216895
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    },
+    {
+      "id": "decoded_teacher/insertion_displacement_suppression",
+      "objective": "decoded_teacher",
+      "contrast": "squared_D_block_output_change_A-squared_D_block_output_change_AC",
+      "endpoint": 5,
+      "estimate": 65.60979404829877,
+      "ci": [
+        6.193153790239376,
+        127.6003398573007
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    },
+    {
+      "id": "physical_labels/U_A_minus_U_AC",
+      "objective": "physical_labels",
+      "contrast": "loss_actual_AC-loss_actual_A",
+      "endpoint": 25,
+      "estimate": 161.15246210036892,
+      "ci": [
+        32.28072139400872,
+        294.0298339108418
+      ],
+      "coverage": 0.9875,
+      "positive_support": true,
+      "recipient_count": 256
+    },
+    {
+      "id": "physical_labels/insertion_displacement_suppression",
+      "objective": "physical_labels",
+      "contrast": "squared_D_block_output_change_A-squared_D_block_output_change_AC",
+      "endpoint": 5,
+      "estimate": 13.150069110417764,
+      "ci": [
+        -45.26570875707684,
+        71.55507467939519
+      ],
+      "coverage": 0.9875,
+      "positive_support": false,
+      "recipient_count": 256
+    }
+  ],
+  "raw_image_world_model_regeneration_complete": false,
+  "uncertainty_scope": "Conditional on fixed model/readout roster and realized donor bank and assignments. Recipient bootstrap approximations; no donor-population/reassignment or exact-design coverage claim.",
+  "stage_scope": "Full S1 planned statistical and saved-token evidence. Complete raw-image/world-model replay is the separate S4 gate. Negative and unresolved results are retained."
+}

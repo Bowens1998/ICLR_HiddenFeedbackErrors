@@ -1,0 +1,1 @@
+The nine evidence ZIPs are listed in ARCHIVE_MANIFEST.json and are not included in the code repository. Place the exact supplied archives here to run verify_saved_evidence.py. The complete reproduction ZIP includes them. See ../ARTIFACTS.md for scope and access status.

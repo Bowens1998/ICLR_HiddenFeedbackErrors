@@ -1,0 +1,457 @@
+{
+  "G_definition": "Mean free-rollout error minus mean actual-guided error under the named readout",
+  "aggregate_points": [
+    {
+      "G": 546.9130914229737,
+      "condition": "T0",
+      "free_mse": 7325.276973845372,
+      "objective": "decoded_teacher",
+      "readout": "g_A"
+    },
+    {
+      "G": 328.20335158281904,
+      "condition": "T1",
+      "free_mse": 5635.567670298755,
+      "objective": "decoded_teacher",
+      "readout": "g_A"
+    },
+    {
+      "G": 383.3162112434825,
+      "condition": "T2",
+      "free_mse": 5603.724176295152,
+      "objective": "decoded_teacher",
+      "readout": "g_A"
+    },
+    {
+      "G": 661.7676892387614,
+      "condition": "T0",
+      "free_mse": 7603.007795617312,
+      "objective": "physical_labels",
+      "readout": "g_A"
+    },
+    {
+      "G": 364.1729109838125,
+      "condition": "T1",
+      "free_mse": 5250.2433883861895,
+      "objective": "physical_labels",
+      "readout": "g_A"
+    },
+    {
+      "G": 315.0070832027528,
+      "condition": "T2",
+      "free_mse": 5120.841979305082,
+      "objective": "physical_labels",
+      "readout": "g_A"
+    },
+    {
+      "G": 699.5099088631537,
+      "condition": "T0",
+      "free_mse": 8489.257407376666,
+      "objective": "decoded_teacher",
+      "readout": "g_eval"
+    },
+    {
+      "G": 512.8609122948391,
+      "condition": "T1",
+      "free_mse": 7023.207506465318,
+      "objective": "decoded_teacher",
+      "readout": "g_eval"
+    },
+    {
+      "G": 431.85945646374284,
+      "condition": "T2",
+      "free_mse": 5678.4651823628565,
+      "objective": "decoded_teacher",
+      "readout": "g_eval"
+    },
+    {
+      "G": 791.969501186399,
+      "condition": "T0",
+      "free_mse": 9077.109099911113,
+      "objective": "physical_labels",
+      "readout": "g_eval"
+    },
+    {
+      "G": 510.3119231579943,
+      "condition": "T1",
+      "free_mse": 6590.661519068034,
+      "objective": "physical_labels",
+      "readout": "g_eval"
+    },
+    {
+      "G": 297.2587987147229,
+      "condition": "T2",
+      "free_mse": 5369.249845390116,
+      "objective": "physical_labels",
+      "readout": "g_eval"
+    }
+  ],
+  "aggregation": "Within each pool: mean over all 256 goals and four streams; large points: equal-weight mean over the three pools",
+  "checks": {
+    "all_18_C_cells_retained": true,
+    "all_256_goals_and_4_streams_retained": true,
+    "all_source_branches_complete": true,
+    "all_source_readouts_qualified": true,
+    "g_A_original_pool_means_match": true,
+    "g_eval_eight_accepted_contrasts_match": true,
+    "maximum_summary_reconstruction_absolute_error": 1.8189894035458565e-12,
+    "source_hashes_match_accepted": true
+  },
+  "display": "Objective colors, training-condition marker shapes, small faint pool trajectories, large aggregate trajectories. All coordinates use the named readout. No confidence regions or intervals are drawn; no cross-readout absolute-accuracy comparison is claimed.",
+  "endpoint": "Terminal block-position squared Euclidean error at primitive action 25",
+  "generator_sha256": "fb27d78546ace5910f7f1981e63ee38646a24a6b2b0caaaf16f3b92d8472bfdf",
+  "pool_points": [
+    {
+      "G": 592.6234191114353,
+      "condition": "T0",
+      "free_mse": 6651.439081970178,
+      "objective": "decoded_teacher",
+      "pool": 0,
+      "readout": "g_A"
+    },
+    {
+      "G": 668.7832102577669,
+      "condition": "T0",
+      "free_mse": 8559.110565970124,
+      "objective": "decoded_teacher",
+      "pool": 1,
+      "readout": "g_A"
+    },
+    {
+      "G": 379.33264489971884,
+      "condition": "T0",
+      "free_mse": 6765.281273595812,
+      "objective": "decoded_teacher",
+      "pool": 2,
+      "readout": "g_A"
+    },
+    {
+      "G": 279.02310170504484,
+      "condition": "T1",
+      "free_mse": 5074.463716396271,
+      "objective": "decoded_teacher",
+      "pool": 0,
+      "readout": "g_A"
+    },
+    {
+      "G": 401.99450168669523,
+      "condition": "T1",
+      "free_mse": 6128.561682759324,
+      "objective": "decoded_teacher",
+      "pool": 1,
+      "readout": "g_A"
+    },
+    {
+      "G": 303.59245135671705,
+      "condition": "T1",
+      "free_mse": 5703.677611740669,
+      "objective": "decoded_teacher",
+      "pool": 2,
+      "readout": "g_A"
+    },
+    {
+      "G": 298.9499531825049,
+      "condition": "T2",
+      "free_mse": 5003.195015882523,
+      "objective": "decoded_teacher",
+      "pool": 0,
+      "readout": "g_A"
+    },
+    {
+      "G": 529.0622771998419,
+      "condition": "T2",
+      "free_mse": 6406.964982954264,
+      "objective": "decoded_teacher",
+      "pool": 1,
+      "readout": "g_A"
+    },
+    {
+      "G": 321.9364033481006,
+      "condition": "T2",
+      "free_mse": 5401.012530048666,
+      "objective": "decoded_teacher",
+      "pool": 2,
+      "readout": "g_A"
+    },
+    {
+      "G": 708.4971294901338,
+      "condition": "T0",
+      "free_mse": 6933.5200814091195,
+      "objective": "physical_labels",
+      "pool": 0,
+      "readout": "g_A"
+    },
+    {
+      "G": 738.3381657934066,
+      "condition": "T0",
+      "free_mse": 8772.61419867828,
+      "objective": "physical_labels",
+      "pool": 1,
+      "readout": "g_A"
+    },
+    {
+      "G": 538.467772432744,
+      "condition": "T0",
+      "free_mse": 7102.8891067645345,
+      "objective": "physical_labels",
+      "pool": 2,
+      "readout": "g_A"
+    },
+    {
+      "G": 289.2850032295722,
+      "condition": "T1",
+      "free_mse": 4649.442563567876,
+      "objective": "physical_labels",
+      "pool": 0,
+      "readout": "g_A"
+    },
+    {
+      "G": 348.7958679363582,
+      "condition": "T1",
+      "free_mse": 5915.177780829652,
+      "objective": "physical_labels",
+      "pool": 1,
+      "readout": "g_A"
+    },
+    {
+      "G": 454.4378617855073,
+      "condition": "T1",
+      "free_mse": 5186.109820761041,
+      "objective": "physical_labels",
+      "pool": 2,
+      "readout": "g_A"
+    },
+    {
+      "G": 253.35324238969187,
+      "condition": "T2",
+      "free_mse": 4569.784704019739,
+      "objective": "physical_labels",
+      "pool": 0,
+      "readout": "g_A"
+    },
+    {
+      "G": 362.46185365268065,
+      "condition": "T2",
+      "free_mse": 5936.701335237666,
+      "objective": "physical_labels",
+      "pool": 1,
+      "readout": "g_A"
+    },
+    {
+      "G": 329.206153565886,
+      "condition": "T2",
+      "free_mse": 4856.039898657839,
+      "objective": "physical_labels",
+      "pool": 2,
+      "readout": "g_A"
+    },
+    {
+      "G": 843.0632547690105,
+      "condition": "T0",
+      "free_mse": 8826.11827189175,
+      "group": 0,
+      "model_key": "C/0/decoded_teacher/T0/single_A",
+      "objective": "decoded_teacher",
+      "pool": 0,
+      "readout": "g_eval"
+    },
+    {
+      "G": 425.9624176895487,
+      "condition": "T1",
+      "free_mse": 6121.040472373975,
+      "group": 0,
+      "model_key": "C/0/decoded_teacher/T1/single_A",
+      "objective": "decoded_teacher",
+      "pool": 0,
+      "readout": "g_eval"
+    },
+    {
+      "G": 362.30579470418644,
+      "condition": "T2",
+      "free_mse": 5004.125670846262,
+      "group": 0,
+      "model_key": "C/0/decoded_teacher/T2/single_A",
+      "objective": "decoded_teacher",
+      "pool": 0,
+      "readout": "g_eval"
+    },
+    {
+      "G": 1030.097278376169,
+      "condition": "T0",
+      "free_mse": 9195.464646856473,
+      "group": 0,
+      "model_key": "C/0/physical_labels/T0/single_A",
+      "objective": "physical_labels",
+      "pool": 0,
+      "readout": "g_eval"
+    },
+    {
+      "G": 509.5580284133658,
+      "condition": "T1",
+      "free_mse": 6048.374392200321,
+      "group": 0,
+      "model_key": "C/0/physical_labels/T1/single_A",
+      "objective": "physical_labels",
+      "pool": 0,
+      "readout": "g_eval"
+    },
+    {
+      "G": 364.0578249854159,
+      "condition": "T2",
+      "free_mse": 4965.768782182284,
+      "group": 0,
+      "model_key": "C/0/physical_labels/T2/single_A",
+      "objective": "physical_labels",
+      "pool": 0,
+      "readout": "g_eval"
+    },
+    {
+      "G": 894.0003808674085,
+      "condition": "T0",
+      "free_mse": 9994.813164708316,
+      "group": 2,
+      "model_key": "C/2/decoded_teacher/T0/single_A",
+      "objective": "decoded_teacher",
+      "pool": 1,
+      "readout": "g_eval"
+    },
+    {
+      "G": 700.4098570360327,
+      "condition": "T1",
+      "free_mse": 9062.853749523922,
+      "group": 2,
+      "model_key": "C/2/decoded_teacher/T1/single_A",
+      "objective": "decoded_teacher",
+      "pool": 1,
+      "readout": "g_eval"
+    },
+    {
+      "G": 552.9826428732797,
+      "condition": "T2",
+      "free_mse": 6800.563880752878,
+      "group": 2,
+      "model_key": "C/2/decoded_teacher/T2/single_A",
+      "objective": "decoded_teacher",
+      "pool": 1,
+      "readout": "g_eval"
+    },
+    {
+      "G": 731.698135999291,
+      "condition": "T0",
+      "free_mse": 10828.41206379117,
+      "group": 2,
+      "model_key": "C/2/physical_labels/T0/single_A",
+      "objective": "physical_labels",
+      "pool": 1,
+      "readout": "g_eval"
+    },
+    {
+      "G": 624.3101624343126,
+      "condition": "T1",
+      "free_mse": 7765.565375765549,
+      "group": 2,
+      "model_key": "C/2/physical_labels/T1/single_A",
+      "objective": "physical_labels",
+      "pool": 1,
+      "readout": "g_eval"
+    },
+    {
+      "G": 253.80576023442097,
+      "condition": "T2",
+      "free_mse": 6376.055942051218,
+      "group": 2,
+      "model_key": "C/2/physical_labels/T2/single_A",
+      "objective": "physical_labels",
+      "pool": 1,
+      "readout": "g_eval"
+    },
+    {
+      "G": 361.46609095304217,
+      "condition": "T0",
+      "free_mse": 6646.840785529932,
+      "group": 4,
+      "model_key": "C/4/decoded_teacher/T0/single_A",
+      "objective": "decoded_teacher",
+      "pool": 2,
+      "readout": "g_eval"
+    },
+    {
+      "G": 412.21046215893546,
+      "condition": "T1",
+      "free_mse": 5885.728297498059,
+      "group": 4,
+      "model_key": "C/4/decoded_teacher/T1/single_A",
+      "objective": "decoded_teacher",
+      "pool": 2,
+      "readout": "g_eval"
+    },
+    {
+      "G": 380.28993181376234,
+      "condition": "T2",
+      "free_mse": 5230.705995489432,
+      "group": 4,
+      "model_key": "C/4/decoded_teacher/T2/single_A",
+      "objective": "decoded_teacher",
+      "pool": 2,
+      "readout": "g_eval"
+    },
+    {
+      "G": 614.113089183737,
+      "condition": "T0",
+      "free_mse": 7207.450589085698,
+      "group": 4,
+      "model_key": "C/4/physical_labels/T0/single_A",
+      "objective": "physical_labels",
+      "pool": 2,
+      "readout": "g_eval"
+    },
+    {
+      "G": 397.0675786263047,
+      "condition": "T1",
+      "free_mse": 5958.044789238232,
+      "group": 4,
+      "model_key": "C/4/physical_labels/T1/single_A",
+      "objective": "physical_labels",
+      "pool": 2,
+      "readout": "g_eval"
+    },
+    {
+      "G": 273.9128109243319,
+      "condition": "T2",
+      "free_mse": 4765.924811936847,
+      "group": 4,
+      "model_key": "C/4/physical_labels/T2/single_A",
+      "objective": "physical_labels",
+      "pool": 2,
+      "readout": "g_eval"
+    }
+  ],
+  "population": "All three original fixed Transformer pools, both coordinate objectives, all T0/T1/T2 conditions; 256 original goals and four reference streams",
+  "schema": "readout_training_joint_points_v1",
+  "scope": "Matched C branches only. g_eval is post-hoc measurement sensitivity on the original goals. Its predictions enter scoring only. No full-feasible C branches are mixed into this display.",
+  "sources": {
+    "g_A_plotting_data": {
+      "path": "paper/iclr2027/figures/result_figure_data.json",
+      "sha256": "7596a5d655236e6f1936b3a9735f18658c032777a31a1271eddaa2bc9b10b9cd"
+    },
+    "g_eval_accepted_summary": {
+      "path": "strengthening/presubmission_v8_20260922/independent_readout/reports/statistics_v1/summary.json",
+      "sha256": "15e131d0df76f70728d97249684c2cfd9283a1673be191f2f3cc74cd95012e6d"
+    },
+    "g_eval_metadata": {
+      "path": "strengthening/presubmission_v8_20260922/independent_readout/reports/scores_v1/scores_metadata.json",
+      "sha256": "8ce5b281b49f7b2aa1efa2ddcf28e882b0062eba13b0695c734e023305d3b91e"
+    },
+    "g_eval_scores": {
+      "path": "strengthening/presubmission_v8_20260922/verification/readout_score_inputs_v1/scores.npz",
+      "sha256": "f628068b8a0bc9cef347576d72f31888d8caf5c03bbcf946426c99a629e27b2a"
+    },
+    "root_acceptance": {
+      "path": "strengthening/presubmission_v8_20260922/verification/G_EVAL_FINAL_ACCEPTANCE.lock.json",
+      "sha256": "ebcc3d320dbfde15d62c66bdb85b55a573a38c90c031047ebec66d684c6aa5c8"
+    }
+  },
+  "suggested_caption": "Training outcomes under two evaluation readouts, at the original common standardized displacement norm. Colors identify objectives and marker shapes identify T0, T1 and T2. Large points average all three fixed Transformer pools; small points retain each pool. Lines connect T0 to T1 to T2 within pools and for their means. Each panel uses its named readout to compute both free-rollout MSE and G, the remaining improvement available to actual-guided correction. Moving left lowers free-rollout MSE; moving down lowers G. The additional T2 free-rollout improvement is resolved under g_eval, while the original g_A T2–T1 comparisons are unresolved. These are descriptive points, not joint confidence regions; the separate paired intervals are reported in the appendices. The evaluation-only analysis reuses the original goals.",
+  "title": "Training comparisons depend on the evaluation readout",
+  "units": "pixels squared; no division by two"
+}

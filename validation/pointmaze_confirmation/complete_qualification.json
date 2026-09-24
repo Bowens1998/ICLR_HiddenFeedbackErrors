@@ -1,0 +1,51 @@
+{
+  "status": "PASS_COMPLETE_SAVED_PREDICTION_QUALIFICATION_RECONSTRUCTION",
+  "publisher_validation_frames": 8000,
+  "fresh_cases": 256,
+  "fresh_frames_per_case": 8,
+  "selected_step": 2500,
+  "validation": {
+    "position_mse": 0.004475362089125697,
+    "coordinate_mse": [
+      0.002152891467628564,
+      0.0023224706214971308
+    ],
+    "normalized_mse": 0.0023498349787579097,
+    "constant_training_mean_mse": [
+      1.0084131238825333,
+      0.929859517453065
+    ],
+    "training_mean_reference_r2": [
+      0.9978650699632512,
+      0.9975023424744218
+    ],
+    "baseline_finite_and_positive": [
+      true,
+      true
+    ],
+    "fixed_qualification_gate_pass": true
+  },
+  "fresh_qualification": {
+    "position_mse": 0.0061464970933884314,
+    "coordinate_mse": [
+      0.003045527857406604,
+      0.003100969235981831
+    ],
+    "normalized_mse": 0.0032229005404481323,
+    "constant_training_mean_mse": [
+      1.0306873566128492,
+      0.9976333569285215
+    ],
+    "training_mean_reference_r2": [
+      0.9970451487176333,
+      0.9968916744669314
+    ],
+    "baseline_finite_and_positive": [
+      true,
+      true
+    ],
+    "fixed_qualification_gate_pass": true
+  },
+  "qualified": true,
+  "limits": "All saved prediction/truth metrics and selection history reconstructed. Complete qualification-image/head forward and all12 checkpoint byte checks remain the original bound acceptance receipt; only selected weights are supplied."
+}

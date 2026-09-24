@@ -1,0 +1,65 @@
+{
+  "private_matches": [],
+  "parsed_python": 482,
+  "archives": [
+    {
+      "name": "velocity_readout_qualification_v1.zip",
+      "sha256": "1a9cdb0c6c7735c645684f7fcecddcfd3d83eb9b410df81f853a4e2cd58bed0f",
+      "members": 88,
+      "private_matches": []
+    },
+    {
+      "name": "feedback_second_readout_scoring_anonymous_v2.zip",
+      "sha256": "78cb2fda6beb2f9b1323d570d11ca5ff0fb702a4b473fcec9287ccb227ea5849",
+      "members": 15,
+      "private_matches": []
+    },
+    {
+      "name": "independent_evaluation_readout_anonymous_staged_v1.zip",
+      "sha256": "891286d2689b22700e4f9db189b8ab9d4483d793c97ab958e7d237c442fdb423",
+      "members": 128,
+      "private_matches": []
+    },
+    {
+      "name": "feedback_motion_mechanism_anonymous_v3.zip",
+      "sha256": "af523333bc52320b3d488d44eec24086de140c5614f1998148c14ec0fd56de7d",
+      "members": 10754,
+      "private_matches": []
+    },
+    {
+      "name": "feedback_reporting_supplement_anonymous_v2.zip",
+      "sha256": "d47b16ec941bac724a3f29b4824ab7181aa82744462e1fb097de5b8e2faf44df",
+      "members": 20,
+      "private_matches": []
+    },
+    {
+      "name": "feedback_confirmation_evidence_v1.zip",
+      "sha256": "416727c7ce38a18a6cc264b69fe1b2661624834ad4eabc02f3a934e255efe593",
+      "members": 24,
+      "private_matches": []
+    },
+    {
+      "name": "feedback_diagnostic_evidence.zip",
+      "sha256": "b812f8ac12370d1034f8837d7314e3a72c227347843a507dad03257882fd5b21",
+      "members": 55,
+      "private_matches": []
+    },
+    {
+      "name": "pointmaze_confirmation_anonymous_v1.zip",
+      "sha256": "0cf56d1f78fd947f494bd6ce39b8ccadbc39fe76cbee6b2ef1d43ac875e0927f",
+      "members": 396,
+      "private_matches": []
+    },
+    {
+      "name": "feedback_diagnostic_end_to_end_v1.zip",
+      "sha256": "240da1314b7c3c173fe9bde912b6c4df0ac6e79ac5115a5722859491907a5c23",
+      "members": 35,
+      "private_matches": []
+    }
+  ],
+  "documentation_hashes_refreshed": [
+    "RUNTIMES.md",
+    "TERMINOLOGY.md"
+  ],
+  "status": "PASS_FRESH_TEXT_AND_NESTED_ARCHIVE_ANONYMITY_AND_PYTHON_PARSE"
+}

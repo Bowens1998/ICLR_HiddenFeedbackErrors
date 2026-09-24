@@ -1,0 +1,9 @@
+{
+  "status": "REMOVED_AUTHENTICATED_COLD_EXTRACTION_ONLY",
+  "files": 396,
+  "bytes": 304633407,
+  "extraction": "pointmaze_cold_extraction_v1",
+  "archive_sha256": "0cf56d1f78fd947f494bd6ce39b8ccadbc39fe76cbee6b2ef1d43ac875e0927f",
+  "all_extracted_bytes_checked": true,
+  "science_and_receipts_preserved": true
+}

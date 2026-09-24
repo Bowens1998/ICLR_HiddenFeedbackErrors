@@ -1,0 +1,22 @@
+{
+  "status": "PASS_COMPLETE_COMPACT_POINTMAZE_CPU_RECONSTRUCTION",
+  "package_integrity": {
+    "files": 395,
+    "status": "PASS_SUPPLIED_PACKAGE_HASHES"
+  },
+  "recipients": 256,
+  "branches": 4,
+  "horizons": 5,
+  "primary_contrasts": 2,
+  "reserved_family_slots": 9,
+  "bootstrap_replicates": 20000,
+  "qualified": true,
+  "checked_fp32_visual_insertions": 512,
+  "successful_zero_norm_cases": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "elapsed_seconds": 45.21633592400008,
+  "scientific_contrast_direction_not_used_for_admission": true,
+  "full_future_token_and_nonvisual_acceptance": "Original complete remote receipt authenticated, not rerun from this compact package.",
+  "no_training_simulator_encoding_solver_or_new_rollout": true
+}

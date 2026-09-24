@@ -1,0 +1,87 @@
+{
+  "axes": {
+    "branches": [
+      "free",
+      "actual",
+      "donor",
+      "reset"
+    ],
+    "candidate_count": 32,
+    "conditions": [
+      "T0",
+      "T1"
+    ],
+    "groups": [
+      0,
+      2,
+      4
+    ],
+    "horizon": 25,
+    "objectives": [
+      "decoded_teacher",
+      "physical_labels"
+    ],
+    "order": [
+      "recipient",
+      "pool",
+      "condition",
+      "objective",
+      "branch",
+      "candidate"
+    ],
+    "pools": [
+      0,
+      1,
+      2
+    ],
+    "recipient_count": 512
+  },
+  "input_binding": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/predictions/seal_binding.json",
+    "sha256": "6eb18d703034c7275212886b892e0e075ee4f96e648394c71d3d75c0647be734"
+  },
+  "physical_outcomes_opened_by_sealing": false,
+  "prediction_acceptance": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/predictions/acceptance.json",
+    "sha256": "2095c52c78eb4db591cdce78638740669314cafc183c6991e5331f9af3c1f704"
+  },
+  "prediction_arrays": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/predictions/costs.npz",
+    "sha256": "dc27631ce5da60aba9e7628ecc486b5770934ae0053022026f6740d3c9e148f1"
+  },
+  "primary_statistics": {
+    "aggregation": "Equal mean over3pools and2objectives within each recipient, then paired recipient bootstrap",
+    "bootstrap_rng": "PCG64",
+    "bootstrap_seed": 1169911584,
+    "conditioning": "Fixed six model pairs, realized donor bank and fixed donor assignment; models/strata are averaged within each recipient, not treated as independent replications.",
+    "contrasts": [
+      "C_T1_actual - C_T1_free",
+      "C_T1_actual - C_T1_donor"
+    ],
+    "crosses_zero": "UNRESOLVED, not equivalence",
+    "family_size": 2,
+    "interval_level": 0.975,
+    "iterations": 20000,
+    "joint_success": "Both interval upper bounds are strictly below0",
+    "percentile_method": "linear",
+    "resampling_unit": "recipient",
+    "scientific_success_required_for_numerical_acceptance": false,
+    "strictly_positive_interval": "Higher selected physical cost under actual guidance",
+    "verification_tolerance_scope": "Independent numeric reconstruction only; exact predicted-cost ties keep zero tie tolerance. Fixed on existing precedent and synthetic checks before anyS3effects.",
+    "verification_tolerances": {
+      "atol": 1e-09,
+      "rtol": 1e-12
+    }
+  },
+  "protocol": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/manifests/s3_v2/protocol.lock.json",
+    "sha256": "8cad678e907b03ef08c210e47ff448d713ecebcb4ec0f27b3c6f08c83ce62d15"
+  },
+  "scope": "Complete accepted prediction costs/identities sealed before outcome join; upstream parity evidence is authenticated, not independently rerun here.",
+  "source_sha256": "7b933e8bf73e445c99f322e235a218deb5ef38913fbf72c71547ac87fe5c303f",
+  "sources": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/manifests/s3_v2/statistics_sources.json",
+    "sha256": "197cc7d9be860b449f516909d1db8ec392ab3ec77dd9a2a5072ee084336c3736"
+  },
+  "status": "S3_COMPLETE_PREDICTION_COSTS_SEALED_BEFORE_OUTCOMES"
+}

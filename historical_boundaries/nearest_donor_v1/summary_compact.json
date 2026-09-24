@@ -1,0 +1,2549 @@
+{
+  "status": "ACCEPTED_NEAREST_DONOR_ROLLOUT_SUMMARY",
+  "phase": "development",
+  "groups": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "goal_count": 128,
+  "model_count": 18,
+  "branches": [
+    "free",
+    "actual",
+    "random",
+    "pose_nearest",
+    "latent_nearest",
+    "reset"
+  ],
+  "horizons": [
+    10,
+    15,
+    20,
+    25
+  ],
+  "objectives": {
+    "unit_latent": {
+      "goal_count": 128,
+      "fixed_group_count": 6,
+      "branches": {
+        "free": {
+          "position_mse": [
+            3755.4269657494315,
+            4154.796374698358,
+            4690.948010486434,
+            5204.46864138729
+          ]
+        },
+        "actual": {
+          "position_mse": [
+            3676.166462145902,
+            4075.1917240909115,
+            4641.8438672367265,
+            5198.700695855268
+          ]
+        },
+        "random": {
+          "position_mse": [
+            4130.7119772686365,
+            4522.35422748164,
+            5067.462636043379,
+            5637.191307654553
+          ]
+        },
+        "pose_nearest": {
+          "position_mse": [
+            3793.982165173293,
+            4232.179574179641,
+            4780.586401185311,
+            5313.299466381764
+          ]
+        },
+        "latent_nearest": {
+          "position_mse": [
+            3716.0044258879834,
+            4164.33872865563,
+            4760.725934730893,
+            5403.526190389647
+          ]
+        },
+        "reset": {
+          "position_mse": [
+            3609.07047307155,
+            3936.035350622611,
+            4510.886529976185,
+            4992.42621108356
+          ]
+        }
+      },
+      "contrasts": {
+        "actual_minus_pose_nearest": [
+          {
+            "horizon": 10,
+            "estimate": -117.81570302739036,
+            "interval": [
+              -233.3139436164272,
+              3.345752709802909
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.137211936269918
+          },
+          {
+            "horizon": 15,
+            "estimate": -156.9878500887316,
+            "interval": [
+              -289.0797842750742,
+              -20.16193427476936
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.77847278015229
+          },
+          {
+            "horizon": 20,
+            "estimate": -138.74253394858604,
+            "interval": [
+              -317.16757036010705,
+              49.39475792740518
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.957665138015438
+          },
+          {
+            "horizon": 25,
+            "estimate": -114.59877052649715,
+            "interval": [
+              -316.11637024145534,
+              100.55167796312898
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 2.201930272289046
+          }
+        ],
+        "actual_minus_latent_nearest": [
+          {
+            "horizon": 10,
+            "estimate": -39.83796374208096,
+            "interval": [
+              -142.9420775634979,
+              79.85996906685698
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.0608105045155873
+          },
+          {
+            "horizon": 15,
+            "estimate": -89.1470045647203,
+            "interval": [
+              -205.72654559148967,
+              36.39437351185839
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.145640761304276
+          },
+          {
+            "horizon": 20,
+            "estimate": -118.88206749416878,
+            "interval": [
+              -264.86248551717586,
+              39.897365175526765
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.5342866138872675
+          },
+          {
+            "horizon": 25,
+            "estimate": -204.82549453438077,
+            "interval": [
+              -363.3409101895476,
+              -33.08165085935454
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 3.935569769900334
+          }
+        ],
+        "actual_minus_random": [
+          {
+            "horizon": 10,
+            "estimate": -454.54551512273343,
+            "interval": [
+              -633.5253963737597,
+              -282.18612213254784
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 12.103697376312162
+          },
+          {
+            "horizon": 15,
+            "estimate": -447.1625033907309,
+            "interval": [
+              -631.7866474921658,
+              -264.354525182995
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 10.762561219939336
+          },
+          {
+            "horizon": 20,
+            "estimate": -425.6187688066551,
+            "interval": [
+              -640.2635369454932,
+              -209.75420278250672
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 9.07319304872279
+          },
+          {
+            "horizon": 25,
+            "estimate": -438.4906117992864,
+            "interval": [
+              -687.2024664355628,
+              -188.14289866123517
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 8.42527147367735
+          }
+        ],
+        "actual_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -79.26050360353108,
+            "interval": [
+              -187.45345775405823,
+              38.719539671040394
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.110559047650495
+          },
+          {
+            "horizon": 15,
+            "estimate": -79.60465060744829,
+            "interval": [
+              -225.9343117044854,
+              91.20328285542622
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.9159699640690013
+          },
+          {
+            "horizon": 20,
+            "estimate": -49.104143249710134,
+            "interval": [
+              -223.66582607031057,
+              149.76261837808292
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.0467850664714191
+          },
+          {
+            "horizon": 25,
+            "estimate": -5.767945532020917,
+            "interval": [
+              -210.40480604657762,
+              247.08494449537818
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 0.1108267900041267
+          }
+        ],
+        "pose_nearest_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": 38.555199423859285,
+            "interval": [
+              -89.4481764225629,
+              174.12184678599337
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -1.0266528886194228
+          },
+          {
+            "horizon": 15,
+            "estimate": 77.38319948128327,
+            "interval": [
+              -74.3393183376182,
+              243.5375225347872
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -1.862502816083288
+          },
+          {
+            "horizon": 20,
+            "estimate": 89.63839069887591,
+            "interval": [
+              -66.6951322358804,
+              252.1157391926288
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -1.9108800715440188
+          },
+          {
+            "horizon": 25,
+            "estimate": 108.83082499447622,
+            "interval": [
+              -90.26183258087643,
+              316.64198118859076
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -2.091103482284919
+          }
+        ],
+        "latent_nearest_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -39.42253986145012,
+            "interval": [
+              -171.02789027594605,
+              101.51187549436813
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.0497485431349074
+          },
+          {
+            "horizon": 15,
+            "estimate": 9.542353957272006,
+            "interval": [
+              -136.67825650394457,
+              167.10897103011237
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -0.22967079723527462
+          },
+          {
+            "horizon": 20,
+            "estimate": 69.77792424445865,
+            "interval": [
+              -80.73461435987554,
+              228.45663265546213
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -1.487501547415848
+          },
+          {
+            "horizon": 25,
+            "estimate": 199.05754900235985,
+            "interval": [
+              15.355380249297767,
+              393.5080939348148
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -3.824742979896207
+          }
+        ],
+        "random_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": 375.2850115192024,
+            "interval": [
+              192.30671086177674,
+              568.1199874718184
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -9.993138328661669
+          },
+          {
+            "horizon": 15,
+            "estimate": 367.55785278328256,
+            "interval": [
+              198.37963366250113,
+              538.8141802675534
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -8.846591255870335
+          },
+          {
+            "horizon": 20,
+            "estimate": 376.5146255569449,
+            "interval": [
+              195.60551632645976,
+              561.2856421158942
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -8.026407982251367
+          },
+          {
+            "horizon": 25,
+            "estimate": 432.7226662672654,
+            "interval": [
+              214.51222996581527,
+              658.9459471835767
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -8.314444683673221
+          }
+        ],
+        "reset_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -146.3564926778832,
+            "interval": [
+              -414.03531473840485,
+              161.02422866734534
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.897199812769528
+          },
+          {
+            "horizon": 15,
+            "estimate": -218.76102407574743,
+            "interval": [
+              -558.2096440708119,
+              168.504106412131
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.26526463265314
+          },
+          {
+            "horizon": 20,
+            "estimate": -180.06148051024937,
+            "interval": [
+              -564.9945377975242,
+              267.21810065190556
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.8384880861550554
+          },
+          {
+            "horizon": 25,
+            "estimate": -212.042430303729,
+            "interval": [
+              -640.1737912717166,
+              292.53462020705865
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.074237831265085
+          }
+        ]
+      }
+    },
+    "unit_decoded_teacher": {
+      "goal_count": 128,
+      "fixed_group_count": 6,
+      "branches": {
+        "free": {
+          "position_mse": [
+            3949.1407065456674,
+            5101.821217564906,
+            6771.825415484201,
+            8967.0057907859
+          ]
+        },
+        "actual": {
+          "position_mse": [
+            3742.6000845162625,
+            4646.487519179904,
+            6114.4310594929875,
+            8095.726165550195
+          ]
+        },
+        "random": {
+          "position_mse": [
+            4154.189561671794,
+            5266.171578765242,
+            6997.591185604207,
+            9163.171500099594
+          ]
+        },
+        "pose_nearest": {
+          "position_mse": [
+            3820.3424169296427,
+            4849.648214582478,
+            6424.108059209809,
+            8495.93441949862
+          ]
+        },
+        "latent_nearest": {
+          "position_mse": [
+            3753.5691364168756,
+            4712.654793683902,
+            6250.204962906675,
+            8325.598951124784
+          ]
+        },
+        "reset": {
+          "position_mse": [
+            3584.7927216712083,
+            4204.668858078304,
+            5408.178438667147,
+            7082.784621934907
+          ]
+        }
+      },
+      "contrasts": {
+        "actual_minus_pose_nearest": [
+          {
+            "horizon": 10,
+            "estimate": -77.74233241338077,
+            "interval": [
+              -173.9494424149689,
+              20.262632979454672
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.9685885662296991
+          },
+          {
+            "horizon": 15,
+            "estimate": -203.16069540257513,
+            "interval": [
+              -343.49444252525046,
+              -60.40374104125057
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.9821210257842696
+          },
+          {
+            "horizon": 20,
+            "estimate": -309.67699971682663,
+            "interval": [
+              -508.01879393540486,
+              -114.34083543355739
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.5730210204287145
+          },
+          {
+            "horizon": 25,
+            "estimate": -400.208253948426,
+            "interval": [
+              -655.5112316344497,
+              -160.53036758997825
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 4.463120279900592
+          }
+        ],
+        "actual_minus_latent_nearest": [
+          {
+            "horizon": 10,
+            "estimate": -10.969051900611667,
+            "interval": [
+              -110.16365580824471,
+              109.57306787001762
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 0.2777579406687271
+          },
+          {
+            "horizon": 15,
+            "estimate": -66.1672745039997,
+            "interval": [
+              -175.99980557403399,
+              48.69350851689207
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.2969344020953615
+          },
+          {
+            "horizon": 20,
+            "estimate": -135.77390341368752,
+            "interval": [
+              -262.51089827326,
+              -1.1262265585160953
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.004982336125087
+          },
+          {
+            "horizon": 25,
+            "estimate": -229.8727855745857,
+            "interval": [
+              -395.1821081360802,
+              -59.5066455844881
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 2.563540059389644
+          }
+        ],
+        "actual_minus_random": [
+          {
+            "horizon": 10,
+            "estimate": -411.5894771555316,
+            "interval": [
+              -583.0783504624552,
+              -248.98489357058966
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 10.422254048161046
+          },
+          {
+            "horizon": 15,
+            "estimate": -619.6840595853379,
+            "interval": [
+              -840.5785543465896,
+              -406.15574581799297
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 12.146330362417373
+          },
+          {
+            "horizon": 20,
+            "estimate": -883.1601261112271,
+            "interval": [
+              -1142.2718637795226,
+              -632.973923713109
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 13.04168480321165
+          },
+          {
+            "horizon": 25,
+            "estimate": -1067.4453345494007,
+            "interval": [
+              -1343.469169000956,
+              -802.4453233366828
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 11.904144587999044
+          }
+        ],
+        "actual_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -206.54062202940378,
+            "interval": [
+              -308.7806971066602,
+              -86.3873848789056
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.230014258217349
+          },
+          {
+            "horizon": 15,
+            "estimate": -455.3336983850038,
+            "interval": [
+              -600.4063170255173,
+              -299.5707675696998
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 8.924924629215724
+          },
+          {
+            "horizon": 20,
+            "estimate": -657.3943559912186,
+            "interval": [
+              -850.4223906083,
+              -456.5216265661332
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 9.707786536966022
+          },
+          {
+            "horizon": 25,
+            "estimate": -871.2796252357027,
+            "interval": [
+              -1113.715527882594,
+              -629.2819431506215
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 9.716505660462394
+          }
+        ],
+        "pose_nearest_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -128.798289616023,
+            "interval": [
+              -231.00409790363904,
+              -26.038635829307772
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.26142569198765
+          },
+          {
+            "horizon": 15,
+            "estimate": -252.1730029824287,
+            "interval": [
+              -383.7534345467653,
+              -124.82063801215301
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.942803603431455
+          },
+          {
+            "horizon": 20,
+            "estimate": -347.71735627439205,
+            "interval": [
+              -534.9773006205078,
+              -165.23970071191272
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.134765516537309
+          },
+          {
+            "horizon": 25,
+            "estimate": -471.07137128727675,
+            "interval": [
+              -723.8601948957449,
+              -214.17462385130824
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.253385380561802
+          }
+        ],
+        "latent_nearest_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -195.5715701287921,
+            "interval": [
+              -333.09509684121423,
+              -62.66956195136025
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.952256317548622
+          },
+          {
+            "horizon": 15,
+            "estimate": -389.1664238810041,
+            "interval": [
+              -527.2950962829314,
+              -254.31924426065416
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 7.627990227120362
+          },
+          {
+            "horizon": 20,
+            "estimate": -521.6204525775312,
+            "interval": [
+              -710.6051714103216,
+              -344.1461930861802
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 7.702804200840936
+          },
+          {
+            "horizon": 25,
+            "estimate": -641.406839661117,
+            "interval": [
+              -869.908032084552,
+              -427.03538757760765
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 7.152965601072751
+          }
+        ],
+        "random_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": 205.04885512612785,
+            "interval": [
+              71.28736435442319,
+              343.59312010940516
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -5.192239789943699
+          },
+          {
+            "horizon": 15,
+            "estimate": 164.35036120033408,
+            "interval": [
+              5.570270854626869,
+              326.9918150798036
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -3.2214057332016495
+          },
+          {
+            "horizon": 20,
+            "estimate": 225.76577012000837,
+            "interval": [
+              5.998181680166902,
+              445.4176401724691
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -3.3338982662456256
+          },
+          {
+            "horizon": 25,
+            "estimate": 196.16570931369807,
+            "interval": [
+              -75.36423749475196,
+              462.11989464405195
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": -2.187638927536651
+          }
+        ],
+        "reset_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -364.34798487445704,
+            "interval": [
+              -686.0891616020812,
+              33.890674939489784
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 9.22600666698336
+          },
+          {
+            "horizon": 15,
+            "estimate": -897.1523594866046,
+            "interval": [
+              -1258.9775058592375,
+              -456.76890498143393
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 17.584943125757245
+          },
+          {
+            "horizon": 20,
+            "estimate": -1363.6469768170555,
+            "interval": [
+              -1782.8088801886272,
+              -900.793995209151
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 20.13706634697037
+          },
+          {
+            "horizon": 25,
+            "estimate": -1884.2211688509879,
+            "interval": [
+              -2364.577341794963,
+              -1381.8466315042915
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 21.01282426723902
+          }
+        ]
+      }
+    },
+    "unit_physical_labels": {
+      "goal_count": 128,
+      "fixed_group_count": 6,
+      "branches": {
+        "free": {
+          "position_mse": [
+            3759.858381617755,
+            6026.711693774731,
+            8717.098292714381,
+            11597.658462717623
+          ]
+        },
+        "actual": {
+          "position_mse": [
+            3463.1166376080932,
+            5566.560616132854,
+            8130.9858783213795,
+            10964.691983902627
+          ]
+        },
+        "random": {
+          "position_mse": [
+            3759.6840211701683,
+            5980.97636832999,
+            8585.318223263223,
+            11387.095602208501
+          ]
+        },
+        "pose_nearest": {
+          "position_mse": [
+            3553.6285611877415,
+            5752.632185634172,
+            8330.272895860058,
+            11071.837698277908
+          ]
+        },
+        "latent_nearest": {
+          "position_mse": [
+            3535.684348517884,
+            5754.956466868298,
+            8360.356298559835,
+            11118.962106467947
+          ]
+        },
+        "reset": {
+          "position_mse": [
+            2409.673685193222,
+            3732.8644395388174,
+            6003.935705688222,
+            8791.097923046027
+          ]
+        }
+      },
+      "contrasts": {
+        "actual_minus_pose_nearest": [
+          {
+            "horizon": 10,
+            "estimate": -90.51192357964692,
+            "interval": [
+              -178.26977704417345,
+              -6.974510375073847
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.407322680613899
+          },
+          {
+            "horizon": 15,
+            "estimate": -186.07156950132395,
+            "interval": [
+              -309.4149407018016,
+              -72.47046610541807
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.087447665590605
+          },
+          {
+            "horizon": 20,
+            "estimate": -199.28701753867819,
+            "interval": [
+              -353.73423622698357,
+              -34.203774250708435
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.286162331165168
+          },
+          {
+            "horizon": 25,
+            "estimate": -107.14571437528176,
+            "interval": [
+              -351.8904558870814,
+              161.8756866807329
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 0.9238564380880622
+          }
+        ],
+        "actual_minus_latent_nearest": [
+          {
+            "horizon": 10,
+            "estimate": -72.56771090978907,
+            "interval": [
+              -137.40335538089863,
+              -8.752036511290827
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.9300650062932783
+          },
+          {
+            "horizon": 15,
+            "estimate": -188.39585073544748,
+            "interval": [
+              -305.2563843019718,
+              -83.01554617794493
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 3.1260139908476168
+          },
+          {
+            "horizon": 20,
+            "estimate": -229.3704202384514,
+            "interval": [
+              -374.0891753462365,
+              -83.68057452093277
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 2.631270321113113
+          },
+          {
+            "horizon": 25,
+            "estimate": -154.27012256531742,
+            "interval": [
+              -361.7800545678229,
+              79.64939662672901
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 1.3301833560734815
+          }
+        ],
+        "actual_minus_random": [
+          {
+            "horizon": 10,
+            "estimate": -296.5673835620742,
+            "interval": [
+              -428.00101125710233,
+              -171.23315795682032
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 7.887727500908428
+          },
+          {
+            "horizon": 15,
+            "estimate": -414.4157521971371,
+            "interval": [
+              -582.0463158307408,
+              -257.40128499267934
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 6.876316194537832
+          },
+          {
+            "horizon": 20,
+            "estimate": -454.33234494184313,
+            "interval": [
+              -694.3994687085229,
+              -223.89226208887277
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.211967671875023
+          },
+          {
+            "horizon": 25,
+            "estimate": -422.40361830588336,
+            "interval": [
+              -728.5238937351294,
+              -103.77254064723994
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 3.6421456940102335
+          }
+        ],
+        "actual_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -296.74174400966274,
+            "interval": [
+              -385.9829741532253,
+              -210.6482818080129
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 7.8923649215208895
+          },
+          {
+            "horizon": 15,
+            "estimate": -460.1510776418834,
+            "interval": [
+              -584.847476403832,
+              -339.61002034964275
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 7.635193137199423
+          },
+          {
+            "horizon": 20,
+            "estimate": -586.1124143930026,
+            "interval": [
+              -775.2956900833752,
+              -395.16820990043396
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 6.723710054788145
+          },
+          {
+            "horizon": 25,
+            "estimate": -632.966478814999,
+            "interval": [
+              -886.4706386066032,
+              -354.3858892742875
+            ],
+            "interval_level": 0.95,
+            "role": "planned_endpoint",
+            "relative_gain_percent_of_free": 5.457709250964432
+          }
+        ],
+        "pose_nearest_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -206.22982043001585,
+            "interval": [
+              -293.54233359738237,
+              -122.90078373805932
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.485042240906991
+          },
+          {
+            "horizon": 15,
+            "estimate": -274.07950814055937,
+            "interval": [
+              -406.04412746791826,
+              -137.97164731810818
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.547745471608817
+          },
+          {
+            "horizon": 20,
+            "estimate": -386.82539685432437,
+            "interval": [
+              -547.5136824713202,
+              -225.27409063749133
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.437547723622976
+          },
+          {
+            "horizon": 25,
+            "estimate": -525.8207644397173,
+            "interval": [
+              -720.7134770127674,
+              -328.6754473225177
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.533852812876369
+          }
+        ],
+        "latent_nearest_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -224.17403309987367,
+            "interval": [
+              -323.17473718922975,
+              -131.7820197759186
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 5.962299915227612
+          },
+          {
+            "horizon": 15,
+            "estimate": -271.75522690643584,
+            "interval": [
+              -411.6331044903976,
+              -127.0026525298037
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.509179146351805
+          },
+          {
+            "horizon": 20,
+            "estimate": -356.7419941545511,
+            "interval": [
+              -541.2920385368014,
+              -163.60060421759974
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.092439733675031
+          },
+          {
+            "horizon": 25,
+            "estimate": -478.6963562496816,
+            "interval": [
+              -687.7111755536861,
+              -266.84325145357894
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 4.12752589489095
+          }
+        ],
+        "random_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -0.1743604475885192,
+            "interval": [
+              -109.43207904636539,
+              112.44456366016436
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 0.004637420612461927
+          },
+          {
+            "horizon": 15,
+            "estimate": -45.735325444746145,
+            "interval": [
+              -177.66750048136566,
+              90.73893217849128
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 0.758876942661589
+          },
+          {
+            "horizon": 20,
+            "estimate": -131.78006945115936,
+            "interval": [
+              -303.31804981692494,
+              45.00315250306639
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.511742382913121
+          },
+          {
+            "horizon": 25,
+            "estimate": -210.5628605091157,
+            "interval": [
+              -428.38346398332146,
+              8.81307679815972
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 1.8155635569541986
+          }
+        ],
+        "reset_minus_free": [
+          {
+            "horizon": 10,
+            "estimate": -1350.1846964245365,
+            "interval": [
+              -1712.7551113915843,
+              -1033.093370775728
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 35.91052000856458
+          },
+          {
+            "horizon": 15,
+            "estimate": -2293.847254235915,
+            "interval": [
+              -2794.0774339919717,
+              -1861.4558401943675
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 38.061340425581264
+          },
+          {
+            "horizon": 20,
+            "estimate": -2713.1625870261614,
+            "interval": [
+              -3338.160007037613,
+              -2139.41310397725
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 31.12460701852796
+          },
+          {
+            "horizon": 25,
+            "estimate": -2806.5605396715982,
+            "interval": [
+              -3495.84564228466,
+              -2110.8599328590894
+            ],
+            "interval_level": 0.95,
+            "role": "supporting",
+            "relative_gain_percent_of_free": 24.19937221546659
+          }
+        ]
+      }
+    }
+  },
+  "planned_endpoint_contrasts": [
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_pose_nearest",
+      "horizon": 25,
+      "estimate": -114.59877052649715,
+      "interval": [
+        -316.11637024145534,
+        100.55167796312898
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 2.201930272289046
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_latent_nearest",
+      "horizon": 25,
+      "estimate": -204.82549453438077,
+      "interval": [
+        -363.3409101895476,
+        -33.08165085935454
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 3.935569769900334
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_random",
+      "horizon": 25,
+      "estimate": -438.4906117992864,
+      "interval": [
+        -687.2024664355628,
+        -188.14289866123517
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 8.42527147367735
+    },
+    {
+      "objective": "unit_latent",
+      "contrast": "actual_minus_free",
+      "horizon": 25,
+      "estimate": -5.767945532020917,
+      "interval": [
+        -210.40480604657762,
+        247.08494449537818
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 0.1108267900041267
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_pose_nearest",
+      "horizon": 25,
+      "estimate": -400.208253948426,
+      "interval": [
+        -655.5112316344497,
+        -160.53036758997825
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 4.463120279900592
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_latent_nearest",
+      "horizon": 25,
+      "estimate": -229.8727855745857,
+      "interval": [
+        -395.1821081360802,
+        -59.5066455844881
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 2.563540059389644
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_random",
+      "horizon": 25,
+      "estimate": -1067.4453345494007,
+      "interval": [
+        -1343.469169000956,
+        -802.4453233366828
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 11.904144587999044
+    },
+    {
+      "objective": "unit_decoded_teacher",
+      "contrast": "actual_minus_free",
+      "horizon": 25,
+      "estimate": -871.2796252357027,
+      "interval": [
+        -1113.715527882594,
+        -629.2819431506215
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 9.716505660462394
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_pose_nearest",
+      "horizon": 25,
+      "estimate": -107.14571437528176,
+      "interval": [
+        -351.8904558870814,
+        161.8756866807329
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 0.9238564380880622
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_latent_nearest",
+      "horizon": 25,
+      "estimate": -154.27012256531742,
+      "interval": [
+        -361.7800545678229,
+        79.64939662672901
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 1.3301833560734815
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_random",
+      "horizon": 25,
+      "estimate": -422.40361830588336,
+      "interval": [
+        -728.5238937351294,
+        -103.77254064723994
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 3.6421456940102335
+    },
+    {
+      "objective": "unit_physical_labels",
+      "contrast": "actual_minus_free",
+      "horizon": 25,
+      "estimate": -632.966478814999,
+      "interval": [
+        -886.4706386066032,
+        -354.3858892742875
+      ],
+      "interval_level": 0.95,
+      "role": "planned_endpoint",
+      "relative_gain_percent_of_free": 5.457709250964432
+    }
+  ],
+  "per_model": [
+    {
+      "model_index": 2,
+      "group": 0,
+      "objective": "unit_latent",
+      "position_mse": [
+        [
+          4137.886680862667,
+          4766.4115311142195,
+          4913.578435649741,
+          5392.641190850928
+        ],
+        [
+          4069.562157834018,
+          4753.27655370572,
+          4972.6831481600975,
+          5608.42858932378
+        ],
+        [
+          4441.619149711597,
+          5171.66354753681,
+          5468.5549301089295,
+          6034.005168234874
+        ],
+        [
+          4088.678859055746,
+          4699.770658955692,
+          4980.088980126151,
+          5579.4994218431175
+        ],
+        [
+          3996.9305214002165,
+          4734.868966680067,
+          5062.195694731239,
+          5814.860168918617
+        ],
+        [
+          4062.9423027915395,
+          4433.402433811868,
+          4838.635169614642,
+          5296.931082843138
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": 28.929167480662727,
+        "actual_minus_latent_nearest": -206.43157959483688,
+        "actual_minus_random": -425.57657891109375,
+        "actual_minus_free": 215.78739847285215,
+        "pose_nearest_minus_free": 186.85823099218942,
+        "latent_nearest_minus_free": 422.218978067689,
+        "random_minus_free": 641.3639773839459,
+        "reset_minus_free": -95.71010800779004
+      }
+    },
+    {
+      "model_index": 10,
+      "group": 1,
+      "objective": "unit_latent",
+      "position_mse": [
+        [
+          4038.4978439079914,
+          4380.184853057616,
+          4946.732683996346,
+          5480.584862070706
+        ],
+        [
+          3938.2297480647408,
+          4276.3760067974645,
+          4809.854570673182,
+          5347.004640314874
+        ],
+        [
+          4212.108317831593,
+          4411.977643851241,
+          4920.139521281632,
+          5491.990817835045
+        ],
+        [
+          4141.116968351335,
+          4489.005268764619,
+          5039.484632833957,
+          5514.147544832503
+        ],
+        [
+          4004.661376930157,
+          4279.770034304432,
+          4813.030207730341,
+          5363.092001959316
+        ],
+        [
+          3798.2057133125772,
+          4084.437233860287,
+          4609.942377003512,
+          5062.498203406217
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -167.14290451762827,
+        "actual_minus_latent_nearest": -16.087361644441444,
+        "actual_minus_random": -144.9861775201707,
+        "actual_minus_free": -133.5802217558312,
+        "pose_nearest_minus_free": 33.56268276179708,
+        "latent_nearest_minus_free": -117.49286011138975,
+        "random_minus_free": 11.405955764339524,
+        "reset_minus_free": -418.0866586644888
+      }
+    },
+    {
+      "model_index": 18,
+      "group": 2,
+      "objective": "unit_latent",
+      "position_mse": [
+        [
+          4163.519257897886,
+          4562.66593047041,
+          5701.685467455801,
+          6271.528416549844
+        ],
+        [
+          4548.89285714715,
+          5079.205688579911,
+          6221.356187310064,
+          6795.48759063702
+        ],
+        [
+          4980.02484820705,
+          5205.69574900176,
+          6277.849381776791,
+          6841.352283507813
+        ],
+        [
+          4439.488099527093,
+          4934.7333113486975,
+          5877.997125840167,
+          6495.391013644153
+        ],
+        [
+          4572.403723218632,
+          5057.678179251695,
+          6216.888193579613,
+          7047.031124952237
+        ],
+        [
+          4844.482958495885,
+          5457.875849347723,
+          6498.859830361896,
+          7010.795645903504
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": 300.0965769928671,
+        "actual_minus_latent_nearest": -251.54353431521758,
+        "actual_minus_random": -45.86469287079308,
+        "actual_minus_free": 523.9591740871756,
+        "pose_nearest_minus_free": 223.8625970943085,
+        "latent_nearest_minus_free": 775.5027084023932,
+        "random_minus_free": 569.8238669579687,
+        "reset_minus_free": 739.2672293536598
+      }
+    },
+    {
+      "model_index": 26,
+      "group": 3,
+      "objective": "unit_latent",
+      "position_mse": [
+        [
+          2890.28195844339,
+          3240.2230669808905,
+          3748.345281099012,
+          4262.70005831301
+        ],
+        [
+          2823.3241462006245,
+          3173.972561000158,
+          3597.7550734379633,
+          4025.203539901008
+        ],
+        [
+          3207.0171270579963,
+          3505.4310850212387,
+          3936.8914164709813,
+          4392.134530526429
+        ],
+        [
+          2851.834940110048,
+          3251.3639901212764,
+          3820.1517885005355,
+          4289.425864024561
+        ],
+        [
+          2780.7691699055968,
+          3248.473257579356,
+          3793.1035382247264,
+          4291.32907393172
+        ],
+        [
+          2973.973609694874,
+          3378.6339974561656,
+          3756.887910397267,
+          4123.59826206237
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -264.2223241235529,
+        "actual_minus_latent_nearest": -266.12553403071206,
+        "actual_minus_random": -366.9309906254216,
+        "actual_minus_free": -237.4965184120024,
+        "pose_nearest_minus_free": 26.725805711550493,
+        "latent_nearest_minus_free": 28.629015618709673,
+        "random_minus_free": 129.4344722134192,
+        "reset_minus_free": -139.1017962506403
+      }
+    },
+    {
+      "model_index": 34,
+      "group": 4,
+      "objective": "unit_latent",
+      "position_mse": [
+        [
+          4150.857208952012,
+          4357.866367337469,
+          4586.015403811936,
+          5071.931401043056
+        ],
+        [
+          3796.8956580344607,
+          3840.3016515195523,
+          4317.05663385902,
+          4951.477002311607
+        ],
+        [
+          4477.376844291145,
+          4954.497910009018,
+          5208.627534836642,
+          5833.865335990077
+        ],
+        [
+          4177.892368164683,
+          4462.375743124855,
+          4696.044018252709,
+          5224.349556547892
+        ],
+        [
+          3822.5578311524528,
+          4084.720997509101,
+          4489.354280513984,
+          5179.480616377212
+        ],
+        [
+          3275.1517034512167,
+          3178.1022254033765,
+          3661.6477406602244,
+          4190.069430259251
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -272.8725542362845,
+        "actual_minus_latent_nearest": -228.00361406560478,
+        "actual_minus_random": -882.3883336784702,
+        "actual_minus_free": -120.45439873144915,
+        "pose_nearest_minus_free": 152.41815550483534,
+        "latent_nearest_minus_free": 107.54921533415563,
+        "random_minus_free": 761.933934947021,
+        "reset_minus_free": -881.8619707838052
+      }
+    },
+    {
+      "model_index": 42,
+      "group": 5,
+      "objective": "unit_latent",
+      "position_mse": [
+        [
+          3151.5188444326495,
+          3621.426499229545,
+          4249.330790905761,
+          4747.425919496185
+        ],
+        [
+          2880.094205594417,
+          3328.017882942663,
+          3932.357589980016,
+          4464.602812643316
+        ],
+        [
+          3466.1255765124324,
+          3884.8594294697814,
+          4592.713031785302,
+          5229.799709833086
+        ],
+        [
+          3064.8817558308465,
+          3555.828472762715,
+          4269.751861558343,
+          4776.983397398357
+        ],
+        [
+          3118.703932720841,
+          3580.5209366091362,
+          4189.783693605449,
+          4725.36415619878
+        ],
+        [
+          2699.6665506832105,
+          3083.760363856253,
+          3699.3461518195654,
+          4270.664642026874
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -312.3805847550411,
+        "actual_minus_latent_nearest": -260.761343555464,
+        "actual_minus_random": -765.1968971897704,
+        "actual_minus_free": -282.8231068528694,
+        "pose_nearest_minus_free": 29.55747790217174,
+        "latent_nearest_minus_free": -22.061763297405378,
+        "random_minus_free": 482.37379033690104,
+        "reset_minus_free": -476.7612774693107
+      }
+    },
+    {
+      "model_index": 3,
+      "group": 0,
+      "objective": "unit_decoded_teacher",
+      "position_mse": [
+        [
+          4473.694233666534,
+          5496.084738114336,
+          7003.98592424585,
+          8744.918405484927
+        ],
+        [
+          4227.9519107455935,
+          5107.220286112152,
+          6427.621387407119,
+          7992.114572671631
+        ],
+        [
+          4698.429440123489,
+          6037.899150788162,
+          7537.366220635518,
+          9180.105671859872
+        ],
+        [
+          4369.602951510413,
+          5473.086879109871,
+          7002.744865438482,
+          8600.234486864732
+        ],
+        [
+          4394.893631526625,
+          5337.384195321408,
+          6855.4457422665355,
+          8359.459297323183
+        ],
+        [
+          4034.422820515177,
+          4816.596938400454,
+          5999.208188262361,
+          6984.490877317692
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -608.1199141931011,
+        "actual_minus_latent_nearest": -367.3447246515516,
+        "actual_minus_random": -1187.9910991882407,
+        "actual_minus_free": -752.8038328132952,
+        "pose_nearest_minus_free": -144.68391862019416,
+        "latent_nearest_minus_free": -385.45910816174364,
+        "random_minus_free": 435.18726637494547,
+        "reset_minus_free": -1760.4275281672344
+      }
+    },
+    {
+      "model_index": 11,
+      "group": 1,
+      "objective": "unit_decoded_teacher",
+      "position_mse": [
+        [
+          4280.5054667986915,
+          5710.670743084685,
+          7996.299096172111,
+          11555.619834540257
+        ],
+        [
+          4131.759820886045,
+          5318.111585207319,
+          7428.875449602808,
+          10458.757401516057
+        ],
+        [
+          4411.724007946912,
+          5716.336453413708,
+          8108.087505434151,
+          11372.152664494504
+        ],
+        [
+          4209.625278956578,
+          5402.669952421611,
+          7520.3462434838375,
+          10424.81355470592
+        ],
+        [
+          4013.527249091187,
+          5129.458829566535,
+          7431.595368712296,
+          10636.30919563013
+        ],
+        [
+          3717.389638453075,
+          4737.626774892599,
+          6409.86952239339,
+          8576.47396654507
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": 33.943846810137984,
+        "actual_minus_latent_nearest": -177.55179411407335,
+        "actual_minus_random": -913.3952629784471,
+        "actual_minus_free": -1096.8624330242,
+        "pose_nearest_minus_free": -1130.806279834338,
+        "latent_nearest_minus_free": -919.3106389101267,
+        "random_minus_free": -183.46717004575294,
+        "reset_minus_free": -2979.1458679951866
+      }
+    },
+    {
+      "model_index": 19,
+      "group": 2,
+      "objective": "unit_decoded_teacher",
+      "position_mse": [
+        [
+          4681.875985499396,
+          5905.373708758921,
+          7238.100423203331,
+          8317.415933527112
+        ],
+        [
+          4520.785488633335,
+          5356.993441553298,
+          6717.775679459766,
+          7694.866839245676
+        ],
+        [
+          4952.547182940302,
+          6020.509919799573,
+          7600.1141401141895,
+          8739.521862174333
+        ],
+        [
+          4485.415587957697,
+          5487.360664816126,
+          6990.843304526401,
+          8093.22622601655
+        ],
+        [
+          4382.182513947487,
+          5204.946425977609,
+          6556.998909659988,
+          7651.8492700213
+        ],
+        [
+          4849.7237954363145,
+          5403.21442064948,
+          6284.574110018569,
+          7181.714032241579
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -398.35938677087415,
+        "actual_minus_latent_nearest": 43.01756922437562,
+        "actual_minus_random": -1044.6550229286577,
+        "actual_minus_free": -622.5490942814367,
+        "pose_nearest_minus_free": -224.18970751056258,
+        "latent_nearest_minus_free": -665.5666635058124,
+        "random_minus_free": 422.10592864722094,
+        "reset_minus_free": -1135.7019012855335
+      }
+    },
+    {
+      "model_index": 27,
+      "group": 3,
+      "objective": "unit_decoded_teacher",
+      "position_mse": [
+        [
+          3296.3829519992682,
+          4372.538146232223,
+          6221.189020773711,
+          9002.570686583816
+        ],
+        [
+          3036.1824140089197,
+          3815.936962344056,
+          5402.309216010348,
+          8022.633925340723
+        ],
+        [
+          3353.4708551331014,
+          4322.351743119305,
+          6298.681497803479,
+          9260.106192424373
+        ],
+        [
+          3160.6871937808564,
+          4118.2127466504335,
+          5928.4954975677165,
+          8697.918626755065
+        ],
+        [
+          3040.8244955992413,
+          3949.276576174803,
+          5540.1819664557615,
+          8238.68016776129
+        ],
+        [
+          3227.268579847254,
+          3523.8917466337407,
+          4949.838927201181,
+          7578.3590025442145
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -675.2847014143417,
+        "actual_minus_latent_nearest": -216.04624242056616,
+        "actual_minus_random": -1237.47226708365,
+        "actual_minus_free": -979.9367612430933,
+        "pose_nearest_minus_free": -304.6520598287516,
+        "latent_nearest_minus_free": -763.8905188225272,
+        "random_minus_free": 257.53550584055665,
+        "reset_minus_free": -1424.211684039602
+      }
+    },
+    {
+      "model_index": 35,
+      "group": 4,
+      "objective": "unit_decoded_teacher",
+      "position_mse": [
+        [
+          3703.1180276718906,
+          4767.961042238726,
+          5896.79017889671,
+          7060.181632164901
+        ],
+        [
+          3506.5816326353724,
+          4502.546353570947,
+          5237.490697220365,
+          6246.037163595111
+        ],
+        [
+          4021.7773326345723,
+          5094.485637372894,
+          6200.721881265178,
+          7347.524854015798
+        ],
+        [
+          3610.0687898017045,
+          4616.191316547043,
+          5402.950108491023,
+          6623.2778168085015
+        ],
+        [
+          3591.492973895215,
+          4755.614467528927,
+          5560.9982322974165,
+          6649.366961505989
+        ],
+        [
+          2943.579840347512,
+          3617.0878490162686,
+          4424.15826782379,
+          5680.871198101277
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -377.24065321339003,
+        "actual_minus_latent_nearest": -403.32979791087746,
+        "actual_minus_random": -1101.4876904206867,
+        "actual_minus_free": -814.1444685697898,
+        "pose_nearest_minus_free": -436.9038153563997,
+        "latent_nearest_minus_free": -410.8146706589123,
+        "random_minus_free": 287.34322185089695,
+        "reset_minus_free": -1379.3104340636246
+      }
+    },
+    {
+      "model_index": 43,
+      "group": 5,
+      "objective": "unit_decoded_teacher",
+      "position_mse": [
+        [
+          3259.267573638214,
+          4358.298926960559,
+          6274.587849613504,
+          9121.328252414363
+        ],
+        [
+          3032.3392401883075,
+          3778.1164862916567,
+          5472.513927257487,
+          8159.9470909319725
+        ],
+        [
+          3487.188551252384,
+          4405.446568097806,
+          6240.575868372754,
+          9079.617755628691
+        ],
+        [
+          3086.6546995706035,
+          4000.3677279497892,
+          5699.268335751402,
+          8536.135805840957
+        ],
+        [
+          3098.4939544414838,
+          3899.248267534142,
+          5556.0095580480265,
+          8417.928814506791
+        ],
+        [
+          2736.371655427919,
+          3129.5954188772744,
+          4381.4216163035835,
+          6494.7986548596255
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -376.18871490898437,
+        "actual_minus_latent_nearest": -257.9817235748187,
+        "actual_minus_random": -919.6706646967186,
+        "actual_minus_free": -961.3811614823908,
+        "pose_nearest_minus_free": -585.1924465734064,
+        "latent_nearest_minus_free": -703.3994379075721,
+        "random_minus_free": -41.71049678567215,
+        "reset_minus_free": -2626.529597554738
+      }
+    },
+    {
+      "model_index": 4,
+      "group": 0,
+      "objective": "unit_physical_labels",
+      "position_mse": [
+        [
+          3725.9502824329124,
+          5793.460163995444,
+          8089.807715439802,
+          10823.186262427473
+        ],
+        [
+          3596.0602206170597,
+          5441.266116330443,
+          7468.217938904635,
+          10102.351846390608
+        ],
+        [
+          3744.6829552665995,
+          5742.327402990219,
+          8268.31782123163,
+          11188.27090734812
+        ],
+        [
+          3532.913723917096,
+          5483.742851014221,
+          7877.161952021525,
+          10448.20119701899
+        ],
+        [
+          3461.22694790291,
+          5479.256038760528,
+          7883.024119483589,
+          10533.566946956737
+        ],
+        [
+          2822.93337853684,
+          4384.911125793897,
+          6484.634559821861,
+          9003.466409870136
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -345.84935062838304,
+        "actual_minus_latent_nearest": -431.21510056612897,
+        "actual_minus_random": -1085.9190609575126,
+        "actual_minus_free": -720.8344160368652,
+        "pose_nearest_minus_free": -374.9850654084821,
+        "latent_nearest_minus_free": -289.6193154707362,
+        "random_minus_free": 365.0846449206474,
+        "reset_minus_free": -1819.7198525573367
+      }
+    },
+    {
+      "model_index": 12,
+      "group": 1,
+      "objective": "unit_physical_labels",
+      "position_mse": [
+        [
+          4660.39507125378,
+          7563.867765029669,
+          10519.561673026352,
+          14126.18034711999
+        ],
+        [
+          4219.923991141835,
+          7208.243305492099,
+          9901.712628910172,
+          13257.55599423025
+        ],
+        [
+          4418.596876927026,
+          7365.1252429818105,
+          10168.367179118974,
+          13580.525516230966
+        ],
+        [
+          4252.624931104457,
+          7108.18573124521,
+          9819.44174851152,
+          13119.545807372057
+        ],
+        [
+          4238.162932295808,
+          7152.882063760826,
+          9757.306019302092,
+          12982.669486039564
+        ],
+        [
+          2732.2218358057794,
+          4884.19286252823,
+          7917.54351240837,
+          10812.02369316791
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": 138.01018685819326,
+        "actual_minus_latent_nearest": 274.8865081906861,
+        "actual_minus_random": -322.9695220007161,
+        "actual_minus_free": -868.6243528897394,
+        "pose_nearest_minus_free": -1006.6345397479326,
+        "latent_nearest_minus_free": -1143.5108610804255,
+        "random_minus_free": -545.6548308890233,
+        "reset_minus_free": -3314.156653952079
+      }
+    },
+    {
+      "model_index": 20,
+      "group": 2,
+      "objective": "unit_physical_labels",
+      "position_mse": [
+        [
+          3347.283984802288,
+          4953.629508053086,
+          6819.977052135889,
+          8925.187551594052
+        ],
+        [
+          3211.2628256461685,
+          4667.912468400064,
+          6579.929638342643,
+          8863.186727529299
+        ],
+        [
+          3484.4514933931637,
+          4981.668713354285,
+          6732.820692557839,
+          8756.463453382908
+        ],
+        [
+          3457.8663182222144,
+          5135.107602314422,
+          6680.853930873778,
+          8792.33219009287
+        ],
+        [
+          3272.1735989595954,
+          4867.875591485641,
+          6436.1798436684385,
+          8409.06275826355
+        ],
+        [
+          2594.814068941916,
+          3308.81283563956,
+          5148.204940832022,
+          7485.4425095097
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": 70.85453743642938,
+        "actual_minus_latent_nearest": 454.1239692657491,
+        "actual_minus_random": 106.7232741463904,
+        "actual_minus_free": -62.00082406475303,
+        "pose_nearest_minus_free": -132.85536150118241,
+        "latent_nearest_minus_free": -516.1247933305021,
+        "random_minus_free": -168.72409821114343,
+        "reset_minus_free": -1439.7450420843516
+      }
+    },
+    {
+      "model_index": 28,
+      "group": 3,
+      "objective": "unit_physical_labels",
+      "position_mse": [
+        [
+          3387.514795197159,
+          6218.547185035809,
+          10321.306796564208,
+          15166.462900925324
+        ],
+        [
+          3165.56390443274,
+          5654.990796677732,
+          9566.704368667683,
+          14385.538655214952
+        ],
+        [
+          3486.4330184775154,
+          6058.630341912799,
+          9705.987197645798,
+          14285.189781081113
+        ],
+        [
+          3366.800616117726,
+          6016.171167484592,
+          10053.833109684427,
+          14813.833270036695
+        ],
+        [
+          3255.149724313795,
+          5882.4080861449675,
+          10094.971524103345,
+          15036.177741037161
+        ],
+        [
+          2418.2836888823617,
+          3676.4121387684686,
+          5916.96751846667,
+          9997.037823853727
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -428.2946148217434,
+        "actual_minus_latent_nearest": -650.6390858222094,
+        "actual_minus_random": 100.34887413383876,
+        "actual_minus_free": -780.9242457103719,
+        "pose_nearest_minus_free": -352.6296308886285,
+        "latent_nearest_minus_free": -130.28515988816253,
+        "random_minus_free": -881.2731198442107,
+        "reset_minus_free": -5169.425077071597
+      }
+    },
+    {
+      "model_index": 36,
+      "group": 4,
+      "objective": "unit_physical_labels",
+      "position_mse": [
+        [
+          4450.7560707639,
+          7124.2596658031125,
+          9572.3790395923,
+          11565.118703970167
+        ],
+        [
+          3869.060834766291,
+          6313.736070346638,
+          8717.787287722636,
+          10557.785175029929
+        ],
+        [
+          4475.470584163628,
+          7360.299326881303,
+          9905.893647775454,
+          11908.669312300724
+        ],
+        [
+          3976.814548650115,
+          6560.780934892812,
+          8842.250383484683,
+          10573.897984499254
+        ],
+        [
+          4222.05047234397,
+          6965.575304191546,
+          9322.404977202563,
+          11097.172451441522
+        ],
+        [
+          2067.8592265927814,
+          3651.176779288828,
+          6034.4231037041145,
+          8192.248173763333
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -16.11280946932493,
+        "actual_minus_latent_nearest": -539.3872764115931,
+        "actual_minus_random": -1350.8841372707957,
+        "actual_minus_free": -1007.3335289402385,
+        "pose_nearest_minus_free": -991.2207194709135,
+        "latent_nearest_minus_free": -467.94625252864535,
+        "random_minus_free": 343.5506083305572,
+        "reset_minus_free": -3372.870530206834
+      }
+    },
+    {
+      "model_index": 44,
+      "group": 5,
+      "objective": "unit_physical_labels",
+      "position_mse": [
+        [
+          2987.2500852565017,
+          4506.505874731271,
+          6979.557479527755,
+          8979.815010268745
+        ],
+        [
+          2716.828049044471,
+          4113.214939550121,
+          6551.563407380511,
+          8621.733505020715
+        ],
+        [
+          2948.469198793085,
+          4377.807181859506,
+          6730.522801249649,
+          8603.45464290723
+        ],
+        [
+          2734.751229114836,
+          4211.804826853779,
+          6708.096250584419,
+          8683.215740647556
+        ],
+        [
+          2765.342415291225,
+          4181.741716866276,
+          6668.251307598967,
+          8655.123255069111
+        ],
+        [
+          1821.9299123996477,
+          2491.6808952139204,
+          4521.840598896293,
+          7256.368928111333
+        ]
+      ],
+      "endpoint_contrasts": {
+        "actual_minus_pose_nearest": -61.48223562684143,
+        "actual_minus_latent_nearest": -33.38975004839631,
+        "actual_minus_random": 18.278862113484138,
+        "actual_minus_free": -358.0815052480302,
+        "pose_nearest_minus_free": -296.5992696211888,
+        "latent_nearest_minus_free": -324.6917551996339,
+        "random_minus_free": -376.36036736151436,
+        "reset_minus_free": -1723.446082157412
+      }
+    }
+  ],
+  "correction_norms": {
+    "mean": 3.5239789134902555,
+    "median": 3.4768256691987975,
+    "minimum": 1.271836626466871,
+    "maximum": 7.160485544715944,
+    "zero_group_goal_count": 0,
+    "group_goal_count": 768
+  },
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 1390001,
+    "level": 0.95,
+    "unit": "goal; fixed groups averaged before paired resampling",
+    "shared_draws": true,
+    "method": "percentile",
+    "interpretation": "Exploratory development intervals, no familywise correction and no independent confirmation"
+  },
+  "relative_gain_definition": "Negative mean paired MSE difference divided by free MSE times 100; free is the denominator for every contrast.",
+  "sources": [
+    {
+      "group": 0,
+      "acceptance_sha256": "4096dae0f491ee85108398e3b78fca7858102662bd2df5da36d39fa856f71286",
+      "score_report_sha256": "c0c223419cc6a3006e766e3ae33b4ca098299afc318538852b7f973aa572fef4",
+      "geometry_report_sha256": "d245b2d9de7c2ec4198ab741e8a06cf29044dcfdb182a7d5c94afd054134d73a",
+      "donor_reuse": {
+        "random": 128,
+        "pose_nearest": 73,
+        "latent_nearest": 75
+      },
+      "maximum_errors": {
+        "readout_error": 2.2311730896173998e-07,
+        "full_readout_error": 1.2802367432840356e-07,
+        "pose_reconstruction_error": 2.2737367544323206e-13,
+        "norm_error": 1.3050592784225046e-07,
+        "region_violation": 7.986664239678642e-08
+      }
+    },
+    {
+      "group": 1,
+      "acceptance_sha256": "e05a9aa3dc2e2251f07864b42030067cf90223f65012bbfe9338cbfaa797a0ea",
+      "score_report_sha256": "507738726a055cef329cf73804262aa90944204be2de87659b463a5d28a27ee7",
+      "geometry_report_sha256": "d245b2d9de7c2ec4198ab741e8a06cf29044dcfdb182a7d5c94afd054134d73a",
+      "donor_reuse": {
+        "random": 128,
+        "pose_nearest": 72,
+        "latent_nearest": 78
+      },
+      "maximum_errors": {
+        "readout_error": 1.9880313231745994e-07,
+        "full_readout_error": 1.2502520285728735e-07,
+        "pose_reconstruction_error": 4.547473508864641e-13,
+        "norm_error": 1.1787321607670265e-07,
+        "region_violation": 7.307982397009027e-08
+      }
+    },
+    {
+      "group": 2,
+      "acceptance_sha256": "39d094c175866e7dcd6e741e817228446ab4833e7c41e1db67bbfc95805e7d4b",
+      "score_report_sha256": "1301b18a6dc45f2fccdbcc5aa61e8037eadb92b907ec9f0028d007d5ff78725d",
+      "geometry_report_sha256": "d245b2d9de7c2ec4198ab741e8a06cf29044dcfdb182a7d5c94afd054134d73a",
+      "donor_reuse": {
+        "random": 128,
+        "pose_nearest": 71,
+        "latent_nearest": 85
+      },
+      "maximum_errors": {
+        "readout_error": 1.7494104520565656e-07,
+        "full_readout_error": 1.2610488209219284e-07,
+        "pose_reconstruction_error": 3.410605131648481e-13,
+        "norm_error": 1.4484755506138924e-07,
+        "region_violation": 7.289064354876196e-08
+      }
+    },
+    {
+      "group": 3,
+      "acceptance_sha256": "989ced5b90874b040cf470dda0881f7f5839ef51af6e5141e34e83e07588018c",
+      "score_report_sha256": "7ac8fa836e53d84a91774543f82df296bc6ce640080e66ec106d60652202e9e2",
+      "geometry_report_sha256": "d245b2d9de7c2ec4198ab741e8a06cf29044dcfdb182a7d5c94afd054134d73a",
+      "donor_reuse": {
+        "random": 128,
+        "pose_nearest": 76,
+        "latent_nearest": 74
+      },
+      "maximum_errors": {
+        "readout_error": 1.820605817215437e-07,
+        "full_readout_error": 1.4516402080388957e-07,
+        "pose_reconstruction_error": 3.979039320256561e-13,
+        "norm_error": 1.3131783616060488e-07,
+        "region_violation": 7.634306464776586e-08
+      }
+    },
+    {
+      "group": 4,
+      "acceptance_sha256": "8d888972d3a4a8cd78e62a8962c9e901066eafae15fc94363b8491e184543e80",
+      "score_report_sha256": "de439c4feb1412861edbc705434a13e1592f3d034c9054b3cd7e812ccb1c1617",
+      "geometry_report_sha256": "d245b2d9de7c2ec4198ab741e8a06cf29044dcfdb182a7d5c94afd054134d73a",
+      "donor_reuse": {
+        "random": 128,
+        "pose_nearest": 79,
+        "latent_nearest": 77
+      },
+      "maximum_errors": {
+        "readout_error": 2.09730035338751e-07,
+        "full_readout_error": 1.4522920288584373e-07,
+        "pose_reconstruction_error": 2.8421709430404007e-13,
+        "norm_error": 8.767905201878534e-08,
+        "region_violation": 6.486774473124512e-08
+      }
+    },
+    {
+      "group": 5,
+      "acceptance_sha256": "e79d3214649f5c770e89917ba84e1910dd22e82ae38e51ba1e818bf28c91eb5d",
+      "score_report_sha256": "8c56468ee384275c5364b208c7570bcf5c63417fc60107fced42abe545981c55",
+      "geometry_report_sha256": "d245b2d9de7c2ec4198ab741e8a06cf29044dcfdb182a7d5c94afd054134d73a",
+      "donor_reuse": {
+        "random": 128,
+        "pose_nearest": 76,
+        "latent_nearest": 69
+      },
+      "maximum_errors": {
+        "readout_error": 2.2128464571835593e-07,
+        "full_readout_error": 1.5511037676496642e-07,
+        "pose_reconstruction_error": 4.547473508864641e-13,
+        "norm_error": 9.130016032088406e-08,
+        "region_violation": 8.076949332275207e-08
+      }
+    }
+  ],
+  "protocol_sha256": "3f0e60c936aee616dbbfa972b909678d7015d17c613991464d580601843bf9f8",
+  "source_sha256": "8d6682dffdc036d424fd4a1631860ccc5b448350571213fc11138d1d164ed332",
+  "acceptor_sha256": "c6fe8a7683a0c2c6c7c47956be4b55736d45ca65f3ec660b51d12922185a76dd",
+  "scope": "Fixed-action prediction-error sensitivity to four matched guidance sources on reused goals. No new action-selection outcome, independent confirmation, equivalence claim or physical-variable identification.",
+  "full_summary_sha256": "15d06ef49480dc324dfd079ba6a7960ecddc760b1b842940936d97002ab5c175"
+}

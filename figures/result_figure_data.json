@@ -1,0 +1,739 @@
+{
+  "confirmation": [
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A01",
+        "left": "actual",
+        "objective": "decoded_teacher",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -786.1096766709763,
+      "interval": [
+        -998.8328255138019,
+        -609.0192028393045
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 5938.774614948343,
+          "paired_change": -554.9723206258828,
+          "right_mean": 6493.746935574227
+        },
+        {
+          "group": 1,
+          "left_mean": 9391.84542392299,
+          "paired_change": -836.8719302403008,
+          "right_mean": 10228.717354163291
+        },
+        {
+          "group": 2,
+          "left_mean": 7791.283930580573,
+          "paired_change": -755.593154394099,
+          "right_mean": 8546.877084974672
+        },
+        {
+          "group": 3,
+          "left_mean": 8143.576961523049,
+          "paired_change": -1187.0105539642595,
+          "right_mean": 9330.58751548731
+        },
+        {
+          "group": 4,
+          "left_mean": 6386.461709921603,
+          "paired_change": -432.1645324492753,
+          "right_mean": 6818.6262423708795
+        },
+        {
+          "group": 5,
+          "left_mean": 8319.975635016697,
+          "paired_change": -950.0455683520402,
+          "right_mean": 9270.021203368737
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A02",
+        "left": "actual",
+        "objective": "physical_labels",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -754.5209945559991,
+      "interval": [
+        -925.9575982251741,
+        -607.7696336708854
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6145.841500820134,
+          "paired_change": -683.2853798347578,
+          "right_mean": 6829.1268806548915
+        },
+        {
+          "group": 1,
+          "left_mean": 10617.106151279357,
+          "paired_change": -884.3620398244807,
+          "right_mean": 11501.468191103837
+        },
+        {
+          "group": 2,
+          "left_mean": 7918.163015837819,
+          "paired_change": -750.708118526939,
+          "right_mean": 8668.87113436476
+        },
+        {
+          "group": 3,
+          "left_mean": 8043.185630932276,
+          "paired_change": -679.2606284635849,
+          "right_mean": 8722.446259395861
+        },
+        {
+          "group": 4,
+          "left_mean": 6401.980437745578,
+          "paired_change": -551.8056061866923,
+          "right_mean": 6953.78604393227
+        },
+        {
+          "group": 5,
+          "left_mean": 7849.554211225054,
+          "paired_change": -977.70419449954,
+          "right_mean": 8827.258405724595
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A03",
+        "left": "actual",
+        "objective": "latent",
+        "right": "donor",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -737.9342079580603,
+      "interval": [
+        -938.8325906957406,
+        -546.8530902124834
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 5803.176523996407,
+          "paired_change": -692.2429250567126,
+          "right_mean": 6495.419449053119
+        },
+        {
+          "group": 1,
+          "left_mean": 5201.19299253508,
+          "paired_change": -387.7425083901699,
+          "right_mean": 5588.9355009252495
+        },
+        {
+          "group": 2,
+          "left_mean": 7390.289919061017,
+          "paired_change": -1206.7067412648007,
+          "right_mean": 8596.996660325818
+        },
+        {
+          "group": 3,
+          "left_mean": 5231.427277268291,
+          "paired_change": -581.7331530388249,
+          "right_mean": 5813.160430307114
+        },
+        {
+          "group": 4,
+          "left_mean": 6290.8756278395485,
+          "paired_change": -1131.1606141835728,
+          "right_mean": 7422.036242023121
+        },
+        {
+          "group": 5,
+          "left_mean": 4712.930945782802,
+          "paired_change": -428.0193058142808,
+          "right_mean": 5140.950251597082
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A04",
+        "left": "actual",
+        "objective": "decoded_teacher",
+        "right": "donor",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -643.847900826599,
+      "interval": [
+        -811.9267764556383,
+        -488.2576572174329
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 5938.774614948343,
+          "paired_change": -700.6415253783234,
+          "right_mean": 6639.416140326667
+        },
+        {
+          "group": 1,
+          "left_mean": 9391.84542392299,
+          "paired_change": -562.9373097486638,
+          "right_mean": 9954.782733671655
+        },
+        {
+          "group": 2,
+          "left_mean": 7791.283930580573,
+          "paired_change": -619.2782419544026,
+          "right_mean": 8410.562172534976
+        },
+        {
+          "group": 3,
+          "left_mean": 8143.576961523049,
+          "paired_change": -632.3650174076463,
+          "right_mean": 8775.941978930696
+        },
+        {
+          "group": 4,
+          "left_mean": 6386.461709921603,
+          "paired_change": -688.0279829234207,
+          "right_mean": 7074.489692845024
+        },
+        {
+          "group": 5,
+          "left_mean": 8319.975635016697,
+          "paired_change": -659.837327547137,
+          "right_mean": 8979.812962563834
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A05",
+        "left": "actual",
+        "objective": "physical_labels",
+        "right": "donor",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -551.6810869401918,
+      "interval": [
+        -699.5865224229773,
+        -413.5241928354205
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6145.841500820134,
+          "paired_change": -638.1996251886915,
+          "right_mean": 6784.041126008826
+        },
+        {
+          "group": 1,
+          "left_mean": 10617.106151279357,
+          "paired_change": -436.8074180828998,
+          "right_mean": 11053.913569362256
+        },
+        {
+          "group": 2,
+          "left_mean": 7918.163015837819,
+          "paired_change": -693.3730487979274,
+          "right_mean": 8611.536064635748
+        },
+        {
+          "group": 3,
+          "left_mean": 8043.185630932276,
+          "paired_change": -421.19526829689175,
+          "right_mean": 8464.380899229167
+        },
+        {
+          "group": 4,
+          "left_mean": 6401.980437745578,
+          "paired_change": -536.1903550374166,
+          "right_mean": 6938.170792782996
+        },
+        {
+          "group": 5,
+          "left_mean": 7849.554211225054,
+          "paired_change": -584.3208062373235,
+          "right_mean": 8433.875017462378
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_dual_twelve_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1
+        ],
+        "id": "A06",
+        "left": "dual_actual",
+        "objective": "decoded_teacher",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -487.1669672630202,
+      "interval": [
+        -667.6136820328966,
+        -325.92229552627134
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6073.147665050063,
+          "paired_change": -420.5992705241637,
+          "right_mean": 6493.746935574227
+        },
+        {
+          "group": 1,
+          "left_mean": 9674.982690161414,
+          "paired_change": -553.7346640018767,
+          "right_mean": 10228.717354163291
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_dual_twelve_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1
+        ],
+        "id": "A07",
+        "left": "dual_actual",
+        "objective": "physical_labels",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -442.79802710964987,
+      "interval": [
+        -601.5277826002294,
+        -293.05028948994294
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6409.409902240428,
+          "paired_change": -419.71697841446286,
+          "right_mean": 6829.1268806548915
+        },
+        {
+          "group": 1,
+          "left_mean": 11035.589115299,
+          "paired_change": -465.87907580483693,
+          "right_mean": 11501.468191103837
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_B",
+        "budget": "B_two_directions",
+        "endpoint": "native_block5_equals_primitive25",
+        "family": "primary9",
+        "groups": [
+          0
+        ],
+        "id": "B01",
+        "left": "actual",
+        "objective": "native",
+        "right": "free",
+        "score": "native_visual_head",
+        "streams": [
+          0
+        ]
+      },
+      "estimate": -82.86412641237942,
+      "interval": [
+        -261.8588138546655,
+        63.759580341439765
+      ],
+      "model_points": []
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_B",
+        "budget": "B_two_directions",
+        "endpoint": "native_block5_equals_primitive25",
+        "family": "primary9",
+        "groups": [
+          0
+        ],
+        "id": "B02",
+        "left": "actual",
+        "objective": "native",
+        "right": "donor",
+        "score": "native_visual_head",
+        "streams": [
+          0
+        ]
+      },
+      "estimate": -2526.4757643270013,
+      "interval": [
+        -4729.351895007587,
+        -1035.5045728418415
+      ],
+      "model_points": []
+    }
+  ],
+  "motion": {
+    "primary": [
+      {
+        "contrast": "Delta_pose",
+        "estimate": 463.47125627632704,
+        "group": 0,
+        "id": "M01",
+        "interval": [
+          311.92695143427517,
+          622.2839815368992
+        ]
+      },
+      {
+        "contrast": "Delta_pose - Delta_joint",
+        "estimate": 81.03295255285562,
+        "group": 0,
+        "id": "M02",
+        "interval": [
+          3.9941229228584594,
+          164.08359465009994
+        ]
+      },
+      {
+        "contrast": "Delta_rotated - Delta_joint",
+        "estimate": 27.856146049938562,
+        "group": 0,
+        "id": "M03",
+        "interval": [
+          -59.68826717159152,
+          117.67183306562912
+        ]
+      },
+      {
+        "contrast": "Delta_pose",
+        "estimate": 534.0275611184378,
+        "group": 1,
+        "id": "M11",
+        "interval": [
+          311.9058158004402,
+          752.8699325042168
+        ]
+      },
+      {
+        "contrast": "Delta_pose - Delta_joint",
+        "estimate": -21.322129486670413,
+        "group": 1,
+        "id": "M12",
+        "interval": [
+          -147.52750309773515,
+          103.93472171430626
+        ]
+      },
+      {
+        "contrast": "Delta_rotated - Delta_joint",
+        "estimate": 4.263090974909002,
+        "group": 1,
+        "id": "M13",
+        "interval": [
+          -129.06583666803448,
+          136.67558857024284
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "condition": "pose",
+        "contrast": "L_free - L_actual",
+        "estimate": 504.38697241096594,
+        "group": 0,
+        "interval": [
+          369.76833632860735,
+          644.0856161728677
+        ]
+      },
+      {
+        "condition": "joint",
+        "contrast": "L_free - L_actual",
+        "estimate": 415.95319012247916,
+        "group": 0,
+        "interval": [
+          293.0689066464382,
+          541.0712883945768
+        ]
+      },
+      {
+        "condition": "rotated",
+        "contrast": "L_free - L_actual",
+        "estimate": 432.12007607978563,
+        "group": 0,
+        "interval": [
+          308.23654204494653,
+          563.2172646249176
+        ]
+      },
+      {
+        "condition": "pose",
+        "contrast": "L_free - L_actual",
+        "estimate": 993.7931464788883,
+        "group": 1,
+        "interval": [
+          763.6509780782374,
+          1236.7460765588578
+        ]
+      },
+      {
+        "condition": "joint",
+        "contrast": "L_free - L_actual",
+        "estimate": 913.049715548585,
+        "group": 1,
+        "interval": [
+          684.1186256053527,
+          1160.5694884397778
+        ]
+      },
+      {
+        "condition": "rotated",
+        "contrast": "L_free - L_actual",
+        "estimate": 862.458688928028,
+        "group": 1,
+        "interval": [
+          644.3696339601651,
+          1097.5688835334656
+        ]
+      }
+    ]
+  },
+  "purpose": "Exact plotted values for Figures 2\u20134; styling does not change scientific evidence.",
+  "schema_version": 1,
+  "semantics": {
+    "confirmation_interval": 0.9944444444444445,
+    "endpoint": "primitive action 25",
+    "motion_interval": 0.9916666666666667,
+    "training_points": "Fixed pool means and aggregate means; no confidence regions. Segments connect training conditions within each pool, not measured optimization trajectories.",
+    "units": "squared Euclidean block-position error in pixels squared"
+  },
+  "sources": {
+    "accepted_training_summary": {
+      "path": "strengthening/artifacts/confirmation/paper_summaries_v1/joint_training.json",
+      "sha256": "402901475bc1e84ad18010f6a648840b4af507ae9d56ab5d786b5762fe3c9568"
+    },
+    "motion_report": {
+      "path": "strengthening/mechanism_state_v2/artifacts/formal_evaluation_v1/results/report.json",
+      "sha256": "5cfa77e086accf36708f7a63d7a76cc82535ff081dba12e1f3c437f67b07d599"
+    },
+    "pose_effects": {
+      "path": "strengthening/artifacts/confirmation/confirmation_statistics_v1/effects.json",
+      "sha256": "eae7b6c68da0cda301b7eaa9dc2ebf7a2c975ca2a57ad0f55a12dc1127d72f84"
+    },
+    "training_cells": {
+      "path": "strengthening/artifacts/confirmation/confirmation_acceptance_v1/AC_goal_cells.npz",
+      "sha256": "524c20bd24a8f41fc211b7fc36c9ea2421cff6700501236fc35b94e8b0a55cfa"
+    }
+  },
+  "training": [
+    {
+      "G_mean": 546.9130914229738,
+      "condition": "T0",
+      "free_mean": 7325.276973845372,
+      "objective": "decoded_teacher",
+      "pool_G": [
+        592.6234191114353,
+        668.7832102577669,
+        379.33264489971884
+      ],
+      "pool_free": [
+        6651.439081970178,
+        8559.110565970124,
+        6765.281273595812
+      ]
+    },
+    {
+      "G_mean": 328.2033515828191,
+      "condition": "T1",
+      "free_mean": 5635.567670298752,
+      "objective": "decoded_teacher",
+      "pool_G": [
+        279.02310170504484,
+        401.99450168669523,
+        303.59245135671705
+      ],
+      "pool_free": [
+        5074.463716396271,
+        6128.561682759324,
+        5703.677611740669
+      ]
+    },
+    {
+      "G_mean": 383.31621124348254,
+      "condition": "T2",
+      "free_mean": 5603.72417629515,
+      "objective": "decoded_teacher",
+      "pool_G": [
+        298.9499531825049,
+        529.0622771998419,
+        321.9364033481006
+      ],
+      "pool_free": [
+        5003.195015882523,
+        6406.964982954264,
+        5401.012530048666
+      ]
+    },
+    {
+      "G_mean": 661.7676892387614,
+      "condition": "T0",
+      "free_mean": 7603.007795617309,
+      "objective": "physical_labels",
+      "pool_G": [
+        708.4971294901338,
+        738.3381657934066,
+        538.467772432744
+      ],
+      "pool_free": [
+        6933.5200814091195,
+        8772.61419867828,
+        7102.8891067645345
+      ]
+    },
+    {
+      "G_mean": 364.17291098381247,
+      "condition": "T1",
+      "free_mean": 5250.2433883861895,
+      "objective": "physical_labels",
+      "pool_G": [
+        289.2850032295722,
+        348.7958679363582,
+        454.4378617855073
+      ],
+      "pool_free": [
+        4649.442563567876,
+        5915.177780829652,
+        5186.109820761041
+      ]
+    },
+    {
+      "G_mean": 315.00708320275277,
+      "condition": "T2",
+      "free_mean": 5120.8419793050825,
+      "objective": "physical_labels",
+      "pool_G": [
+        253.35324238969187,
+        362.46185365268065,
+        329.206153565886
+      ],
+      "pool_free": [
+        4569.784704019739,
+        5936.701335237666,
+        4856.039898657839
+      ]
+    }
+  ]
+}

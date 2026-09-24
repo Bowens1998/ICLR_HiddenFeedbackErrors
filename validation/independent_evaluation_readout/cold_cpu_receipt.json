@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "label": "archive_cold_v1",
+  "checked_at_utc": "2026-09-22T23:17:50.018387+00:00",
+  "measured": {
+    "wall_seconds": 4.63,
+    "user_seconds": 4.29,
+    "system_seconds": 0.78,
+    "max_rss_kib": 371516,
+    "exit_code": 0
+  },
+  "python_version": "3.13.9",
+  "manifest_sha256": "1416b152067185b386860caf07364a9ae2a873eaa15d43baf2028c0d85815086",
+  "log_sha256": "e943e6e6dcecd26c156671a2be12de633e8a1c8feae78e6580c231475f8d1b0f",
+  "command": [
+    "python",
+    "-B",
+    "verify.py",
+    "--output",
+    "NEW_DIRECTORY"
+  ],
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "scope": "Package-only CPU replay; no GPU, network, training, simulator, encoder or original full-token archives."
+}

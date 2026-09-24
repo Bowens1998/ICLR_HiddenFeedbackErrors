@@ -1,0 +1,13 @@
+{
+  "status": "PASS_COMPLETE_PROSPECTIVE_SAVED_CONTRAST_RECONSTRUCTION",
+  "s1_recipients": 256,
+  "s1_contrasts": 8,
+  "s2_recipients": 512,
+  "s2_contrasts": 1,
+  "s3_recipients": 512,
+  "s3_contrasts": 2,
+  "bootstrap_draws_per_test": 20000,
+  "all_negative_and_unresolved_results_retained": true,
+  "scope": "Complete saved recipient contrasts, fixed regression prediction arithmetic, selected-cost contrast arithmetic and fixed bootstrap statistics. Original full readout/selection/model/simulator checks are retained receipts; not rerun by this command.",
+  "wall_seconds": 0.36396473599984347
+}

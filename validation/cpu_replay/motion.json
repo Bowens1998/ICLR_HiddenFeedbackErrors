@@ -1,0 +1,30 @@
+{
+  "task": "motion",
+  "archive": "feedback_motion_mechanism_anonymous_v3.zip",
+  "archive_sha256": "af523333bc52320b3d488d44eec24086de140c5614f1998148c14ec0fd56de7d",
+  "command": [
+    "python",
+    "-B",
+    "run_verification.py"
+  ],
+  "exit_code": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "processor": "AMD Ryzen 9 5900HS with Radeon Graphics",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "measured": {
+    "wall_seconds": 219.18,
+    "user_seconds": 412.57,
+    "system_seconds": 18.29,
+    "max_rss_kib": 676980,
+    "exit_code": 0
+  },
+  "started_unix": 1790113177.1812754,
+  "scope": "Existing local Python environment, fresh isolated ZIP extraction; no GPU, training, network or external repository imports.",
+  "log_sha256": "a40dce32d17774c0fc8804b7263abf2b5d7f5b88f09c7ec3d2569537cc034182"
+}

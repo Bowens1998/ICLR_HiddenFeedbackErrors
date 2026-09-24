@@ -1,0 +1,1 @@
+{"status": "PASS_COMPACT_EVIDENCE", "manifest_files": 54, "prediction_primary_tests": 5, "decision_primary_tests": 4, "second_readout_contrasts": 18, "projection_checks": 10368, "max_normalized_readout_error": 3.905825307626287e-07}

@@ -1,0 +1,269 @@
+{
+  "access_order": [
+    "whole_raw_population_admission",
+    "T0_probe_generation_and_full_four_family_admission",
+    "q_g_probe_scoring_and_calibration_response",
+    "seal_complete512x6_predictions",
+    "test_response_model_loading_and_inference",
+    "independent_complete_statistical_verification"
+  ],
+  "activation_draft_ancestry": {
+    "local_path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/protocol/S2_PROTOCOL.draft.json",
+    "sha256": "cc4a411c8be153de3637754fc6d9a84714d2248fe9ffbc3d8a31a0beef0d3b61"
+  },
+  "assets_inventory": {
+    "actual_remote_rehash": {
+      "all_12_fixed_C_checkpoints_match": true,
+      "all_50_bound_assets_match": true,
+      "receipt_sha256": "a171ccfd4a5621bc45bf082396347bf7fbc2d163dbe6facbcec4c34e3ffc4a6b"
+    },
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/strengthening/prospective_mechanism_v9_20260923/audits/S2_FIXED_ASSET_INVENTORY.json",
+    "sha256": "3f61241aa86462d3f26d959738a063353b501b5f7f2d765daad7c72fc58879ba"
+  },
+  "completion_precondition": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/confirmation/evidence_v1/report.json",
+    "sha256": "28180a8e5b232be7d5f0f69b23764e8a4326d7d8b13ad00ed4e6c7f727ff3af2",
+    "status": "COMPLETE_S1_SAVED_TOKEN_AND_STATISTICS_VERIFIED"
+  },
+  "conditions": [
+    "T0",
+    "T1"
+  ],
+  "design_document": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/strengthening/prospective_mechanism_v9_20260923/audits/S2_DESIGN_RESOLUTION_DRAFT.md",
+    "sha256": "3e4181635c69813c229a32bb5d71025f0c8d66c87219dc10fa2b4a579f36270f"
+  },
+  "draft_at_utc": "2026-09-23T17:44:21.568906+00:00",
+  "failure_policy": "Retain all admitted samples, zero families, failures and negative outcomes; failure blocks full-population acceptance; no outcome-conditioned model, target, horizon, sample, feature or penalty changes",
+  "frozen_at_utc": "2026-09-23T20:07:24.565665+00:00",
+  "groups": [
+    0,
+    2,
+    4
+  ],
+  "implementation_freeze": {
+    "deployed_files": {
+      "strengthening/prospective_mechanism_v9_20260923/audits/S2_DESIGN_RESOLUTION_DRAFT.md": "3e4181635c69813c229a32bb5d71025f0c8d66c87219dc10fa2b4a579f36270f",
+      "strengthening/prospective_mechanism_v9_20260923/audits/S2_FIXED_ASSET_INVENTORY.json": "3f61241aa86462d3f26d959738a063353b501b5f7f2d765daad7c72fc58879ba",
+      "strengthening/prospective_mechanism_v9_20260923/protocol/S2_PROTOCOL.draft.json": "cc4a411c8be153de3637754fc6d9a84714d2248fe9ffbc3d8a31a0beef0d3b61",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/accept_probe_population.py": "09b6be5d881ccc79c65dbc9cfc5f38bcd48be8362ad069f71d2b04eec1a637a2",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/accept_raw_inputs.py": "45dffb8fd380b77c897be8122370b4e653caa7d7800dcff63cc02afe287ab6e6",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/assemble_scalars.py": "ad5afcc9f35722cad99bce9e77932886e139e4f427c9e2495622c001e563de5e",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/cache_population.py": "a48005b70ac816337466fb690daaf1fe99309c35f098687592b917ebb3c751b1",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/features.py": "3327778d04c3b5334d9906279905ada4dc2323feadefa939dbbaaab6b5cec629",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/finalize_regression.py": "c0dfacd990bfd9489fcdde3d7bd631fad8154de9173859efb994b483fe5c4efb",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/independent_regression.py": "9584f6ee7a77f318f0f6eae811ae58acef282908a66a41b10a74a950a75ade8d",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/model_runtime.py": "9c576b2d30351dd43d76769d706e082e65e457e790c2c712fc4627890137510e",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/prepare_donor_assignments.py": "ed168bc43c33cb6e777a7eae2f9e51d687cf7d74f8096ac47d137eb73b22406b",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/project_population.py": "aea8d509c27d0df73c975b87cfaa5ce04751fb153e65da59f0a5dfeaf55e7c2b",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/projection_four.py": "e64f112da2f53f85c0278ccded5fbc52d318d25c2482b1f369c52f770047c91d",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/raw_inputs.py": "59841d51fbdbb2ba0c31bf1829c99e90a622fef2e857ca908b6cb258a19a1edf",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/regression.py": "856224a8e931d14403b574725e45c30e2378f1449944a4552a122a2127e23adc",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/response_population.py": "634949ba8ba4f5a8b49ae8ea67c1884696da3b460d21251b159028b6654623fb",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/rollout_population.py": "89069a86b3297dd818038a866fe4c1b134918a2c61849a37ecb8c1469e2c16c7",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/score_probe_population.py": "250c96feb2cfcc91d51541058fc42c9920b3819bd3c540af031cc61c16164e25",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_accept_probe_population.py": "6ab83c38ea44f93cbeb18c7a9a716f9d583235e342d56fe2f208bb9de3a6c984",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_accept_raw_inputs.py": "08d35f1683da7cb661d48e81ce49ada872e9c4fa6fd248143558c29e3d0d1c06",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_assemble_scalars.py": "018e62516fa3b502a80f5605f103d17fe8795f513e1de70ab9d347fcfc114472",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_cache_population.py": "7bcc9da54923f279727387f46f2cfca3e6d5b035bbfb760fb0b49c16fbbdfd72",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_features.py": "8edd6528f598eab433c464948f5a159b7d2cfdcdeaba355c9cb39a5e983c5ccb",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_finalize_regression.py": "4963543254586af286f465afe03dc57a999ce9166d24d5b3b75768c25d8aa9fc",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_independent_regression.py": "03b5b064104539ec03c7b1427948a4d25f94c893f6eaf23782c753e65c2a108d",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_model_runtime.py": "0d5d7c337d091f9b87d6f5f08303f762578451be6a402e431e5f89528faf520c",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_prepare_donor_assignments.py": "c1875f5dde0bdfd968f7ed55abb30584b0ae4d0722cffe01dab0d75887353e47",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_project_population.py": "fce82d118b0d90f186ca1150c69aa0b61085cfc1d14f7e52e013eaaf64c3f8d2",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_projection_four.py": "d0d045a8ee6e1114b0cbd836de78d491bd41a4d016950a9d64e7d81a6f77daa4",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_raw_inputs.py": "ee1d7ea6954a2cf118db8d7908f8455af974eaed14cb1b4b6a88ada39fc6759c",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_regression.py": "afcacf4f10f5035ce1d8f16bb9e1db3319282e60cae768dacf852558f9ce479f",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_response_population.py": "11144007c3bc248dffc859186686d46bb252ed377eba742989930c2cf7d5ce3c",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_rollout_population.py": "609b806a7f628cd50bf8fcb25ab4ab074a44cb789e71d734c31490ee7f0091c0",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_score_probe_population.py": "9d2b8ab889764adcf2d278c12beff5593e7ad0176ea9fa7c1ff658c6073bd3a2",
+      "strengthening/prospective_mechanism_v9_20260923/stage2/test_solver_integration.py": "611e8e4c0c6e85b3cb15a1c7558a967e36c604f6370ec4a3f52b499e8dd5c6cb"
+    },
+    "deployment_receipt_sha256": "8b0d47aa0402014abd319d0a7c6efbddcd5c091a3d692236cc3e4d699c9f3ab3",
+    "scope": "All sixteen scientific components and their deployed tests/design metadata before any S2 raw generation; downstream actual input bindings remain mandatory."
+  },
+  "inference_scope": "Conditional on calibration data/fits, fixed models/readouts and realized donor banks/assignments; recipient bootstrap only",
+  "measurement": {
+    "G": "L_probe25(T0,donor)-L_probe25(T0,actual)",
+    "Y": "L_response25(T0,free)-L_response25(T1,free)",
+    "block_loss": "squared Euclidean error on pose coordinates2:4; no division by2",
+    "construction": "Existing g_A for groups0/2/4 with each original embedded normalizer",
+    "evaluation": "Existing v8 GELU q_g for groups0/2/4 with its own embedded normalizers",
+    "forecast_mse_units": "position_to_the_fourth",
+    "physical_pose_order": [
+      "agent_x",
+      "agent_y",
+      "block_x",
+      "block_y",
+      "sin_theta",
+      "cos_theta"
+    ]
+  },
+  "objectives": [
+    "decoded_teacher",
+    "physical_labels"
+  ],
+  "probe_population": {
+    "axes": {
+      "branches": [
+        "free",
+        "actual",
+        "donor",
+        "reset"
+      ],
+      "horizons": [
+        5,
+        10,
+        15,
+        20,
+        25
+      ],
+      "insertion_sources": [
+        "actual",
+        "donor"
+      ],
+      "latent_dim": 192,
+      "objectives": [
+        "decoded_teacher",
+        "physical_labels"
+      ]
+    },
+    "donor_assignment_seeds": {
+      "calibration": 1490384197,
+      "test": 1934445636
+    },
+    "history_tokens": 3,
+    "insertion_relative_step": 5,
+    "native_population": 300,
+    "prefix_steps": 10,
+    "receipt_atol": 1e-12,
+    "shrink_factors": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625
+    ],
+    "tolerance": 1e-06
+  },
+  "raw_inputs": {
+    "banks": [
+      {
+        "count": 256,
+        "max_seeds": 100000,
+        "role": "calibration_recipient",
+        "seed_start": 3215573878
+      },
+      {
+        "count": 256,
+        "max_seeds": 100000,
+        "role": "calibration_donor",
+        "seed_start": 913888899
+      },
+      {
+        "count": 512,
+        "max_seeds": 100000,
+        "role": "test_recipient",
+        "seed_start": 740575784
+      },
+      {
+        "count": 512,
+        "max_seeds": 100000,
+        "role": "test_donor",
+        "seed_start": 215041213
+      }
+    ],
+    "native_population": 300,
+    "output_root": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/raw_v1",
+    "reference_policy_indices": {
+      "donor": [
+        0,
+        8,
+        16
+      ],
+      "recipient": [
+        0,
+        1,
+        8,
+        9,
+        16,
+        17
+      ]
+    },
+    "relative_horizons": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "source_base": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908"
+  },
+  "regression": {
+    "calibration_count": 256,
+    "comparison_tolerances": {
+      "atol": 1e-09,
+      "rtol": 1e-10
+    },
+    "ordinary_basis_columns": [
+      "z1",
+      "z2",
+      "z3",
+      "z4",
+      "z1^2",
+      "z2^2",
+      "z3^2",
+      "z4^2",
+      "z1*z2",
+      "z1*z3",
+      "z1*z4",
+      "z2*z3",
+      "z2*z4",
+      "z3*z4"
+    ],
+    "production_verification_tolerances": {
+      "atol": 1e-09,
+      "rtol": 1e-10
+    },
+    "raw_columns": [
+      "free_error_5",
+      "free_error_25",
+      "observed_history_error_25",
+      "common_norm_squared"
+    ],
+    "ridge_lambda": 0.01,
+    "statistical_settings": {
+      "bit_generator": "PCG64",
+      "bootstrap_seed": 3040612462,
+      "ci_probabilities": [
+        0.025,
+        0.975
+      ],
+      "draws": 20000,
+      "quantile_method": "linear",
+      "resampling_unit": "whole_recipient"
+    },
+    "stratum_ids": [
+      "pool0/decoded_teacher",
+      "pool0/physical_labels",
+      "pool1/decoded_teacher",
+      "pool1/physical_labels",
+      "pool2/decoded_teacher",
+      "pool2/physical_labels"
+    ],
+    "test_count": 512
+  },
+  "scope": "Incremental held-out offline response prediction on fresh contexts for six fixed previously trained T0/T1 pairs; no unseen-model or online-selection claim",
+  "status": "S2_SCIENTIFIC_PROTOCOL_FROZEN",
+  "study_id": "prospective_mechanism_v9_s2_20260923",
+  "unresolved": [
+    "Actual generated raw input identities and complete content/raw admission",
+    "Allocated native integration and first complete256-parent calibration cache route throughput",
+    "Actual downstream runtime/input/scalar/response contracts and seal before test-response access"
+  ]
+}

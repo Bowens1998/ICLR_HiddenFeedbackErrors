@@ -1,0 +1,30 @@
+{
+  "task": "reporting",
+  "archive": "feedback_reporting_supplement_anonymous_v2.zip",
+  "archive_sha256": "d47b16ec941bac724a3f29b4824ab7181aa82744462e1fb097de5b8e2faf44df",
+  "command": [
+    "python",
+    "-B",
+    "strengthening/posthoc_analyses_20260922/supplement_v1/verify.py"
+  ],
+  "exit_code": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "processor": "AMD Ryzen 9 5900HS with Radeon Graphics",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "measured": {
+    "wall_seconds": 0.88,
+    "user_seconds": 1.0,
+    "system_seconds": 0.07,
+    "max_rss_kib": 147344,
+    "exit_code": 0
+  },
+  "started_unix": 1790113168.6125584,
+  "scope": "Existing local Python environment, fresh isolated ZIP extraction; no GPU, training, network or external repository imports.",
+  "log_sha256": "0d5f2a27ac511e06b3908ee08534adcff36ff48b0d1cc92ae0c92e573bb63965"
+}

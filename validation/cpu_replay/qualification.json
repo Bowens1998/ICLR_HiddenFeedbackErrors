@@ -1,0 +1,34 @@
+{
+  "task": "qualification",
+  "archive": "velocity_readout_qualification_v1.zip",
+  "archive_sha256": "1a9cdb0c6c7735c645684f7fcecddcfd3d83eb9b410df81f853a4e2cd58bed0f",
+  "command": [
+    "python",
+    "-B",
+    "verify_qualification.py",
+    "--artifacts",
+    "artifacts",
+    "--output",
+    "REPLAY_QUALIFICATION.json"
+  ],
+  "exit_code": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "processor": "AMD Ryzen 9 5900HS with Radeon Graphics",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "measured": {
+    "wall_seconds": 0.77,
+    "user_seconds": 1.34,
+    "system_seconds": 0.13,
+    "max_rss_kib": 85304,
+    "exit_code": 0
+  },
+  "started_unix": 1790113167.6948535,
+  "scope": "Existing local Python environment, fresh isolated ZIP extraction; no GPU, training, network or external repository imports.",
+  "log_sha256": "d9d4c1210fa1dc5516a7a9499ab71842c349b1cab25a0ea9075f34f701eef07b"
+}

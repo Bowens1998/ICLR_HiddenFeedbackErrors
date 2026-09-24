@@ -1,0 +1,42 @@
+{
+  "all_fixed_candidates_retained": true,
+  "arrays": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/outcomes/complete_physical_states.npz",
+    "sha256": "7ca45f167b7eaf7e8f0071e9fb42eb27cdb8652a100df7980befe92cfd1af40c"
+  },
+  "candidate_actions_sha256": "f8b4d2eb26da0aa902bdc484bc4b054cf98ce0a5204cb6311c8955db459ce9bf",
+  "candidates": 32,
+  "complete_population_accepted": true,
+  "count": 512,
+  "generator_reports": [
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/raw_v1/common_prefix/recipient/pool_0/report.json",
+      "sha256": "d7bd18f2ac0c2548bc70f3b7981f09e2cc722cb9e40068a0448fc12b6dd98fdc"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/raw_v1/common_prefix/recipient/pool_1/report.json",
+      "sha256": "f06775ac580136a48973f2ad48ef596eaac2c9a189304998900bb8fadc56ae02"
+    },
+    {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/raw_v1/common_prefix/recipient/pool_2/report.json",
+      "sha256": "5b2ecf5c9870cc008b6b2b396bf9bd208b6f9f4ddb32c661a1ce5fefa141e515"
+    }
+  ],
+  "input_acceptance": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/input_acceptance/recipient.json",
+    "sha256": "2d97efd4ea68b7b539e7ba59287a1c6c8646f934aedc32d3bfa7290ef5ac8b9c"
+  },
+  "pools": [
+    0,
+    1,
+    2
+  ],
+  "prediction_seal": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/prediction_seal/PREDICTIONS.lock.json",
+    "sha256": "ecc02f844afcf4496c57e07c5073660691164d6fffc15a17f861c669e883c332"
+  },
+  "protocol_sha256": "8cad678e907b03ef08c210e47ff448d713ecebcb4ec0f27b3c6f08c83ce62d15",
+  "rows_removed": 0,
+  "sources_sha256": "197cc7d9be860b449f516909d1db8ec392ab3ec77dd9a2a5072ee084336c3736",
+  "status": "S3_COMPLETE_PHYSICAL_CANDIDATE_OUTCOMES"
+}

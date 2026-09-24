@@ -1,0 +1,30 @@
+{
+  "task": "legacy",
+  "archive": "feedback_diagnostic_evidence.zip",
+  "archive_sha256": "b812f8ac12370d1034f8837d7314e3a72c227347843a507dad03257882fd5b21",
+  "command": [
+    "python",
+    "-B",
+    "verify.py"
+  ],
+  "exit_code": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "processor": "AMD Ryzen 9 5900HS with Radeon Graphics",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "measured": {
+    "wall_seconds": 1.36,
+    "user_seconds": 1.49,
+    "system_seconds": 0.06,
+    "max_rss_kib": 77396,
+    "exit_code": 0
+  },
+  "started_unix": 1790113165.084092,
+  "scope": "Existing local Python environment, fresh isolated ZIP extraction; no GPU, training, network or external repository imports.",
+  "log_sha256": "24720798746a48783b2f4018a1b1d5f7d801adc7c04cd546367ebb13107a552c"
+}

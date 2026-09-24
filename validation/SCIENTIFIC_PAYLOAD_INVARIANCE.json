@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scope": "All original NPZ/model bytes and all numeric/boolean/null JSON leaves retained; four whole archives identical. Metadata paths and documented portable hash adapters are separate changes.",
+  "archives": [
+    {
+      "archive": "feedback_diagnostic_evidence.zip",
+      "all_bytes_identical": true
+    },
+    {
+      "archive": "feedback_diagnostic_end_to_end_v1.zip",
+      "all_bytes_identical": true
+    },
+    {
+      "archive": "feedback_confirmation_evidence_v1.zip",
+      "all_bytes_identical": true
+    },
+    {
+      "archive": "velocity_readout_qualification_v1.zip",
+      "all_bytes_identical": true
+    },
+    {
+      "archive": "feedback_reporting_supplement_anonymous_v2.zip",
+      "binary_payload_files_byte_identical": 4,
+      "json_numeric_boolean_null_leaves_identical": 8,
+      "unchanged_empty_historical_records": []
+    },
+    {
+      "archive": "feedback_second_readout_scoring_anonymous_v2.zip",
+      "binary_payload_files_byte_identical": 2,
+      "json_numeric_boolean_null_leaves_identical": 5,
+      "unchanged_empty_historical_records": []
+    },
+    {
+      "archive": "feedback_motion_mechanism_anonymous_v3.zip",
+      "binary_payload_files_byte_identical": 4778,
+      "json_numeric_boolean_null_leaves_identical": 5096,
+      "unchanged_empty_historical_records": [
+        "records/motion_package_build_final.json"
+      ]
+    }
+  ]
+}

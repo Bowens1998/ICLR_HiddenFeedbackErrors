@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "label": "archive_cold_v1",
+  "checked_at_utc": "2026-09-23T04:16:07.725779+00:00",
+  "measured": {
+    "wall_seconds": 45.3,
+    "user_seconds": 64.23,
+    "system_seconds": 23.67,
+    "max_rss_kib": 535148,
+    "exit_code": 0
+  },
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "archive_sha256": "0cf56d1f78fd947f494bd6ce39b8ccadbc39fe76cbee6b2ef1d43ac875e0927f",
+  "manifest_sha256": "c466f8b4250ad56de4f1139604bb87896dd191ccdb5e0a17f9cc32ada8b7c8d3",
+  "log_sha256": "d1ea9e6f6fd598f250ad528a4929e1c1b85bcfcc1cc2b57fe916dca55e0512b2",
+  "command": [
+    "python",
+    "-B",
+    "verify.py",
+    "--output",
+    "NEW_DIRECTORY"
+  ],
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "scope": "Package-only CPU reconstruction; no new model training, simulation, encoding, optimization or rollout. All256 recipients/all512 exact FP32 actual/donor insertions retained."
+}

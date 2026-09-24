@@ -1,0 +1,55 @@
+{
+  "status": "PASS6_REACHER_LOCAL_HORIZON_REACCEPTANCES",
+  "rows": [
+    {
+      "group": 0,
+      "canonical_acceptance_sha256": "7d8a6ae93f398b65393f0574e2ae454c0bd2077cc9a0114c19962c054d425274",
+      "local_acceptance_sha256": "a5df12a56814c8fe360070aa45440398c9e1f810c2926fccfb89b2f6a41622bd",
+      "different_scalars": 32334,
+      "max_float_difference": 4.579669976578771e-16,
+      "precision_token_metrics_and_bindings_exact": true
+    },
+    {
+      "group": 1,
+      "canonical_acceptance_sha256": "fc2c645a9b829dd52061591b1dfa41206399d6b70a4e56a7f6590b2d417017af",
+      "local_acceptance_sha256": "d885a13a90e805ee888b7c2f4f97081dc92d1410b9c0d6d35b6c6d3729ac6b55",
+      "different_scalars": 32008,
+      "max_float_difference": 3.885780586188048e-16,
+      "precision_token_metrics_and_bindings_exact": true
+    },
+    {
+      "group": 2,
+      "canonical_acceptance_sha256": "539c95d681ca7d8daa6ae1e67071b7c73cf26b664dd037c547a0d4fbeffec761",
+      "local_acceptance_sha256": "1935f06bb7299d053eaff5595ef3f60006c3f2102a427913ee03f81e55f61988",
+      "different_scalars": 32052,
+      "max_float_difference": 3.7470027081099033e-16,
+      "precision_token_metrics_and_bindings_exact": true
+    },
+    {
+      "group": 3,
+      "canonical_acceptance_sha256": "674fa7be12e625ecdc5a21e0c33bdb223a806b42cc27b61a5c1797c7483d9f0f",
+      "local_acceptance_sha256": "83d4f91afb3989fb84730fb7fed34c929492ca2e015cb66c96822edd4cfa8e56",
+      "different_scalars": 32061,
+      "max_float_difference": 2.5326962749261384e-16,
+      "precision_token_metrics_and_bindings_exact": true
+    },
+    {
+      "group": 4,
+      "canonical_acceptance_sha256": "97dcf4c895f6b6d09c4fb567d7a9cef9675790d5d41986097acb96872a305286",
+      "local_acceptance_sha256": "94e657cfe76d68bbd5ef56286d42ea15f80761d18c535b7a8d2c1f19fd426de2",
+      "different_scalars": 32305,
+      "max_float_difference": 5.134781488891349e-16,
+      "precision_token_metrics_and_bindings_exact": true
+    },
+    {
+      "group": 5,
+      "canonical_acceptance_sha256": "ab4f0ed3d70bd3e1f4c11c4e437c610ce752ca80ca686e7655794e1cc14fdba3",
+      "local_acceptance_sha256": "16813bcd60567cbf0c8304390a3cc02a219eda4c90c772217af82f8ed86cb9c2",
+      "different_scalars": 32558,
+      "max_float_difference": 2.5326962749261384e-16,
+      "precision_token_metrics_and_bindings_exact": true
+    }
+  ],
+  "source_sha256": "ba4a2887727a129a894a65fa156adc481cb7792e9decee22c5908b1a540350f4",
+  "scope": "Original numeric acceptance gates unchanged; local/HPG FP64 last-bit metric differences reported separately."
+}

@@ -1,0 +1,472 @@
+{
+  "status": "PASS_COMPLETE_INDEPENDENT_QUALIFICATION_RECONSTRUCTION",
+  "groups": [
+    {
+      "group": 0,
+      "qualified": true,
+      "domains": {
+        "expert": {
+          "frames": 32161,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 401.4393367250994,
+              "agent_position_mse": 6825.184631567352,
+              "wrapped_angle_mse": 0.20883258514146735,
+              "six_normalized_mse": 0.24529151431677168
+            },
+            "reference": {
+              "block_position_mse": 717.6927047273733,
+              "agent_position_mse": 7498.020531746568,
+              "wrapped_angle_mse": 0.5444906746458436,
+              "six_normalized_mse": 0.34990946387351946
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.559347105078339,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.9102648629287645,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.3835374871705555,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.7010142326571548,
+              "passed": true
+            }
+          }
+        },
+        "planner": {
+          "frames": 6613,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 1220.0316789150966,
+              "agent_position_mse": 7430.172388288911,
+              "wrapped_angle_mse": 0.8523309207418058,
+              "six_normalized_mse": 0.5034688821784638
+            },
+            "reference": {
+              "block_position_mse": 2342.647493061441,
+              "agent_position_mse": 9218.179242658485,
+              "wrapped_angle_mse": 2.118127949033499,
+              "six_normalized_mse": 0.8234922999609777
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.5207918316898472,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8060347051947842,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.40239822203881687,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.6113826227668689,
+              "passed": true
+            }
+          }
+        }
+      },
+      "report_sha256": "8eda52d8393f5add00ac036dc25df30f0e579eeea3d675d185eb2780e001d10e"
+    },
+    {
+      "group": 1,
+      "qualified": true,
+      "domains": {
+        "expert": {
+          "frames": 32161,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 525.2771577642783,
+              "agent_position_mse": 7296.416535938127,
+              "wrapped_angle_mse": 0.3421117546477161,
+              "six_normalized_mse": 0.2896578344753491
+            },
+            "reference": {
+              "block_position_mse": 695.6184230013106,
+              "agent_position_mse": 8383.280802817093,
+              "wrapped_angle_mse": 0.5725113687565543,
+              "six_normalized_mse": 0.3725339960618421
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.7551225505183158,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8703533506221407,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.597563250823741,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.7775339634433384,
+              "passed": true
+            }
+          }
+        },
+        "planner": {
+          "frames": 6582,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 1573.3293098482968,
+              "agent_position_mse": 10837.796771705403,
+              "wrapped_angle_mse": 1.1962413542946264,
+              "six_normalized_mse": 0.6539506612309542
+            },
+            "reference": {
+              "block_position_mse": 2495.7097971746707,
+              "agent_position_mse": 13055.79249519981,
+              "wrapped_angle_mse": 2.104370719029012,
+              "six_normalized_mse": 0.9156269618937677
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.6304135647619858,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8301140490468203,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.5684556164355822,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.7142107959320081,
+              "passed": true
+            }
+          }
+        }
+      },
+      "report_sha256": "b111e62c793b9807cad31e9bd962dfe3a07ad6d17dfb4ca94849088e373be262"
+    },
+    {
+      "group": 2,
+      "qualified": true,
+      "domains": {
+        "expert": {
+          "frames": 32161,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 440.1401613717335,
+              "agent_position_mse": 7893.273191463103,
+              "wrapped_angle_mse": 0.20474652081604516,
+              "six_normalized_mse": 0.26974997285849145
+            },
+            "reference": {
+              "block_position_mse": 956.7424618033309,
+              "agent_position_mse": 8982.790273884873,
+              "wrapped_angle_mse": 0.5058988890949162,
+              "six_normalized_mse": 0.3884506153118627
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.460040375486344,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8787106178367252,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.40471826530860566,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.6944253972719957,
+              "passed": true
+            }
+          }
+        },
+        "planner": {
+          "frames": 6613,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 1362.3336643591804,
+              "agent_position_mse": 8427.92459901186,
+              "wrapped_angle_mse": 0.8700171797576794,
+              "six_normalized_mse": 0.5542793765565077
+            },
+            "reference": {
+              "block_position_mse": 2494.3618783731554,
+              "agent_position_mse": 10505.408938956247,
+              "wrapped_angle_mse": 1.8000849252653466,
+              "six_normalized_mse": 0.844607801711861
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.5461652040832609,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8022462188748654,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.4833200742622919,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.6562565198108373,
+              "passed": true
+            }
+          }
+        }
+      },
+      "report_sha256": "c1c3429a9bd5b9fddbbfd2acb38683a81178cca04a0ae6704d5dc219516c7fee"
+    },
+    {
+      "group": 3,
+      "qualified": true,
+      "domains": {
+        "expert": {
+          "frames": 32161,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 450.7514324131207,
+              "agent_position_mse": 7014.957720210307,
+              "wrapped_angle_mse": 0.30916962413174276,
+              "six_normalized_mse": 0.2778378573866214
+            },
+            "reference": {
+              "block_position_mse": 821.2894986211813,
+              "agent_position_mse": 8480.314367848885,
+              "wrapped_angle_mse": 0.5798494736791142,
+              "six_normalized_mse": 0.39687565705273115
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.5488337951110577,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8272049143373585,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.5331894537561237,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.7000627336276921,
+              "passed": true
+            }
+          }
+        },
+        "planner": {
+          "frames": 6582,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 1368.9290890798427,
+              "agent_position_mse": 10862.486355802705,
+              "wrapped_angle_mse": 0.9519837924569141,
+              "six_normalized_mse": 0.6262532487804134
+            },
+            "reference": {
+              "block_position_mse": 2436.497804312921,
+              "agent_position_mse": 13286.062562452658,
+              "wrapped_angle_mse": 1.87907640840711,
+              "six_normalized_mse": 0.9138438718101759
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.5618429397542073,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8175850674149955,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.5066232475686868,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.6852956704080181,
+              "passed": true
+            }
+          }
+        }
+      },
+      "report_sha256": "85a0afec8aeadb000c935e1895eb6bd81f095936445136e495553e266873c211"
+    },
+    {
+      "group": 4,
+      "qualified": true,
+      "domains": {
+        "expert": {
+          "frames": 32161,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 382.1381477353976,
+              "agent_position_mse": 7688.392981046204,
+              "wrapped_angle_mse": 0.1823652946323787,
+              "six_normalized_mse": 0.24959484799894538
+            },
+            "reference": {
+              "block_position_mse": 661.181734120495,
+              "agent_position_mse": 9077.10960598971,
+              "wrapped_angle_mse": 0.41474089740769254,
+              "six_normalized_mse": 0.3539242997739659
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.577962348345449,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8470089394946676,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.43970897437952117,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.7052209982709562,
+              "passed": true
+            }
+          }
+        },
+        "planner": {
+          "frames": 6613,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 996.5218144302316,
+              "agent_position_mse": 7975.2387991058,
+              "wrapped_angle_mse": 0.6991276722524362,
+              "six_normalized_mse": 0.48610787226734153
+            },
+            "reference": {
+              "block_position_mse": 1693.1698111974122,
+              "agent_position_mse": 10170.052431389615,
+              "wrapped_angle_mse": 1.5374995618361418,
+              "six_normalized_mse": 0.7394337640413978
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.588553970097949,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.7841885627344873,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.45471731479227917,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.6574055661327989,
+              "passed": true
+            }
+          }
+        }
+      },
+      "report_sha256": "6c0f53cfa0b6c10ba1ff23180b0d792a16e786f4c7638f403c89a40d2ec31aac"
+    },
+    {
+      "group": 5,
+      "qualified": true,
+      "domains": {
+        "expert": {
+          "frames": 32161,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 417.5029120904811,
+              "agent_position_mse": 7413.361026107979,
+              "wrapped_angle_mse": 0.23043701050118845,
+              "six_normalized_mse": 0.262428586438354
+            },
+            "reference": {
+              "block_position_mse": 672.415308535485,
+              "agent_position_mse": 8580.856524938723,
+              "wrapped_angle_mse": 0.5618656208497751,
+              "six_normalized_mse": 0.38570263377116515
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.6209003673634365,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8639418459640216,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.4101283330926559,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.6803909630392909,
+              "passed": true
+            }
+          }
+        },
+        "planner": {
+          "frames": 6582,
+          "metrics": {
+            "eval": {
+              "block_position_mse": 1274.943734454815,
+              "agent_position_mse": 10797.79394427006,
+              "wrapped_angle_mse": 0.917055950361729,
+              "six_normalized_mse": 0.6060609372033796
+            },
+            "reference": {
+              "block_position_mse": 1796.2836772840276,
+              "agent_position_mse": 12748.515675829332,
+              "wrapped_angle_mse": 1.6454571461998821,
+              "six_normalized_mse": 0.8099831828039931
+            }
+          },
+          "checks": {
+            "block_position_mse": {
+              "ratio": 0.7097674774746737,
+              "passed": true
+            },
+            "agent_position_mse": {
+              "ratio": 0.8469844034268428,
+              "passed": true
+            },
+            "wrapped_angle_mse": {
+              "ratio": 0.5573259397728062,
+              "passed": true
+            },
+            "six_normalized_mse": {
+              "ratio": 0.7482389141776041,
+              "passed": true
+            }
+          }
+        }
+      },
+      "report_sha256": "36bc93086655959afe041814f70268bff5b3464e3b56b37b49bb8713d743fafa"
+    }
+  ],
+  "all_six_qualified": true,
+  "selected_lock_sha256": "c4502971b8357c7614a55efa78ea5d7ae2736412978b8e9713cc93a374c6e4fa",
+  "encoder_bindings_sha256": "72fa66d65a08af6e974286016f91a5bef9779c8ddf4fa6b0494dafbc989411ee",
+  "source_sha256": "260b57cb76d06355c84fb84b64da7991cc000a58adc311a2d6d2b82ffb22e3de",
+  "scope": "Reconstructs all saved observed-data errors and fixed point-estimate qualification gates. A failed qualification remains a complete valid result; no refit or intervention scoring."
+}

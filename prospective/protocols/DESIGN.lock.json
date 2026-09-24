@@ -1,0 +1,350 @@
+{
+  "status": "DESIGN_FROZEN_BEFORE_NEW_FITTING_QUALIFICATION_OR_EFFECTS",
+  "study_id": "prospective_mechanism_v9_s1_20260923",
+  "root_seed": 20260923,
+  "frozen_at_utc": "2026-09-23T05:21:12.428265+00:00",
+  "design_document": "strengthening/prospective_mechanism_v9_20260923/protocol/PROTOCOL_AND_IMPLEMENTATION_PLAN.md",
+  "design_sha256": "0bc53869d31b364e14399790b10a90e569617edf0f7f5c388acbf36c7c40d326",
+  "source_cache_protocol_sha256": "fafd933d37ef0ab5af9b6ec90ad424f6d6ab4563259b88239e398d26da9daec7",
+  "remote_base": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908",
+  "remote_output": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923",
+  "groups": [
+    0,
+    1
+  ],
+  "group_architectures": {
+    "0": "transformer_jepa",
+    "1": "gru_jepa"
+  },
+  "objectives": [
+    "decoded_teacher",
+    "physical_labels"
+  ],
+  "head_roles": [
+    "C",
+    "D"
+  ],
+  "immutable_source_bindings": {
+    "strengthening/prospective_mechanism_v9_20260923/manifests/v8_OBSERVED_CACHES.lock.json": "40c504362d5e3881f04606ed428810683a1033143769837a269e2c815ccc288b",
+    "strengthening/prospective_mechanism_v9_20260923/manifests/v8_encoder_bindings.json": "72fa66d65a08af6e974286016f91a5bef9779c8ddf4fa6b0494dafbc989411ee",
+    "strengthening/prospective_mechanism_v9_20260923/manifests/v8_frozen_original_model_roster.json": "125affa2a7d8e9200edb4914d46b89240a661cddc71e6b12aca52a6542a39534"
+  },
+  "head_design": {
+    "C": {
+      "name": "relu_512_two_hidden_v1",
+      "input_dim": 192,
+      "width": 512,
+      "output_dim": 6
+    },
+    "D": {
+      "name": "gelu_residual_256_two_blocks_v1",
+      "input_dim": 192,
+      "output_dim": 6,
+      "width": 256,
+      "blocks": 2,
+      "residual_factor": 0.5,
+      "gelu_approximation": "none",
+      "skip_bias": false
+    }
+  },
+  "split_seed_namespace": "v9_s1_split/{domain}/{old_role}/{parent_id}",
+  "split": {
+    "unit": "physical_parent_with_domain_namespace",
+    "ordering": "ascending derived uint32 then integer parent id; first half C, second half D",
+    "shared_across_groups": true,
+    "expected_parents_per_head": {
+      "expert": {
+        "fit": 512,
+        "validation": 128,
+        "qualification": 128
+      },
+      "planner": {
+        "fit": 512,
+        "validation": 256,
+        "qualification": 256
+      }
+    },
+    "keep_existing_retained_rows": true,
+    "pixel_overlap_policy": "block cross head-role or original-role alias, including across domains; do not reintroduce old removed aliases",
+    "reuse_disclosure": "Reused accepted v8 measurement inputs; new disjoint C/D roles; no global pretraining-isolation claim"
+  },
+  "fit": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "updates": 8000,
+    "batch_size": 256,
+    "expert_samples_per_batch": 128,
+    "planner_samples_per_batch": 128,
+    "validation_interval": 250,
+    "seed_namespace": "v9_s1_fit/{role}/group_{group}",
+    "selection": "balanced_six_normalized_validation_mse_then_earlier_step",
+    "normalizer_std_floor": 1e-06,
+    "input_and_target_moments": "fit-only_equal-domain-mixture",
+    "tf32": false,
+    "autocast": false,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "amsgrad": false,
+    "maximize": false,
+    "foreach": false,
+    "fused": false,
+    "seed_algorithm": "int.from_bytes(sha256(f'{root}:{namespace}'.encode()).digest()[:4], 'big')",
+    "minibatch_generator": "numpy.random.default_rng(derived_integer): PCG64",
+    "normalizer_formula": "FP64: mu=(mean_e+mean_p)/2; second=(mean_e(x*x)+mean_p(x*x))/2; scale=max(sqrt(max(second-mu*mu,0)),1e-6)",
+    "normalizer_ddof": 0
+  },
+  "qualification": {
+    "max_ratio_to_g_A": 1.1,
+    "domains": [
+      "expert",
+      "planner"
+    ],
+    "metrics": [
+      "six_normalized_mse",
+      "block_position_mse",
+      "agent_position_mse",
+      "wrapped_angle_mse"
+    ],
+    "all_four_selected_locked_before_qualification": true,
+    "failure_policy": "Any failed head completes S1 as measurement-inconclusive; no formal confirmation, refit, replacement, or dropped stratum",
+    "six_normalized_error_scale": "frozen g_A target_scale"
+  },
+  "banks": [
+    {
+      "kind": "development",
+      "role": "recipient",
+      "count": 64,
+      "seed_namespace": "v9_s1_bank/development/recipient",
+      "seed_start": 901925166,
+      "max_seeds": 100000
+    },
+    {
+      "kind": "development",
+      "role": "donor",
+      "count": 64,
+      "seed_namespace": "v9_s1_bank/development/donor",
+      "seed_start": 3492965704,
+      "max_seeds": 100000
+    },
+    {
+      "kind": "confirmation",
+      "role": "recipient",
+      "count": 256,
+      "seed_namespace": "v9_s1_bank/confirmation/recipient",
+      "seed_start": 906768541,
+      "max_seeds": 100000
+    },
+    {
+      "kind": "confirmation",
+      "role": "donor",
+      "count": 256,
+      "seed_namespace": "v9_s1_bank/confirmation/donor",
+      "seed_start": 3772430858,
+      "max_seeds": 100000
+    }
+  ],
+  "donor_assignment": {
+    "seed_namespace": "v9_s1_donor/{kind}/stream_{stream}",
+    "algorithm": "numpy.default_rng(derived_uint32).permutation(count)",
+    "shared_across_groups": true,
+    "never_outcome_selected": true
+  },
+  "scores": {
+    "goal_count": 256,
+    "development_goal_count": 64,
+    "streams": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "constraints": [
+      "A",
+      "AC"
+    ],
+    "branches": [
+      "free",
+      "actual",
+      "donor",
+      "reset"
+    ],
+    "horizons_primitive": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "insertion": 5,
+    "primary_endpoint": 25,
+    "initial_history_tokens": 3,
+    "native_population": 300,
+    "prediction_key": "predictions_D",
+    "truth_key": "truth",
+    "prediction_axes": [
+      "group",
+      "objective",
+      "constraint",
+      "goal",
+      "stream",
+      "branch",
+      "horizon",
+      "pose"
+    ],
+    "prediction_shape": [
+      2,
+      2,
+      2,
+      256,
+      4,
+      4,
+      5,
+      6
+    ],
+    "truth_shape": [
+      2,
+      256,
+      4,
+      5,
+      6
+    ],
+    "pose_order": [
+      "agent_x",
+      "agent_y",
+      "block_x",
+      "block_y",
+      "sin_theta",
+      "cos_theta"
+    ]
+  },
+  "projection": {
+    "family_axes": [
+      "constraint",
+      "objective",
+      "source"
+    ],
+    "family_member_count": 8,
+    "constraints": [
+      "A",
+      "AC"
+    ],
+    "sources": [
+      "actual",
+      "donor"
+    ],
+    "reference": "g_A input scale",
+    "norm_rule": "minimum native L2 displacement norm across all eight directions",
+    "zero_norm_policy": "retain whole family",
+    "shrink_factors": [
+      1,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625
+    ],
+    "solver": "OSQP",
+    "eps_abs": 1e-09,
+    "eps_rel": 1e-09,
+    "max_iter": 20000,
+    "polishing": true,
+    "rank_rtol": 1e-10,
+    "row_norm_cutoff": 1e-14,
+    "output_tolerance": 1e-06,
+    "region_tolerance": 1e-06,
+    "norm_atol": 1e-06,
+    "norm_rtol": 1e-06,
+    "failure_policy": "block complete family and formal score; never zero-substitute/drop",
+    "D_access": "forbidden before independent acceptance; excluded from QP and matching"
+  },
+  "statistics": {
+    "scorer": "reserved new g_D",
+    "loss": "sum squared block_xy error",
+    "bootstrap_draws": 20000,
+    "bootstrap_unit": "recipient",
+    "within_recipient_average": [
+      "group",
+      "stream"
+    ],
+    "bootstrap_seed_namespace": "v9_s1_bootstrap",
+    "bootstrap_seed": 3350567987,
+    "rng": "numpy.default_rng PCG64",
+    "quantile_method": "linear",
+    "family_alpha": 0.05,
+    "primary_slots": 4,
+    "secondary_slots": 4,
+    "individual_two_sided_coverage": 0.9875,
+    "primary": [
+      {
+        "id": "decoded_teacher/U_AC",
+        "objective": "decoded_teacher",
+        "contrast": "loss_free-loss_actual_AC",
+        "endpoint": 25
+      },
+      {
+        "id": "decoded_teacher/S_AC",
+        "objective": "decoded_teacher",
+        "contrast": "loss_donor_AC-loss_actual_AC",
+        "endpoint": 25
+      },
+      {
+        "id": "physical_labels/U_AC",
+        "objective": "physical_labels",
+        "contrast": "loss_free-loss_actual_AC",
+        "endpoint": 25
+      },
+      {
+        "id": "physical_labels/S_AC",
+        "objective": "physical_labels",
+        "contrast": "loss_donor_AC-loss_actual_AC",
+        "endpoint": 25
+      }
+    ],
+    "secondary": [
+      {
+        "id": "decoded_teacher/U_A_minus_U_AC",
+        "objective": "decoded_teacher",
+        "contrast": "loss_actual_AC-loss_actual_A",
+        "endpoint": 25
+      },
+      {
+        "id": "decoded_teacher/insertion_displacement_suppression",
+        "objective": "decoded_teacher",
+        "contrast": "squared_D_block_output_change_A-squared_D_block_output_change_AC",
+        "endpoint": 5
+      },
+      {
+        "id": "physical_labels/U_A_minus_U_AC",
+        "objective": "physical_labels",
+        "contrast": "loss_actual_AC-loss_actual_A",
+        "endpoint": 25
+      },
+      {
+        "id": "physical_labels/insertion_displacement_suppression",
+        "objective": "physical_labels",
+        "contrast": "squared_D_block_output_change_A-squared_D_block_output_change_AC",
+        "endpoint": 5
+      }
+    ],
+    "no_alpha_reallocation": true,
+    "positive_support": "CI lower bound greater than zero",
+    "joint_claim_requires": "both corresponding U_AC and S_AC positive lower bounds",
+    "unresolved_intervals": "not evidence of absence or equivalence"
+  },
+  "unresolved_implementation_bindings": [
+    "Actual retained split row/pixel audit",
+    "New fitted heads and qualification",
+    "Fresh raw banks/actions/physics and old lineage audit",
+    "Complete source/environment freeze",
+    "Development raw/native/parity/throughput receipts",
+    "Full confirmation acceptance and independent verifier"
+  ],
+  "root_approval": "Fixed-design input audit and four fits authorized after actual input/source locks; formal confirmation gated on all head qualifications and final immutable bindings. No scientific results have been accessed."
+}

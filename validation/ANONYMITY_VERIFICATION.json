@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "scope": "Archive filenames, all UTF-8 metadata, NPZ string/object metadata and checkpoint pickle bytes. Numeric arrays untouched; no pickle execution.",
+  "archives": [
+    {
+      "archive": "feedback_confirmation_evidence_v1.zip",
+      "sha256": "416727c7ce38a18a6cc264b69fe1b2661624834ad4eabc02f3a934e255efe593",
+      "scanned_text_files": 19,
+      "numerical_archives": 5,
+      "string_arrays": 1,
+      "checkpoint_metadata": 0,
+      "object_arrays": [],
+      "hits": []
+    },
+    {
+      "archive": "feedback_diagnostic_end_to_end_v1.zip",
+      "sha256": "240da1314b7c3c173fe9bde912b6c4df0ac6e79ac5115a5722859491907a5c23",
+      "scanned_text_files": 28,
+      "numerical_archives": 4,
+      "string_arrays": 0,
+      "checkpoint_metadata": 3,
+      "object_arrays": [],
+      "hits": []
+    },
+    {
+      "archive": "feedback_diagnostic_evidence.zip",
+      "sha256": "b812f8ac12370d1034f8837d7314e3a72c227347843a507dad03257882fd5b21",
+      "scanned_text_files": 16,
+      "numerical_archives": 39,
+      "string_arrays": 0,
+      "checkpoint_metadata": 0,
+      "object_arrays": [],
+      "hits": []
+    },
+    {
+      "archive": "feedback_motion_mechanism_anonymous_v3.zip",
+      "sha256": "af523333bc52320b3d488d44eec24086de140c5614f1998148c14ec0fd56de7d",
+      "scanned_text_files": 5976,
+      "numerical_archives": 4778,
+      "string_arrays": 14,
+      "checkpoint_metadata": 0,
+      "object_arrays": [],
+      "hits": []
+    },
+    {
+      "archive": "feedback_reporting_supplement_anonymous_v2.zip",
+      "sha256": "d47b16ec941bac724a3f29b4824ab7181aa82744462e1fb097de5b8e2faf44df",
+      "scanned_text_files": 16,
+      "numerical_archives": 4,
+      "string_arrays": 0,
+      "checkpoint_metadata": 0,
+      "object_arrays": [],
+      "hits": []
+    },
+    {
+      "archive": "feedback_second_readout_scoring_anonymous_v2.zip",
+      "sha256": "78cb2fda6beb2f9b1323d570d11ca5ff0fb702a4b473fcec9287ccb227ea5849",
+      "scanned_text_files": 13,
+      "numerical_archives": 2,
+      "string_arrays": 0,
+      "checkpoint_metadata": 0,
+      "object_arrays": [],
+      "hits": []
+    },
+    {
+      "archive": "velocity_readout_qualification_v1.zip",
+      "sha256": "1a9cdb0c6c7735c645684f7fcecddcfd3d83eb9b410df81f853a4e2cd58bed0f",
+      "scanned_text_files": 22,
+      "numerical_archives": 66,
+      "string_arrays": 4,
+      "checkpoint_metadata": 0,
+      "object_arrays": [],
+      "hits": []
+    }
+  ]
+}

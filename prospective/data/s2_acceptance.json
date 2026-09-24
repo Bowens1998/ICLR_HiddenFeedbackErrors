@@ -1,0 +1,47 @@
+{
+  "count": 512,
+  "independent_binding": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/final_regression_v1/independent_binding.json",
+    "sha256": "7c7f09bbe10b813007897b36ecdba47c0306677c27d7be15f6d0b5bb3296a317"
+  },
+  "independent_report": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/final_regression_v1/independent/report.json",
+    "sha256": "f35a8aa607f0a3f31e2275fb4a9c17669b73dfdf78c98e62911429cfe36e63af"
+  },
+  "input_binding": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/scalar_assembly_v1/REGRESSION_INPUTS.json",
+    "sha256": "b632e167535c645c6af9284264c680a816b9a864bc26c96d0349d09bff45090f"
+  },
+  "orchestration_seal": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/prediction_seal_v1/ORCHESTRATION_SEAL.json",
+    "sha256": "6a9e098bda707bc68a29a67da55cdced8ac704c3b1f3af8b117a97785aa238a3"
+  },
+  "prediction_lock": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/prediction_seal_v1/PREDICTIONS.lock.json",
+    "sha256": "f92bcd901832b5f7a874c3eab8ac361c6ce28cc98b242b5cae0c649864608d93"
+  },
+  "production_statistics": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/final_regression_v1/production_statistics.json",
+    "sha256": "7fd8f02c170fe835a16813e4f9d82e93f960357b9e575f4c7c8ffb5f2f7eed44"
+  },
+  "response_access_acceptance": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/test_scalars_v1/response_access.json",
+    "sha256": "875169bbc9dac4c3e1b78e68f3761cc3cbe09aba564387e64b42c1c1150d13f0"
+  },
+  "response_receipt": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/test_scalars_v1/response_receipt.json",
+    "sha256": "01a8995311d634b64467015e27f20192b37dc721d75751e3512731270aec1e63"
+  },
+  "scientific_protocol_frozen_by_this_module": false,
+  "scope": "Saved scalar arrays and externally accepted provenance; no model replay, response generation or proof of external prior nonexposure.",
+  "source_sha256": "c0dfacd990bfd9489fcdde3d7bd631fad8154de9173859efb994b483fe5c4efb",
+  "status": "PASS_COMPLETE_S2_REGRESSION_AND_INDEPENDENT_STATISTICS",
+  "stratum_ids": [
+    "pool0/decoded_teacher",
+    "pool0/physical_labels",
+    "pool1/decoded_teacher",
+    "pool1/physical_labels",
+    "pool2/decoded_teacher",
+    "pool2/physical_labels"
+  ]
+}

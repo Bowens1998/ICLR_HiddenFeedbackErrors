@@ -1,0 +1,12 @@
+{
+  "status": "PASS_INDEPENDENT_POSTHOC_RECONSTRUCTION",
+  "checked_utc": "2026-09-22T21:39:29.477318+00:00",
+  "report_sha256": "eb162676ce9855be914e5b9b91125458c6b5ab72714fab68082c5182ff53ece5",
+  "verifier_sha256": "afbe6074b26c41c2d4ec636f4ef807124ad7c80466e0cc1e3745427e1fad9abf",
+  "paired_intervals_reconstructed": 14,
+  "original_primary_effects_unchanged": 5,
+  "original_sources_unchanged": true,
+  "all_goals_models_streams_retained": true,
+  "additional_exploratory_intervals": 9,
+  "method": "Independent recipient loops and multinomial-count weighted bootstrap, not index-gather evaluator"
+}

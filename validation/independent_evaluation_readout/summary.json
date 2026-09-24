@@ -1,0 +1,28 @@
+{
+  "status": "PASS_COMPLETE_STAGED_G_EVAL_CPU_RECONSTRUCTION",
+  "package_integrity": {
+    "files": 127,
+    "status": "PASS_SUPPLIED_PACKAGE_HASHES"
+  },
+  "six_evaluators_retained": true,
+  "qualification_group_domain_pairs": 12,
+  "qualification_frame_rows": 232551,
+  "matched_cells": 48,
+  "full_feasible_descriptive_cells": 18,
+  "goals": 256,
+  "streams": 4,
+  "branches": 4,
+  "horizons": 5,
+  "measurement_contrasts": 7,
+  "reserved_primary_slots": 9,
+  "separate_C_secondary_contrasts": 8,
+  "all_matched_cell_branch_rows": 192,
+  "all_full_feasible_cell_branch_rows": 72,
+  "paired_goal_vectors": 30,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.16.3",
+  "elapsed_seconds": 4.524099208996631,
+  "raw_token_acceptance_scope": "Original bound receipt authenticated: 14,336 archives / 14,192,640 values. Full original token reconstruction was not rerun from this compact package.",
+  "no_training_simulator_encoding_or_new_intervention": true
+}

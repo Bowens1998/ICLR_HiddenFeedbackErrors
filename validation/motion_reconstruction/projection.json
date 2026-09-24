@@ -1,0 +1,25 @@
+{
+  "status": "PASS_COMPLETE_LOCAL_FORMAL_INSERTION_RECONSTRUCTION",
+  "checked_utc": "2026-09-22T21:42:49.538843+00:00",
+  "binding": {
+    "phase": "formal_mechanism_confirmation",
+    "protocol_sha256": "17b3658376f2ba9d0929462bc6c23bc25db2975de184d5924e84d8731e557985"
+  },
+  "families": 4096,
+  "checked_tokens": 49152,
+  "max_normalized_pose_deviation": 2.586930603065696e-07,
+  "max_normalized_joint_velocity_deviation": 1.451349103120947e-07,
+  "max_region_violation": 7.258452811020888e-08,
+  "max_norm_difference": 1.2636427104695258e-07,
+  "norm_quantiles": [
+    1.6799686732113446,
+    2.8911771582404246,
+    3.4726663953365575,
+    3.965848280481379,
+    6.374036217347729
+  ],
+  "remote_verification_sha256": "83a201e2dadaaaa6d3e8368ce0ab0c740a3f30f1b181194428c38bb628877421",
+  "source_sha256": "1003de241be74213cf7b429f4cf59df496915448903e91f1bb0cb902e6586092",
+  "elapsed_seconds": 186.8806061580035,
+  "scope": "Complete downloaded shard/cache/archive hashes, seed and fixed donor identities; every actualFP32 token rechecked with fullFP64 functions, region and dose. No endpoints or effect selection."
+}

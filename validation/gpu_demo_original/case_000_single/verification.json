@@ -1,0 +1,76 @@
+{
+  "actual_norms": [
+    3.3317777219530518,
+    3.33177772655494,
+    3.3317777290278094,
+    3.3317777699587126,
+    3.331777770100843,
+    3.331777760713385
+  ],
+  "common_standardized_norm": 3.3317777444680647,
+  "corrected_endpoint_error": [
+    5137.871022113806,
+    5695.6601141811025,
+    4701.281938537481,
+    13383.665477251388,
+    29873.71064756298,
+    28959.624985016846
+  ],
+  "corrected_minus_free_endpoint_error": [
+    -1688.4862333739693,
+    -1130.697141306673,
+    -8353.901010645965,
+    328.48252806794335,
+    -8239.014805806673,
+    -9153.100468352808
+  ],
+  "family_size": 6,
+  "free_endpoint_error": [
+    6826.357255487776,
+    13055.182949183445,
+    38112.725453369654
+  ],
+  "input_sha256": "10be0cb5dc3dfd4fdf6b7d434948297ba8793b30c979b24b0fd93322573c51e6",
+  "max_normalized_readout_change": 1.0643353853811988e-07,
+  "max_region_violation": 1.6190322388309752e-08,
+  "members": [
+    {
+      "constraint": "single_A",
+      "model_index": 0,
+      "objective": "latent",
+      "source": "actual"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 0,
+      "objective": "latent",
+      "source": "donor"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 1,
+      "objective": "decoded_teacher",
+      "source": "actual"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 1,
+      "objective": "decoded_teacher",
+      "source": "donor"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 2,
+      "objective": "physical_labels",
+      "source": "actual"
+    },
+    {
+      "constraint": "single_A",
+      "model_index": 2,
+      "objective": "physical_labels",
+      "source": "donor"
+    }
+  ],
+  "scope": "Single-case descriptive numbers; no population claim. Head preservation refers to the specified readouts, not the complete physical state.",
+  "status": "PASS_INDEPENDENT_NUMPY_VERIFICATION"
+}

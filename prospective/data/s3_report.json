@@ -1,0 +1,341 @@
+{
+  "all512_recipient_scores_retained": true,
+  "atol": 1e-09,
+  "bit_generator": "PCG64",
+  "bootstrap_iterations": 20000,
+  "bootstrap_seed": 1169911584,
+  "complete_arrays": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/final_statistics/statistics.npz",
+    "sha256": "c1b3bcd5364214e8680f4abc849885d314ba33c55c42d11c1820d34a836dfdb3"
+  },
+  "descriptive_selected_cost_axes": [
+    "pool",
+    "condition",
+    "objective",
+    "branch"
+  ],
+  "descriptive_selected_cost_means": [
+    [
+      [
+        [
+          3447.2247341351163,
+          3413.6309267325105,
+          3418.7085228679393,
+          3331.2474375931142
+        ],
+        [
+          3584.722631271851,
+          3435.2263593264142,
+          3609.7239877108645,
+          3391.707942903206
+        ]
+      ],
+      [
+        [
+          3206.318931637601,
+          3217.606581408524,
+          3327.9228079659106,
+          3137.0631366554217
+        ],
+        [
+          3419.8947518527903,
+          3325.1077429572397,
+          3430.4295943505995,
+          3286.702124694662
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          3666.9012587118145,
+          3613.0456958960845,
+          3732.2693109275465,
+          3596.828549479981
+        ],
+        [
+          3780.2789922156276,
+          3856.0379502300475,
+          3831.952455395699,
+          3730.4952048124555
+        ]
+      ],
+      [
+        [
+          3618.539814963305,
+          3534.8608024865243,
+          3558.126715180306,
+          3513.835554513488
+        ],
+        [
+          3645.5480605543353,
+          3628.5790239073176,
+          3680.990590100434,
+          3549.731606619335
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          3303.417218874649,
+          3303.4697099391456,
+          3327.296337976316,
+          3269.44458575113
+        ],
+        [
+          3479.128136187439,
+          3426.929048525536,
+          3382.466090375782,
+          3310.057909191537
+        ]
+      ],
+      [
+        [
+          3279.5881973979926,
+          3207.2770345611225,
+          3199.9046221017848,
+          3155.0431185899556
+        ],
+        [
+          3212.5806975386704,
+          3165.052836267646,
+          3086.896197276629,
+          3124.2450308137927
+        ]
+      ]
+    ]
+  ],
+  "historical_nonexposure_proven": false,
+  "independent_scope": "Existing independent exact-tie metrics and count-weighted NumPy resampling; no native model/simulator or QP replay.",
+  "independent_selection_and_statistics_verified": true,
+  "input_binding": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/predictions/seal_binding.json",
+    "sha256": "6eb18d703034c7275212886b892e0e075ee4f96e648394c71d3d75c0647be734"
+  },
+  "joint_actual_specific_decision_improvement": false,
+  "outcome_acceptance": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/outcomes/acceptance.json",
+    "sha256": "1181d900fcf085823b3d4569de76a81ac4427d8e04ba87592470c0b0ca7ee3ed"
+  },
+  "percentile_method": "linear",
+  "physical_outcomes_opened_only_after_seal": true,
+  "prediction_seal": {
+    "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1/prediction_seal/PREDICTIONS.lock.json",
+    "sha256": "ecc02f844afcf4496c57e07c5073660691164d6fffc15a17f861c669e883c332"
+  },
+  "primary": [
+    {
+      "classification": "unresolved",
+      "contrast": "C_T1_actual - C_T1_free",
+      "interval_level": 0.975,
+      "lower": -116.49363210758052,
+      "mean": -50.66440539272028,
+      "upper": 11.486823837427822
+    },
+    {
+      "classification": "unresolved",
+      "contrast": "C_T1_actual - C_T1_donor",
+      "interval_level": 0.975,
+      "lower": -111.67052333558094,
+      "mean": -34.29775089788225,
+      "upper": 39.43634917521651
+    }
+  ],
+  "rtol": 1e-12,
+  "secondary": {
+    "benefit_training_change": 15.108858601592965,
+    "free_training_change": -146.533752908632,
+    "inference": "Point descriptions only; no secondary intervals or significance family",
+    "lowest_index_selected_cost_means": [
+      [
+        [
+          [
+            3447.2247341351163,
+            3413.6309267325105,
+            3418.7085228679393,
+            3331.2474375931142
+          ],
+          [
+            3584.722631271851,
+            3435.2263593264142,
+            3609.7239877108645,
+            3391.707942903206
+          ]
+        ],
+        [
+          [
+            3206.318931637601,
+            3217.606581408524,
+            3327.9228079659106,
+            3137.0631366554217
+          ],
+          [
+            3419.8947518527903,
+            3325.1077429572397,
+            3430.4295943505995,
+            3286.702124694662
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            3666.9012587118145,
+            3613.0456958960845,
+            3732.2693109275465,
+            3596.828549479981
+          ],
+          [
+            3780.2789922156276,
+            3856.0379502300475,
+            3831.952455395699,
+            3730.4952048124555
+          ]
+        ],
+        [
+          [
+            3618.539814963305,
+            3534.8608024865243,
+            3558.126715180306,
+            3513.835554513488
+          ],
+          [
+            3645.5480605543353,
+            3628.5790239073176,
+            3680.990590100434,
+            3549.731606619335
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            3303.417218874649,
+            3303.4697099391456,
+            3327.296337976316,
+            3269.44458575113
+          ],
+          [
+            3479.128136187439,
+            3426.929048525536,
+            3382.466090375782,
+            3310.057909191537
+          ]
+        ],
+        [
+          [
+            3279.5881973979926,
+            3207.2770345611225,
+            3199.9046221017848,
+            3155.0431185899556
+          ],
+          [
+            3212.5806975386704,
+            3165.052836267646,
+            3086.896197276629,
+            3124.2450308137927
+          ]
+        ]
+      ]
+    ],
+    "selection_change": 0.4599609375
+  },
+  "shared_recipient_indices_sha256": "e9c2b570982047d395bb861856c06de3553abef2afd6db90ce1d0a3ac7ee1856",
+  "source_sha256": "7b933e8bf73e445c99f322e235a218deb5ef38913fbf72c71547ac87fe5c303f",
+  "status": "PASS_COMPLETE_S3_DECISION_STATISTICS_AND_INDEPENDENT_VERIFICATION",
+  "tie_count_means": [
+    [
+      [
+        [
+          1.005859375,
+          1.00390625,
+          1.009765625,
+          1.005859375
+        ],
+        [
+          1.009765625,
+          1.005859375,
+          1.0078125,
+          1.001953125
+        ]
+      ],
+      [
+        [
+          1.00390625,
+          1.001953125,
+          1.001953125,
+          1.00390625
+        ],
+        [
+          1.00390625,
+          1.00390625,
+          1.00390625,
+          1.001953125
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1.005859375,
+          1.00390625,
+          1.005859375,
+          1.001953125
+        ],
+        [
+          1.00390625,
+          1.001953125,
+          1.00390625,
+          1.00390625
+        ]
+      ],
+      [
+        [
+          1.005859375,
+          1.009765625,
+          1.0078125,
+          1.0078125
+        ],
+        [
+          1.0078125,
+          1.0078125,
+          1.01171875,
+          1.009765625
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          1.001953125,
+          1.0,
+          1.001953125,
+          1.0
+        ],
+        [
+          1.001953125,
+          1.001953125,
+          1.005859375,
+          1.005859375
+        ]
+      ],
+      [
+        [
+          1.00390625,
+          1.005859375,
+          1.00390625,
+          1.0
+        ],
+        [
+          1.001953125,
+          1.001953125,
+          1.001953125,
+          1.00390625
+        ]
+      ]
+    ]
+  ],
+  "uncertainty_scope": "Paired recipients conditional on fixed six model pairs and realized donor bank/assignment; no training-population uncertainty.",
+  "units": "Existing physical goal cost: block position squared plus900 times wrapped angle squared"
+}

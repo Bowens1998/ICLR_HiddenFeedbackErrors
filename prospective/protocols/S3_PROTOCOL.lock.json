@@ -1,0 +1,342 @@
+{
+  "completion": {
+    "actual_statistics_receipt": null,
+    "all1536_family_acceptance_before_scores": true,
+    "complete_common_prefix_identity": true,
+    "complete_ordered_parent_model_action_donor_binding": true,
+    "independent_dense_head_cost_and_exact_tie_reconstruction": true,
+    "native300_root_and_fixed32_suffix_parity": "Within native300 repeated selected-root parity and within fixed32 suffix free/identity parity; no bitwise endpoint comparison acrossdifferent batch sizes. Actual allocated adapter verification remains UNRESOLVED.",
+    "output_root": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/experiment_v1",
+    "prediction_and_outcome_seal_contract": {
+      "order": [
+        "all1536_families_and_all12_models",
+        "complete_cost_seal",
+        "physical_outcome_join",
+        "all512_paired_statistics"
+      ],
+      "producer": {
+        "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/strengthening/prospective_mechanism_v9_20260923/stage3/population.py",
+        "sha256": "72ededcd9c7dbbc5ba39809013050487686cbe658927873e4db455e98fffa235"
+      },
+      "statistics": {
+        "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/strengthening/prospective_mechanism_v9_20260923/stage3/decision_statistics.py",
+        "sha256": "7b933e8bf73e445c99f322e235a218deb5ef38913fbf72c71547ac87fe5c303f"
+      }
+    },
+    "reproduction_scope": "Independent NumPy readout/cost/tie reconstruction is not independent model or simulator regeneration.",
+    "retain_all_models_branches_goals_and_prior_negative_decision_evidence": true,
+    "sources_and_normalizers_lock": {
+      "semantics": "Filled from actual existing immutable sources and heads before the scheduler call; own model and head normalizers retained",
+      "target_path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/manifests/s3_v2/raw_sources.json"
+    }
+  },
+  "decision_cost": {
+    "all_candidates_retained": true,
+    "angle_decode": "atan2(sin_theta,cos_theta)",
+    "block_pose_indices": [
+      2,
+      3
+    ],
+    "formula": "block_xy_squared_distance +900*wrapped_angle_error_squared",
+    "orientation_pose_indices": [
+      4,
+      5
+    ],
+    "orientation_weight": 900,
+    "physical_outcomes": 49152,
+    "physical_state_angle_index": 4,
+    "physical_state_block_indices": [
+      2,
+      3
+    ],
+    "primary_exact_ties": "Mean realized physical cost over all exactly tied predicted argmin indices (uniform tie expectation).",
+    "readout": "Same frozen pool g_A decodes candidate terminal and goal-image tokens, with its own saved normalizers.",
+    "secondary_ties": "Lowest-index exact predicted minimizer; point summary only.",
+    "space": "pose_only",
+    "tie_tolerance": 0
+  },
+  "design_memo": {
+    "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/audits/S3_MATCHED_DECISION_REUSE_AND_DESIGN_DRAFT.md",
+    "sha256": "4b49ec85bfc618a3fcad832c01d13b3602c6a0e408b12a6160f8a068e85a175e"
+  },
+  "design_resolution": {
+    "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/protocol/S3_DESIGN_RESOLUTION.draft.json",
+    "sha256": "b3687682266a70419927cc7c068db12d52ce0cf11501e7b1f010e36094f01953"
+  },
+  "execution_checks": {
+    "actual_native_runtime": "Validated on every retained case; no extra pilot samples",
+    "measured_resources": "Recorded by actual jobs and latent-pool reports",
+    "new_data_admission": "Required before model loading"
+  },
+  "feedback_family": {
+    "axes": [
+      "condition",
+      "objective",
+      "source",
+      "latent"
+    ],
+    "constraint": "g_A_only",
+    "direction_dtype": "float64",
+    "directions_per_family": 8,
+    "donor_assignment": "One full permutation shared across pools/objectives/conditions; donor uses its own executed prefix.",
+    "donor_assignment_rng": "PCG64",
+    "donor_assignment_seed": 764591428,
+    "eps_abs": 1e-09,
+    "eps_rel": 1e-09,
+    "failure_policy": "Retain every attempted solver failure; no failure becomes zero, no family or goal replacement, no partial successful population accepted.",
+    "families": 1536,
+    "family_shape": [
+      2,
+      2,
+      2,
+      192
+    ],
+    "four_distinct_model_anchors": true,
+    "guide_shape": [
+      192
+    ],
+    "guide_sources": [
+      "actual",
+      "donor"
+    ],
+    "input_dtype": "float32",
+    "interpretation": "Joint T0/T1 matching is a matched decision comparison, not an S2 baseline-only diagnostic or a causal isolation of training/readout changes.",
+    "matching": "Minimum of all8 projected Euclidean norms in g_A input-standardized coordinates, then one first-accepted shared FP32 shrink for all8.",
+    "max_iter": 20000,
+    "members": [
+      [
+        "T0",
+        "decoded_teacher",
+        "actual"
+      ],
+      [
+        "T0",
+        "decoded_teacher",
+        "donor"
+      ],
+      [
+        "T0",
+        "physical_labels",
+        "actual"
+      ],
+      [
+        "T0",
+        "physical_labels",
+        "donor"
+      ],
+      [
+        "T1",
+        "decoded_teacher",
+        "actual"
+      ],
+      [
+        "T1",
+        "decoded_teacher",
+        "donor"
+      ],
+      [
+        "T1",
+        "physical_labels",
+        "actual"
+      ],
+      [
+        "T1",
+        "physical_labels",
+        "donor"
+      ]
+    ],
+    "one_head_A_metric_per_pool": true,
+    "own_anchor_relu_regions": true,
+    "physical_receipt_atol": "receipt_atol*max(1,max_target_scale)",
+    "receipt_atol": 1e-12,
+    "replacement_dtype": "float32",
+    "reset": "Full observed-token replacement, a single-token information reference; not a norm-matched intervention or upper bound.",
+    "shrink_factors": [
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125,
+      0.00390625
+    ],
+    "tolerance": 1e-06,
+    "total_directions": 12288,
+    "zero_policy": "Solve all8; legitimate zero makes the entire family zero and retains all four branches."
+  },
+  "fixed_assets_inventory": {
+    "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/audits/S2_FIXED_ASSET_INVENTORY.json",
+    "sha256": "3f61241aa86462d3f26d959738a063353b501b5f7f2d765daad7c72fc58879ba"
+  },
+  "freeze_scope": "Scientific choices retained from pre-S2-outcome draft. Actual S2 completion and executable paths bound before any S3 generation or inference.",
+  "frozen_at_utc": "2026-09-23T22:43:44.117182+00:00",
+  "implemented_draft": {
+    "dense_numerical_primitives": {
+      "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/stage2/projection_four.py",
+      "sha256": "e64f112da2f53f85c0278ccded5fbc52d318d25c2482b1f369c52f770047c91d"
+    },
+    "focused_synthetic_tests": {
+      "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/stage3/test_projection_eight.py",
+      "sha256": "2e82f08dcfc0accce9b4e9995c247f62e3eddb88d83686443f7c4b8761a4cc22"
+    },
+    "individual_A_QP": {
+      "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/scripts/s1_projection.py",
+      "sha256": "106a92101f1e5cc3eddbb0b2d8bdf343b444501bbc3c8b831127ed8389fdb1ba"
+    },
+    "projection_adapter": {
+      "path": "/external-assets/project/strengthening/prospective_mechanism_v9_20260923/stage3/projection_eight.py",
+      "sha256": "f75b3b8a2688b5f94173c21aad6ea45a0b363165d6373be8f9b21157be508ddf"
+    }
+  },
+  "population": {
+    "admissibility_source_and_settings": {
+      "acceptance": {
+        "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/scripts/visual/accept_adaptation_contexts.py",
+        "sha256": "2317eb354c90ef6b264f8e11d82d4839acc02eee68b0f1216d5a1b6187faaf0a"
+      },
+      "generator": {
+        "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/scripts/visual/prepare_prospective_pusht.py",
+        "sha256": "485b99db13d12e9af3e0d38c9ca0d0e0e6655759274696f4b82d5b70229caaf8"
+      },
+      "rule": "Unchanged original input-only first512 admitted, complete rejection history, max100000 attempts per role"
+    },
+    "banks_shared_across_pools": true,
+    "branches": [
+      "free",
+      "actual",
+      "donor",
+      "reset"
+    ],
+    "conditions": [
+      "T0",
+      "T1"
+    ],
+    "donor_count": 512,
+    "donor_seed_start": 942872802,
+    "groups": [
+      0,
+      2,
+      4
+    ],
+    "isolation_registry": {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/manifests/s3_v2/seed_registry.json",
+      "sha256": "175c7a5e003fcba86cdb90efd0232fa2b1a6ac04452506f7c20a52139e3801c7"
+    },
+    "isolation_scope": "Bound historical/head inputs plus all actually attempted S1/S2 parents, including rejected attempts; retained-pixel content audit; no global pretraining isolation claim.",
+    "max_attempts_per_role": 100000,
+    "model_pairs": 6,
+    "models": 12,
+    "objectives": [
+      "decoded_teacher",
+      "physical_labels"
+    ],
+    "pools": [
+      0,
+      1,
+      2
+    ],
+    "recipient_count": 512,
+    "recipient_seed_start": 2070335481
+  },
+  "primary_statistics": {
+    "aggregation": "Equal mean over3pools and2objectives within each recipient, then paired recipient bootstrap",
+    "bootstrap_rng": "PCG64",
+    "bootstrap_seed": 1169911584,
+    "conditioning": "Fixed six model pairs, realized donor bank and fixed donor assignment; models/strata are averaged within each recipient, not treated as independent replications.",
+    "contrasts": [
+      "C_T1_actual - C_T1_free",
+      "C_T1_actual - C_T1_donor"
+    ],
+    "crosses_zero": "UNRESOLVED, not equivalence",
+    "family_size": 2,
+    "interval_level": 0.975,
+    "iterations": 20000,
+    "joint_success": "Both interval upper bounds are strictly below0",
+    "percentile_method": "linear",
+    "resampling_unit": "recipient",
+    "scientific_success_required_for_numerical_acceptance": false,
+    "strictly_positive_interval": "Higher selected physical cost under actual guidance",
+    "verification_tolerance_scope": "Independent numeric reconstruction only; exact predicted-cost ties keep zero tie tolerance. Fixed on existing precedent and synthetic checks before anyS3effects.",
+    "verification_tolerances": {
+      "atol": 1e-09,
+      "rtol": 1e-12
+    }
+  },
+  "prior_stage_gate": {
+    "actual_receipt": {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s2/final_regression_v1/ACCEPTANCE.json",
+      "sha256": "82556bf8a335ce8df03f5e1b797bcc044a6590790a01e6425a6def7d3cf33cd6"
+    },
+    "generation_inference_and_effect_access_before_gate": false,
+    "required_status": "PASS_COMPLETE_S2_REGRESSION_AND_INDEPENDENT_STATISTICS"
+  },
+  "raw_inputs": {
+    "output_root": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/artifacts/s3/raw_v1",
+    "source_base": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908"
+  },
+  "scientific_protocol_frozen": true,
+  "secondary_descriptive_only": {
+    "benefit_training_change": "(C_T1_free - C_T1_actual) - (C_T0_free - C_T0_actual)",
+    "free_training_change": "C_T1_free - C_T0_free",
+    "inference": "Point summaries only; no additional significance claim or secondary interval family",
+    "selection_change": "Mean indicator that exact predicted-cost argmin sets differ between T1 actual and T1 free, with the same recipient/pool/objective weights",
+    "tie_sensitivity": "Selected physical cost using lowest-index among exact tied predicted minima"
+  },
+  "seed_resolution_scope": "Draft seeds resolved by predetermined hash namespace before S2/S3effectaccess;113metadata manifests checked. No generation or scientific execution authorized; actual content isolation and source-freeze remain pending.",
+  "shared_prefix_decision": {
+    "available_scorer_inputs": [
+      "history_pixels",
+      "historical_prefix_actions",
+      "common_executed_actions",
+      "current_pixels",
+      "goal_pixels",
+      "same32_suffix_actions",
+      "proposal_action_provenance"
+    ],
+    "candidate_count": 32,
+    "candidate_rule": "Existing select_suffix_candidates: selected suffix, zero suffix,30 source indices sampled without replacement; retain duplicate action sequences.",
+    "candidate_source": {
+      "path": "/external-assets/cluster/projects/jepa-regime-study-maintrack-20260908/releases/prospective-mechanism-v9-20260923/source/scripts/visual/prepare_feedback_ranking_bank.py",
+      "sha256": "fc4408c063ca226b5374612196e2564bae1528a7c7d8baf5fdb8b0f90f69d8d2"
+    },
+    "candidate_subsample_namespace": 1378001,
+    "common_executed_actions": 5,
+    "decision_relative_action": 5,
+    "future_state_access": "Predictions/decisions must be sealed before joining separate physical outcomes; code/data-flow separation, not OS access-control claim.",
+    "historical_actions": 10,
+    "history_tokens": 3,
+    "legacy_reference_route_ids": [
+      0,
+      32,
+      64
+    ],
+    "native_root_candidate_count": 300,
+    "outcome_only_inputs": [
+      "true_goal_state",
+      "candidate_terminal_states",
+      "candidate_future_pixels",
+      "physical_candidate_costs"
+    ],
+    "reference_policy_rows": [
+      0,
+      8,
+      16
+    ],
+    "root_rule": "Each C model predicts the same actually executed five-action prefix; actual/donor branches of that model share this root. Other models keep their own roots.",
+    "same_observed_image_for_all_suffixes": true,
+    "scoring_horizon": 25,
+    "suffix_actions": 20,
+    "suffix_prediction_horizons": [
+      10,
+      15,
+      20,
+      25
+    ],
+    "suffix_root_rule": "Exactly one branch root per model, broadcast over the same32 candidates; no candidate-specific feedback."
+  },
+  "stage": "S3_matched_post_prefix_decision",
+  "status": "S3_SCIENTIFIC_PROTOCOL_FROZEN",
+  "unresolved_before_any_S3_execution": []
+}

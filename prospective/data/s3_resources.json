@@ -1,0 +1,281 @@
+{
+  "scope": "Successful allocations and failed missing-dependency allocations separately; excludes queue and prior model training.",
+  "summary": {
+    "COMPLETED": {
+      "allocations": 30,
+      "cpu_core_hours": 8.37888888888889,
+      "gpu_hours": 1.715
+    },
+    "FAILED": {
+      "allocations": 3,
+      "cpu_core_hours": 2.453333333333333,
+      "gpu_hours": 0.6133333333333333
+    }
+  },
+  "rows": [
+    {
+      "job": "43134416",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 150,
+      "cpus": 4,
+      "gpus": 0
+    },
+    {
+      "job": "43134417",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 1,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134419",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 26,
+      "cpus": 8,
+      "gpus": 0
+    },
+    {
+      "job": "43134420",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 15,
+      "cpus": 4,
+      "gpus": 0
+    },
+    {
+      "job": "43134411_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 643,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134411_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 644,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134412_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 208,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134412_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 209,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134412_2",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 208,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134412_3",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 209,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134412_4",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 198,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134412_5",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 210,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134413_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 33,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134413_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 33,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134413_2",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 39,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134413_3",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 39,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134413_4",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 39,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134413_5",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 34,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134414_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 249,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134414_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 245,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134414_2",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 245,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134414_3",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 14,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134414_4",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 14,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134414_5",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 14,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134415_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 2,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134415_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 2,
+      "cpus": 2,
+      "gpus": 0
+    },
+    {
+      "job": "43134418_0",
+      "state": "FAILED",
+      "exit_code": "1:0",
+      "seconds": 700,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134418_1",
+      "state": "FAILED",
+      "exit_code": "1:0",
+      "seconds": 779,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43134418_2",
+      "state": "FAILED",
+      "exit_code": "1:0",
+      "seconds": 729,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43156591",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 5,
+      "cpus": 4,
+      "gpus": 0
+    },
+    {
+      "job": "43156656_0",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 1522,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43156656_1",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 1539,
+      "cpus": 4,
+      "gpus": 1
+    },
+    {
+      "job": "43156656_2",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "seconds": 1871,
+      "cpus": 4,
+      "gpus": 1
+    }
+  ]
+}

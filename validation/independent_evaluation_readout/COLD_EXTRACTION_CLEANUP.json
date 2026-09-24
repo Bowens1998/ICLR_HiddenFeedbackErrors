@@ -1,0 +1,21 @@
+{
+  "status": "PASS_REMOVED_VERIFIED_REGENERABLE_EXTRACTION_ONLY",
+  "checked_at_utc": "2026-09-22T23:21:51.494724+00:00",
+  "removed_directory": "g_eval_archive_cold_extract_v1",
+  "file_count": 128,
+  "file_bytes": 216840383,
+  "archive": "staged_additional_archives/independent_evaluation_readout_anonymous_staged_v1.zip",
+  "archive_sha256": "891286d2689b22700e4f9db189b8ab9d4483d793c97ab958e7d237c442fdb423",
+  "checks": [
+    "Cold replay passed with outputs outside extraction",
+    "Every extracted filename and file hash equals the final ZIP",
+    "Every extracted entry owned by current user; no symlinks",
+    "All source arrays, staged package, archive, logs, receipts and replay summaries preserved"
+  ],
+  "disk_before_free_bytes": 3055435776,
+  "preserved_replay_receipt": "G_EVAL_CPU_archive_cold_v1_receipt.json",
+  "preserved_replay_receipt_sha256": "e04777b9c81e41448441e843006abe66193493dcf32dfbb2169b6e2658d77488",
+  "preserved_summary": "g_eval_cpu_archive_cold_v1/summary.json",
+  "preserved_summary_sha256": "0475636c6daaa098288b0a3e1c8f626e2c0939414beaac180360fa9859952267",
+  "disk_after_free_bytes": 3272810496
+}

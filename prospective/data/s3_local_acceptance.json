@@ -1,0 +1,31 @@
+{
+  "status": "PASS_LOCAL_COMPLETE_S3_TRANSFER_AND_SAVED_STATISTICS_ACCEPTANCE",
+  "at_utc": "2026-09-24T06:11:54.676302+00:00",
+  "source_report_sha256": "933ae17db15b10b388b73ebea9c1f95f333d1bbf838e4cda08bf108ecef957a6",
+  "arrays_sha256": "c1b3bcd5364214e8680f4abc849885d314ba33c55c42d11c1820d34a836dfdb3",
+  "families": 1536,
+  "recipients": 512,
+  "models": 12,
+  "candidates_per_pool_recipient": 32,
+  "primary_contrasts": [
+    {
+      "classification": "unresolved",
+      "contrast": "C_T1_actual - C_T1_free",
+      "interval_level": 0.975,
+      "lower": -116.49363210758052,
+      "mean": -50.66440539272028,
+      "upper": 11.486823837427822
+    },
+    {
+      "classification": "unresolved",
+      "contrast": "C_T1_actual - C_T1_donor",
+      "interval_level": 0.975,
+      "lower": -111.67052333558094,
+      "mean": -34.29775089788225,
+      "upper": 39.43634917521651
+    }
+  ],
+  "new_bootstrap_draws_generated": false,
+  "raw_model_or_simulator_rerun": false,
+  "full_historical_reproduction": false
+}

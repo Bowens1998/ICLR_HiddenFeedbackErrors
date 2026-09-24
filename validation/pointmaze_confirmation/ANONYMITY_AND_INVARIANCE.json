@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "files": 396,
+  "manifest_payload_files": 395,
+  "hits": [],
+  "exact_scientific_npz": [
+    {
+      "path": "bootstrap/indices.npz",
+      "sha256": "32ae00ef2db93ca8d86f2a56437a51d290213ba8f90b8dc3a6a8482885d36943",
+      "bytes": 8502340
+    },
+    {
+      "path": "data/goal_scores.npz",
+      "sha256": "21bcde4c540c474a2c4b48ddf3a97bc31a0e7623ee0ccf6d9ec89837f21a2b95",
+      "bytes": 130095
+    },
+    {
+      "path": "head/normalizers.npz",
+      "sha256": "11c6a54ffa22a5964e9b2e67e8afe86bd6f743ce99d8260c7ddf978c5c8692c8",
+      "bytes": 1148457
+    },
+    {
+      "path": "head/validation_predictions.npz",
+      "sha256": "fd1cd4497cd83ca7de7759add322c5fc12b5ad85e6af99ce8f94b8e15eccecff",
+      "bytes": 187265
+    },
+    {
+      "path": "head/weights.npz",
+      "sha256": "3f711ba4e8b9108053c136ab85743eab6769fc19b15c169debd7eb5685c0a096",
+      "bytes": 72685663
+    },
+    {
+      "path": "insertion/all_fp32_insertions.npz",
+      "sha256": "54a317797f3a8512cb68608216e638fd86f999ff3125ea3c0776e748f661b9e1",
+      "bytes": 214852014
+    },
+    {
+      "path": "reports/qualification/complete_observed_errors.npz",
+      "sha256": "35c32137a2535a4ef4ff869e33e74ae9d3f604676119c7a29c275c869deb857f",
+      "bytes": 97284
+    },
+    {
+      "path": "reports/readout_acceptance/validation_predictions_fp64.npz",
+      "sha256": "dea8d042de882f0458a3c822a5b27c503615f435f53ac6b725bf8aad6a3fbf6e",
+      "bytes": 187252
+    },
+    {
+      "path": "reports/statistics/bootstrap_means.npz",
+      "sha256": "614fae0e213db3efd7fdc11db51ccd53847a03c4b947e5223318404d68692c76",
+      "bytes": 3258180
+    }
+  ],
+  "string_arrays_checked": 2,
+  "numeric_boolean_null_json_leaf_invariance_checked": 337,
+  "scope": "All filenames/text and NPZ string arrays, no object arrays; all scientific NPZ bytes unchanged from accepted inputs including authenticated exact FP32 insertion export."
+}

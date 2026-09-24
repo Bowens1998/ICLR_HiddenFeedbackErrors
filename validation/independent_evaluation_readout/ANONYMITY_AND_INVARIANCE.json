@@ -1,0 +1,178 @@
+{
+  "status": "PASS_ANONYMOUS_AND_NUMERIC_PAYLOAD_AUDIT",
+  "checked_at_utc": "2026-09-22T23:17:13.918555+00:00",
+  "binary_npz_files_unchanged": 33,
+  "binary_files": [
+    {
+      "path": "data/paired_goal_vectors.npz",
+      "sha256": "3edee03ffba701d00307227d988124e397267ca87ae985af77eccfb04aaa254a",
+      "bytes": 8569844
+    },
+    {
+      "path": "data/scores.npz",
+      "sha256": "f628068b8a0bc9cef347576d72f31888d8caf5c03bbcf946426c99a629e27b2a",
+      "bytes": 101087862
+    },
+    {
+      "path": "data/scores_full_feasible_C.npz",
+      "sha256": "227fde112badad95eff730000e970b748a986a4cbef52e901f50955994d7f00d",
+      "bytes": 38256497
+    },
+    {
+      "path": "fixtures/group_0/forward_verification.npz",
+      "sha256": "a01ef3513c99d0be85ef414a30d59b235abcaa7f27aff862091bf24b82ee82fe",
+      "bytes": 52163
+    },
+    {
+      "path": "fixtures/group_1/forward_verification.npz",
+      "sha256": "e1d554adc0b594495957b1a9b49bd41b3de4d783bbe19b43204703e724cef218",
+      "bytes": 52119
+    },
+    {
+      "path": "fixtures/group_2/forward_verification.npz",
+      "sha256": "06d619b79a5801000f34fc8e35ee08c15396b1e0a5d19ebec4c8ff60447d6694",
+      "bytes": 52084
+    },
+    {
+      "path": "fixtures/group_3/forward_verification.npz",
+      "sha256": "7cae8b93cf0aaee9d81478c02dc970fd919d5effec4fcb98689ae5bc9d5c39dc",
+      "bytes": 52112
+    },
+    {
+      "path": "fixtures/group_4/forward_verification.npz",
+      "sha256": "63126aa70cb578995d65f1fbcbd8ff4ca4e4ad0f72a8613b788c464f02c12a34",
+      "bytes": 52110
+    },
+    {
+      "path": "fixtures/group_5/forward_verification.npz",
+      "sha256": "27398898e316246d81d875378fa344ee275d5ce0082364046fd32213333220d6",
+      "bytes": 52052
+    },
+    {
+      "path": "heads/group_0/selected.npz",
+      "sha256": "59c4b94d9b7f4d620b7560c8d575217e396262d15857f18164b52be2af6bfd38",
+      "bytes": 1172033
+    },
+    {
+      "path": "heads/group_1/selected.npz",
+      "sha256": "c1176c30306d031c214fe06f7d5468374e21522a5473365e7c1d1bb3fbb6ccb3",
+      "bytes": 1172088
+    },
+    {
+      "path": "heads/group_2/selected.npz",
+      "sha256": "351eb38c5e07a0179d8aae6020e235f393cc2c0624abd250867509aadf8fc54d",
+      "bytes": 1172072
+    },
+    {
+      "path": "heads/group_3/selected.npz",
+      "sha256": "082eddd3bd4ac9dd38ae99c208be2b76c98beb2e9240d6aaeff9784f66f35046",
+      "bytes": 1172062
+    },
+    {
+      "path": "heads/group_4/selected.npz",
+      "sha256": "2be55267502c92a0ccb30354c8d289d990ef5231f4c1b672168cdb546f2f7044",
+      "bytes": 1171987
+    },
+    {
+      "path": "heads/group_5/selected.npz",
+      "sha256": "ac052db2a8fd4de4d8f20a929efd691435623d6c25ef3e5e289a7094691842ee",
+      "bytes": 1172147
+    },
+    {
+      "path": "reference_heads/group_0/head_A.npz",
+      "sha256": "f318a47cf360741d0d233139b16f0507a1af6ae63fb18ba18c213d21b3873e28",
+      "bytes": 1355687
+    },
+    {
+      "path": "reference_heads/group_1/head_A.npz",
+      "sha256": "9f53c70acfd63224efe7b7ef654afe1f10e9d4f3f6c8ff80d06fbb53f02c41dd",
+      "bytes": 1355718
+    },
+    {
+      "path": "reference_heads/group_2/head_A.npz",
+      "sha256": "b3c91a14b7c4f79b40bb773ff4bd953759dee1112debd582f170532cad9a5470",
+      "bytes": 1355831
+    },
+    {
+      "path": "reference_heads/group_3/head_A.npz",
+      "sha256": "4e78efd7faeb7625d76c06d6ca6b1d9e4e944c91684edd496ba6479d5edc0dfe",
+      "bytes": 1355455
+    },
+    {
+      "path": "reference_heads/group_4/head_A.npz",
+      "sha256": "8834978a1daac7e3ab4449f946a3da40323254771774decb6cb835d8a70ea3ee",
+      "bytes": 1355661
+    },
+    {
+      "path": "reference_heads/group_5/head_A.npz",
+      "sha256": "73e37c6d38377ff8e39c4f8edbe129b8c236f1422f5f7dde4206b07219fb3957",
+      "bytes": 1355574
+    },
+    {
+      "path": "reports/qualification/group_0/expert.npz",
+      "sha256": "078f483821e7414919e284cd063e9590f645ad34304b35e8de7f95a985bad347",
+      "bytes": 7066959
+    },
+    {
+      "path": "reports/qualification/group_0/planner.npz",
+      "sha256": "be82a83818fa16fae361c4c36b40a837ed277f3b56783f06975b55d5773569ce",
+      "bytes": 1552194
+    },
+    {
+      "path": "reports/qualification/group_1/expert.npz",
+      "sha256": "a22d4e9a449414bf558b40d5e1d64dbcbc41bd3d758440adb7138195af73223a",
+      "bytes": 7067962
+    },
+    {
+      "path": "reports/qualification/group_1/planner.npz",
+      "sha256": "d99b4349fcfcbee4ba04a61d13c1e2b27aa0f10ba36c4a81c14e3c34bafad6a2",
+      "bytes": 1546491
+    },
+    {
+      "path": "reports/qualification/group_2/expert.npz",
+      "sha256": "43e00c439ea049d9ad84ee73e995bc2abcbbae607c6b557342354911a3719bb5",
+      "bytes": 7064979
+    },
+    {
+      "path": "reports/qualification/group_2/planner.npz",
+      "sha256": "50601b8608441ad683e422a1be73a25fd40fe8538a39ef3456e3c870fca1166c",
+      "bytes": 1551984
+    },
+    {
+      "path": "reports/qualification/group_3/expert.npz",
+      "sha256": "b4941c84745ca2d7ed39d6fb239ba96f706971e6a4cc7b2e12defef79d7c1f96",
+      "bytes": 7067454
+    },
+    {
+      "path": "reports/qualification/group_3/planner.npz",
+      "sha256": "6cb9c2a1ff67109a9f8870b2475091672674d19e07909f5c0ae85f369d011e1d",
+      "bytes": 1546226
+    },
+    {
+      "path": "reports/qualification/group_4/expert.npz",
+      "sha256": "9d7e5d0e7af61d64226d3c66c997d576d6c8521faf40c41ea4fbb77e5d373c1f",
+      "bytes": 7065170
+    },
+    {
+      "path": "reports/qualification/group_4/planner.npz",
+      "sha256": "ff0b9095d4c21fc7f44c7d331619d4e070378b22db0160e916bca2a862227faf",
+      "bytes": 1551963
+    },
+    {
+      "path": "reports/qualification/group_5/expert.npz",
+      "sha256": "46121b725824abe4bf41259b6a135c000b64a1a61e3a9d7a565c78f734f6f29b",
+      "bytes": 7066732
+    },
+    {
+      "path": "reports/qualification/group_5/planner.npz",
+      "sha256": "2791108d3bdefe5c82918ababdbd07179f7f124d147acef0937a90e184de453b",
+      "bytes": 1546048
+    }
+  ],
+  "JSON_files_parsed": 53,
+  "string_arrays_scanned": 19,
+  "object_arrays": 0,
+  "targeted_identity_hits": [],
+  "numeric_boolean_null_JSON_invariance": "Asserted against original files during every anonymized copy in build_g_eval_package.py",
+  "scope": "All package text, filenames and all NPZ Unicode/bytes arrays; binary scientific payloads SHA-identical to accepted inputs."
+}

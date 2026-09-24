@@ -1,0 +1,5 @@
+{
+  "summary_sha256": "2e6bc5e16de49d1f72e22f9b927eff62e4dd772ba86d05f7d375a2e2ee952a8e",
+  "source_sha256": "5deb9660d99c1fdab4a8260e0ac5d2aeb3d7f882492dac684ef2208921f3291c",
+  "interval": "Five prespecified 99% marginal intervals; nominal familywise 95% Bonferroni coverage."
+}

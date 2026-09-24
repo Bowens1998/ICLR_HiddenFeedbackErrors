@@ -1,0 +1,6 @@
+archives/*.zip
+__pycache__/
+*.pyc
+.venv/
+replay*/
+*_VERIFICATION.json

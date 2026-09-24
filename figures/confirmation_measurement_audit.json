@@ -1,0 +1,716 @@
+{
+  "checks": {
+    "accepted_primary_means_match": true,
+    "all_18_core_cells_retained": true,
+    "all_256_goals_four_streams_retained": true,
+    "all_model_points_retained": true,
+    "maximum_cell_summary_residual": 2.1827872842550278e-11,
+    "original_nine_contrasts_retained": true
+  },
+  "evaluation_only_core": [
+    {
+      "actual_model_means": [
+        1922.3574811320368,
+        2074.0510250301168,
+        2242.685746195835,
+        2035.7054298645517,
+        1698.591193791926,
+        1714.3538558460327
+      ],
+      "actual_mse": 1947.957455310083,
+      "free_model_means": [
+        1818.0376669620323,
+        1903.409495467883,
+        1999.1231743542353,
+        1804.1724564039964,
+        1635.8124872200428,
+        1753.1647804884396
+      ],
+      "free_mse": 1818.9533434827715,
+      "model_keys": [
+        "A_core/0/latent/A/single_A",
+        "A_core/1/latent/A/single_A",
+        "A_core/2/latent/A/single_A",
+        "A_core/3/latent/A/single_A",
+        "A_core/4/latent/A/single_A",
+        "A_core/5/latent/A/single_A"
+      ],
+      "objective": "latent",
+      "primitive_action": 5,
+      "stage": "insertion"
+    },
+    {
+      "actual_model_means": [
+        5517.31834885247,
+        5398.41095062191,
+        7243.771229039134,
+        4692.503126242031,
+        6096.756563052246,
+        4674.627134387623
+      ],
+      "actual_mse": 5603.897892032568,
+      "free_model_means": [
+        5710.5805926947305,
+        5959.874815650644,
+        7555.815225315537,
+        5048.035490552662,
+        6279.238505018482,
+        5030.605228391472
+      ],
+      "free_mse": 5930.691642937255,
+      "model_keys": [
+        "A_core/0/latent/A/single_A",
+        "A_core/1/latent/A/single_A",
+        "A_core/2/latent/A/single_A",
+        "A_core/3/latent/A/single_A",
+        "A_core/4/latent/A/single_A",
+        "A_core/5/latent/A/single_A"
+      ],
+      "objective": "latent",
+      "primitive_action": 25,
+      "stage": "terminal"
+    },
+    {
+      "actual_model_means": [
+        1858.9745265446234,
+        2604.0258054075994,
+        1995.01603907159,
+        2624.2329305350804,
+        1560.414718614291,
+        2261.7283461238694
+      ],
+      "actual_mse": 2150.732061049509,
+      "free_model_means": [
+        2210.9991618459544,
+        4141.038730660938,
+        2151.7024975107875,
+        4090.2662186749703,
+        1703.59594034794,
+        3607.1552065452324
+      ],
+      "free_mse": 2984.126292597637,
+      "model_keys": [
+        "A_core/0/decoded_teacher/A/single_A",
+        "A_core/1/decoded_teacher/A/single_A",
+        "A_core/2/decoded_teacher/A/single_A",
+        "A_core/3/decoded_teacher/A/single_A",
+        "A_core/4/decoded_teacher/A/single_A",
+        "A_core/5/decoded_teacher/A/single_A"
+      ],
+      "objective": "decoded_teacher",
+      "primitive_action": 5,
+      "stage": "insertion"
+    },
+    {
+      "actual_model_means": [
+        7802.09238251995,
+        13778.216946583985,
+        9054.732274497952,
+        22266.161483219825,
+        6294.36894646375,
+        12909.020183211762
+      ],
+      "actual_mse": 12017.432036082871,
+      "free_model_means": [
+        8709.661651048638,
+        14626.942501656391,
+        9936.378886622038,
+        25242.649365321333,
+        6666.579667007327,
+        13976.668070446935
+      ],
+      "free_mse": 13193.146690350442,
+      "model_keys": [
+        "A_core/0/decoded_teacher/A/single_A",
+        "A_core/1/decoded_teacher/A/single_A",
+        "A_core/2/decoded_teacher/A/single_A",
+        "A_core/3/decoded_teacher/A/single_A",
+        "A_core/4/decoded_teacher/A/single_A",
+        "A_core/5/decoded_teacher/A/single_A"
+      ],
+      "objective": "decoded_teacher",
+      "primitive_action": 25,
+      "stage": "terminal"
+    },
+    {
+      "actual_model_means": [
+        1847.7614441853134,
+        2824.404491184409,
+        1773.8423861974165,
+        2662.0395241170954,
+        1513.2934065270542,
+        1864.452077913789
+      ],
+      "actual_mse": 2080.9655550208463,
+      "free_model_means": [
+        2063.293811137539,
+        4510.963898428332,
+        2162.857906508564,
+        4387.576969834809,
+        1771.7873472375386,
+        2874.916275508269
+      ],
+      "free_mse": 2961.8993681091756,
+      "model_keys": [
+        "A_core/0/physical_labels/A/single_A",
+        "A_core/1/physical_labels/A/single_A",
+        "A_core/2/physical_labels/A/single_A",
+        "A_core/3/physical_labels/A/single_A",
+        "A_core/4/physical_labels/A/single_A",
+        "A_core/5/physical_labels/A/single_A"
+      ],
+      "objective": "physical_labels",
+      "primitive_action": 5,
+      "stage": "insertion"
+    },
+    {
+      "actual_model_means": [
+        8106.143057813063,
+        12486.73054608901,
+        9526.049025185226,
+        18608.157359552144,
+        6558.140994004881,
+        11257.1740979577
+      ],
+      "actual_mse": 11090.399180100338,
+      "free_model_means": [
+        9052.855341026083,
+        13411.069102130077,
+        10256.749663489309,
+        20489.94317896105,
+        7146.081463880704,
+        12506.973018393219
+      ],
+      "free_mse": 12143.94529464674,
+      "model_keys": [
+        "A_core/0/physical_labels/A/single_A",
+        "A_core/1/physical_labels/A/single_A",
+        "A_core/2/physical_labels/A/single_A",
+        "A_core/3/physical_labels/A/single_A",
+        "A_core/4/physical_labels/A/single_A",
+        "A_core/5/physical_labels/A/single_A"
+      ],
+      "objective": "physical_labels",
+      "primitive_action": 25,
+      "stage": "terminal"
+    }
+  ],
+  "original_confirmation": [
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A01",
+        "left": "actual",
+        "objective": "decoded_teacher",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -786.1096766709763,
+      "interval": [
+        -998.8328255138019,
+        -609.0192028393045
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 5938.774614948343,
+          "paired_change": -554.9723206258828,
+          "right_mean": 6493.746935574227
+        },
+        {
+          "group": 1,
+          "left_mean": 9391.84542392299,
+          "paired_change": -836.8719302403008,
+          "right_mean": 10228.717354163291
+        },
+        {
+          "group": 2,
+          "left_mean": 7791.283930580573,
+          "paired_change": -755.593154394099,
+          "right_mean": 8546.877084974672
+        },
+        {
+          "group": 3,
+          "left_mean": 8143.576961523049,
+          "paired_change": -1187.0105539642595,
+          "right_mean": 9330.58751548731
+        },
+        {
+          "group": 4,
+          "left_mean": 6386.461709921603,
+          "paired_change": -432.1645324492753,
+          "right_mean": 6818.6262423708795
+        },
+        {
+          "group": 5,
+          "left_mean": 8319.975635016697,
+          "paired_change": -950.0455683520402,
+          "right_mean": 9270.021203368737
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A02",
+        "left": "actual",
+        "objective": "physical_labels",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -754.5209945559991,
+      "interval": [
+        -925.9575982251741,
+        -607.7696336708854
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6145.841500820134,
+          "paired_change": -683.2853798347578,
+          "right_mean": 6829.1268806548915
+        },
+        {
+          "group": 1,
+          "left_mean": 10617.106151279357,
+          "paired_change": -884.3620398244807,
+          "right_mean": 11501.468191103837
+        },
+        {
+          "group": 2,
+          "left_mean": 7918.163015837819,
+          "paired_change": -750.708118526939,
+          "right_mean": 8668.87113436476
+        },
+        {
+          "group": 3,
+          "left_mean": 8043.185630932276,
+          "paired_change": -679.2606284635849,
+          "right_mean": 8722.446259395861
+        },
+        {
+          "group": 4,
+          "left_mean": 6401.980437745578,
+          "paired_change": -551.8056061866923,
+          "right_mean": 6953.78604393227
+        },
+        {
+          "group": 5,
+          "left_mean": 7849.554211225054,
+          "paired_change": -977.70419449954,
+          "right_mean": 8827.258405724595
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A03",
+        "left": "actual",
+        "objective": "latent",
+        "right": "donor",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -737.9342079580603,
+      "interval": [
+        -938.8325906957406,
+        -546.8530902124834
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 5803.176523996407,
+          "paired_change": -692.2429250567126,
+          "right_mean": 6495.419449053119
+        },
+        {
+          "group": 1,
+          "left_mean": 5201.19299253508,
+          "paired_change": -387.7425083901699,
+          "right_mean": 5588.9355009252495
+        },
+        {
+          "group": 2,
+          "left_mean": 7390.289919061017,
+          "paired_change": -1206.7067412648007,
+          "right_mean": 8596.996660325818
+        },
+        {
+          "group": 3,
+          "left_mean": 5231.427277268291,
+          "paired_change": -581.7331530388249,
+          "right_mean": 5813.160430307114
+        },
+        {
+          "group": 4,
+          "left_mean": 6290.8756278395485,
+          "paired_change": -1131.1606141835728,
+          "right_mean": 7422.036242023121
+        },
+        {
+          "group": 5,
+          "left_mean": 4712.930945782802,
+          "paired_change": -428.0193058142808,
+          "right_mean": 5140.950251597082
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A04",
+        "left": "actual",
+        "objective": "decoded_teacher",
+        "right": "donor",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -643.847900826599,
+      "interval": [
+        -811.9267764556383,
+        -488.2576572174329
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 5938.774614948343,
+          "paired_change": -700.6415253783234,
+          "right_mean": 6639.416140326667
+        },
+        {
+          "group": 1,
+          "left_mean": 9391.84542392299,
+          "paired_change": -562.9373097486638,
+          "right_mean": 9954.782733671655
+        },
+        {
+          "group": 2,
+          "left_mean": 7791.283930580573,
+          "paired_change": -619.2782419544026,
+          "right_mean": 8410.562172534976
+        },
+        {
+          "group": 3,
+          "left_mean": 8143.576961523049,
+          "paired_change": -632.3650174076463,
+          "right_mean": 8775.941978930696
+        },
+        {
+          "group": 4,
+          "left_mean": 6386.461709921603,
+          "paired_change": -688.0279829234207,
+          "right_mean": 7074.489692845024
+        },
+        {
+          "group": 5,
+          "left_mean": 8319.975635016697,
+          "paired_change": -659.837327547137,
+          "right_mean": 8979.812962563834
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_core_six_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "id": "A05",
+        "left": "actual",
+        "objective": "physical_labels",
+        "right": "donor",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -551.6810869401918,
+      "interval": [
+        -699.5865224229773,
+        -413.5241928354205
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6145.841500820134,
+          "paired_change": -638.1996251886915,
+          "right_mean": 6784.041126008826
+        },
+        {
+          "group": 1,
+          "left_mean": 10617.106151279357,
+          "paired_change": -436.8074180828998,
+          "right_mean": 11053.913569362256
+        },
+        {
+          "group": 2,
+          "left_mean": 7918.163015837819,
+          "paired_change": -693.3730487979274,
+          "right_mean": 8611.536064635748
+        },
+        {
+          "group": 3,
+          "left_mean": 8043.185630932276,
+          "paired_change": -421.19526829689175,
+          "right_mean": 8464.380899229167
+        },
+        {
+          "group": 4,
+          "left_mean": 6401.980437745578,
+          "paired_change": -536.1903550374166,
+          "right_mean": 6938.170792782996
+        },
+        {
+          "group": 5,
+          "left_mean": 7849.554211225054,
+          "paired_change": -584.3208062373235,
+          "right_mean": 8433.875017462378
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_dual_twelve_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1
+        ],
+        "id": "A06",
+        "left": "dual_actual",
+        "objective": "decoded_teacher",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -487.1669672630202,
+      "interval": [
+        -667.6136820328966,
+        -325.92229552627134
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6073.147665050063,
+          "paired_change": -420.5992705241637,
+          "right_mean": 6493.746935574227
+        },
+        {
+          "group": 1,
+          "left_mean": 9674.982690161414,
+          "paired_change": -553.7346640018767,
+          "right_mean": 10228.717354163291
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_A_C",
+        "budget": "A_dual_twelve_directions",
+        "endpoint": "primitive25",
+        "family": "primary9",
+        "groups": [
+          0,
+          1
+        ],
+        "id": "A07",
+        "left": "dual_actual",
+        "objective": "physical_labels",
+        "right": "free",
+        "score": "head_A",
+        "streams": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "estimate": -442.79802710964987,
+      "interval": [
+        -601.5277826002294,
+        -293.05028948994294
+      ],
+      "model_points": [
+        {
+          "group": 0,
+          "left_mean": 6409.409902240428,
+          "paired_change": -419.71697841446286,
+          "right_mean": 6829.1268806548915
+        },
+        {
+          "group": 1,
+          "left_mean": 11035.589115299,
+          "paired_change": -465.87907580483693,
+          "right_mean": 11501.468191103837
+        }
+      ]
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_B",
+        "budget": "B_two_directions",
+        "endpoint": "native_block5_equals_primitive25",
+        "family": "primary9",
+        "groups": [
+          0
+        ],
+        "id": "B01",
+        "left": "actual",
+        "objective": "native",
+        "right": "free",
+        "score": "native_visual_head",
+        "streams": [
+          0
+        ]
+      },
+      "estimate": -82.86412641237942,
+      "interval": [
+        -261.8588138546655,
+        63.759580341439765
+      ],
+      "model_points": []
+    },
+    {
+      "contrast": {
+        "bank": "confirmation_B",
+        "budget": "B_two_directions",
+        "endpoint": "native_block5_equals_primitive25",
+        "family": "primary9",
+        "groups": [
+          0
+        ],
+        "id": "B02",
+        "left": "actual",
+        "objective": "native",
+        "right": "donor",
+        "score": "native_visual_head",
+        "streams": [
+          0
+        ]
+      },
+      "estimate": -2526.4757643270013,
+      "interval": [
+        -4729.351895007587,
+        -1035.5045728418415
+      ],
+      "model_points": []
+    }
+  ],
+  "schema": "original_nine_forest_plus_evaluation_only_core_v1",
+  "scope": {
+    "evaluation_only_core": "Descriptive means for free and actual branches, all three original continuation objectives and all six fixed Transformer/GRU groups, 256 original goals and four reference streams. Exactly the already-accepted block_error endpoint summaries at actions 5 and25.",
+    "measurement": "g_A is preserved by construction; g_eval is evaluation-only and unconstrained. Different errors at insertion are changes in pose estimates, not verified physical state differences or a mediation test.",
+    "no_new_analysis": "No resampling, new hypothesis test, intervention, model, target, population or time endpoint. No intervals drawn for the two added descriptive panels.",
+    "normalization": "Block-position squared Euclidean error in pixels squared, without division by two. Each group contributes equal weight.",
+    "original_forest": "All original nine primary comparisons, their original 99.444% intervals and fixed model points retained unchanged. These do not include the new g_eval/PointMaze family.",
+    "pairing": "Segments connect free/actual means within the same objective and time only; no across-time connecting lines."
+  },
+  "sources": {
+    "accepted_g_eval_metadata": {
+      "path": "strengthening/presubmission_v8_20260922/independent_readout/reports/scores_v1/scores_metadata.json",
+      "sha256": "8ce5b281b49f7b2aa1efa2ddcf28e882b0062eba13b0695c734e023305d3b91e"
+    },
+    "accepted_g_eval_scores": {
+      "path": "strengthening/presubmission_v8_20260922/verification/readout_score_inputs_v1/scores.npz",
+      "sha256": "f628068b8a0bc9cef347576d72f31888d8caf5c03bbcf946426c99a629e27b2a"
+    },
+    "accepted_g_eval_summary": {
+      "path": "strengthening/presubmission_v8_20260922/independent_readout/reports/statistics_v1/summary.json",
+      "sha256": "15e131d0df76f70728d97249684c2cfd9283a1673be191f2f3cc74cd95012e6d"
+    },
+    "original_forest_data": {
+      "path": "paper/iclr2027/figures/result_figure_data.json",
+      "sha256": "7596a5d655236e6f1936b3a9735f18658c032777a31a1271eddaa2bc9b10b9cd"
+    },
+    "root_acceptance": {
+      "path": "strengthening/presubmission_v8_20260922/verification/G_EVAL_FINAL_ACCEPTANCE.lock.json",
+      "sha256": "ebcc3d320dbfde15d62c66bdb85b55a573a38c90c031047ebec66d684c6aa5c8"
+    }
+  },
+  "title": "Preserved-readout contrasts and evaluation-only pose errors"
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "6cbf899159fd924ce344ae5562a1323383ed65e74d6065443b3e6e956e30d4d3",
+  "inputs": {
+    "runs/hpg/planner_data_adaptation_v1/readout_fiber_rollout_summary.json": "55bbb028ce1facc6b286cfd6b0041e0102a93a43bea16bc77fb84da5e05a9e4f",
+    "runs/hpg/matched_fiber_v1/summary.json": "880617c972586cb2a9cd1d7697b1a383f5d810d1753e4f0c10e6607a3ba8660a",
+    "runs/hpg/shuffled_fiber_v1/summary.json": "f6203a1dc3ca7c50ef8ffb7a90e24e5a6f863d4a194b83b36ea0a5a8198faea9",
+    "runs/hpg/reacher_fiber_transfer_v1/fiber_rollout_summary.json": "e39c3b9d35adfd78bf61efcc826bcd25a450726b78ecd703f3d0309789d53f41"
+  }
+}

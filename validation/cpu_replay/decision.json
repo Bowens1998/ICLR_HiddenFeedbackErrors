@@ -1,0 +1,30 @@
+{
+  "task": "decision",
+  "archive": "feedback_confirmation_evidence_v1.zip",
+  "archive_sha256": "416727c7ce38a18a6cc264b69fe1b2661624834ad4eabc02f3a934e255efe593",
+  "command": [
+    "python",
+    "-B",
+    "verify_decisions.py"
+  ],
+  "exit_code": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.3.5",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "processor": "AMD Ryzen 9 5900HS with Radeon Graphics",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "2",
+    "OMP_NUM_THREADS": "2",
+    "MKL_NUM_THREADS": "2"
+  },
+  "measured": {
+    "wall_seconds": 0.39,
+    "user_seconds": 0.46,
+    "system_seconds": 0.12,
+    "max_rss_kib": 402088,
+    "exit_code": 0
+  },
+  "started_unix": 1790113167.236709,
+  "scope": "Existing local Python environment, fresh isolated ZIP extraction; no GPU, training, network or external repository imports.",
+  "log_sha256": "5dce6697849893c5f1f41771222c04709aeb83f54aae8ab2aef64423f56de63e"
+}

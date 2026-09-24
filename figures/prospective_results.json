@@ -1,0 +1,83 @@
+{
+  "status": "ALL_THREE_PROSPECTIVE_RESULTS_ACCEPTED",
+  "s1": [
+    {
+      "id": "decoded_teacher/U_AC",
+      "estimate": 676.5605642917658,
+      "interval": [
+        398.2365174336236,
+        960.8650179146521
+      ]
+    },
+    {
+      "id": "decoded_teacher/S_AC",
+      "estimate": 732.9943877780738,
+      "interval": [
+        459.7597122605845,
+        1033.4260313947127
+      ]
+    },
+    {
+      "id": "physical_labels/U_AC",
+      "estimate": 670.6556994806668,
+      "interval": [
+        421.55014431234474,
+        922.4626770542883
+      ]
+    },
+    {
+      "id": "physical_labels/S_AC",
+      "estimate": 371.6205284649476,
+      "interval": [
+        149.49850229041468,
+        601.4261154422234
+      ]
+    }
+  ],
+  "s2": {
+    "estimate": 469342.4131605186,
+    "interval": [
+      -222573.07560066428,
+      1649895.0812882613
+    ]
+  },
+  "s3": [
+    {
+      "estimate": -50.66440539272028,
+      "interval": [
+        -116.49363210758052,
+        11.486823837427822
+      ],
+      "contrast": "C_T1_actual - C_T1_free"
+    },
+    {
+      "estimate": -34.29775089788225,
+      "interval": [
+        -111.67052333558094,
+        39.43634917521651
+      ],
+      "contrast": "C_T1_actual - C_T1_donor"
+    }
+  ],
+  "interval_levels": {
+    "s1": 0.9875,
+    "s2": 0.95,
+    "s3": 0.975
+  },
+  "sample_counts": {
+    "s1": 256,
+    "s2_calibration": 256,
+    "s2_test": 512,
+    "s3": 512
+  },
+  "units": {
+    "s1": "pixels^2",
+    "s2": "pixels^4",
+    "s3": "physical pose cost"
+  },
+  "source_sha256": {
+    "reports/S1_COMPLETE_RESULT_LEDGER.json": "d51ecd946061c23ad34072ca67587726eb062993fe4a7b6a399b0d38368b057c",
+    "reports/s2_final_accepted_v1/production_statistics.json": "7fd8f02c170fe835a16813e4f9d82e93f960357b9e575f4c7c8ffb5f2f7eed44",
+    "reports/s3_final_accepted_v1/report.json": "933ae17db15b10b388b73ebea9c1f95f333d1bbf838e4cda08bf108ecef957a6"
+  }
+}
