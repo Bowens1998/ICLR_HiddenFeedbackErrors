@@ -3031,9 +3031,9 @@
     "README.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "59109553b7af080a71e5120cd57143c347e19096389d4405d820f0ca5dc636e4",
+      "supplied_sha256": "22f6912bf848fdb6526a826132ddfbca98c45e5ae50394f28ba1e3c74f62be38",
       "publication_documentation_updated": true,
-      "publication_note": "Code-only access status, artifact inventory and hosting-anonymity scope; no scientific change."
+      "publication_note": "v9 companion release access and artifact scope; no scientific change."
     },
     "archives/README.md": {
       "original_sha256": null,
@@ -3045,9 +3045,9 @@
     "ARTIFACTS.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "58ffa1068fafdc9bc56dd86671a4919c71801f9e114413676936d8e28837ca76",
+      "supplied_sha256": "69eb6ac4dad3538049a5987cc6d04054fe87f4dfa963e8ecf007c4d89ee4c3bd",
       "publication_documentation_updated": true,
-      "publication_note": "Code-only access status, artifact inventory and hosting-anonymity scope; no scientific change."
+      "publication_note": "v9 companion release access and artifact scope; no scientific change."
     }
   }
 }

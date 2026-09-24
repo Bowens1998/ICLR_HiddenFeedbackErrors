@@ -2,7 +2,7 @@
 
 ## Current access status
 
-The code repository includes scientific source, frozen protocols, editable figure sources, prospective saved arrays and acceptance records. The nine large evidence archives below are **not uploaded with this code commit**. No download URL is implied by their filenames. The complete reproduction ZIP is a separately prepared artifact.
+The code repository includes scientific source, frozen protocols, editable figure sources, prospective saved arrays and acceptance records. The companion **v9 release** supplies `when_predictions_become_inputs_anonymous_code_v9.zip` and `when_predictions_become_inputs_anonymous_reproduction_v9.zip`, with `SHA256SUMS.txt` and `ARCHIVE_MANIFEST.json`. The complete ZIP contains all nine evidence archives below. The individual large archives remain outside Git history.
 
 The quick-start `verify_prospective.py` works with the supplied small arrays. Historical saved-evidence verification additionally needs the corresponding archive in `archives/`.
 
