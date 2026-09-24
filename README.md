@@ -1,57 +1,84 @@
 # When Predictions Become Inputs
 
-Anonymous code and reproducibility materials for **When Predictions Become Inputs: Hidden Feedback Errors in Latent World Models**.
+Code and experiment materials for **When Predictions Become Inputs: Hidden Feedback Errors in Latent World Models**.
 
-## Quick start: the three prospective experiments
+The code follows the paper's experimental workflow: construct latent-model predictions, apply feedback interventions that preserve the current task readout, continue the rollout, and evaluate future predictions and action selection. It also includes readout fitting, recursive training, and figure generation.
+
+## Repository structure
+
+```text
+source/
+  scripts/visual/                 # Models, readouts, interventions, and evaluation
+  strengthening/
+    adapters/                     # Shared model and training utilities
+    scripts/                      # Readout fitting and model training
+    prospective_mechanism_v9_20260923/
+      scripts/                    # Measurement and reserved-readout evaluation
+      stage2/                     # Training-response diagnosis
+      stage3/                     # Candidate-action evaluation and selection
+      verification/               # Reference implementations and checks
+prospective/
+  protocols/                      # Experiment configurations and data assignments
+  data/                           # Saved arrays and analysis reports
+figures/                          # Plotting data, generators, and vector figures
+archives/                         # Additional experiment packages
+historical_boundaries/            # Supporting analyses and cross-task records
+validation/                       # Numerical checks and execution records
+verify_prospective.py             # Reconstruct prospective comparisons
+verify_saved_evidence.py          # Run analysis for archived experiments
+```
+
+## Main components
+
+- **Models and task readouts:** [`factorial_model.py`](source/scripts/visual/factorial_model.py) and [`nonlinear_pose_cost.py`](source/scripts/visual/nonlinear_pose_cost.py) define model construction and nonlinear pose evaluation.
+- **Feedback interventions:** [`readout_fiber.py`](source/scripts/visual/readout_fiber.py) implements the readout-preserving projection. Related scripts in `source/scripts/visual/` prepare inputs, run rollout branches, and compute comparison statistics.
+- **Recursive training:** [`train_rolling.py`](source/strengthening/scripts/train_rolling.py) runs the training conditions, using the prediction and loss functions in [`rolling_training.py`](source/strengthening/adapters/rolling_training.py).
+- **Measurement, diagnosis, and decisions:** [`prospective_mechanism_v9_20260923/`](source/strengthening/prospective_mechanism_v9_20260923/) contains the three experiment pipelines. Their configurations and saved analysis inputs are in `prospective/`.
+
+## Run the saved-result analysis
+
+From the repository root:
 
 ```bash
 python -m pip install -r requirements.txt
 OPENBLAS_NUM_THREADS=2 python verify_prospective.py --output PROSPECTIVE_VERIFICATION.json
 ```
 
-The supplied complete arrays reconstruct all eight reserved-evaluator contrasts (four primary and four secondary), the incremental-diagnosis contrast, and both matched-decision primary contrasts. This command also checks the fixed regression prediction arithmetic and all 12 decision-model branch means. It regenerates the original fixed bootstrap draws, with recipient counts 256, 512 and 512. It performs no new fitting, model selection or experimental data generation. Expected status is `PASS_COMPLETE_PROSPECTIVE_SAVED_CONTRAST_RECONSTRUCTION`.
+This reconstructs the measurement, training-response diagnosis, and action-selection comparisons from `prospective/data/` and writes a JSON report. Use a new output filename for each run.
 
-The four measurement primary intervals are positive. Incremental diagnostic gain and both matched-decision primary comparisons are unresolved. All results remain included. The original numerical/readout/population acceptance records are retained; the compact command verifies saved contrast arithmetic, not the complete upstream computation. The frozen S2 numerical verifier retains its original draft-schema metadata; the actual deployed protocol and outer acceptance are separately bound. A draft-schema label is not a claim that scientific choices were selected after outcomes.
-
-## Earlier evidence and raw-input demonstration
-
-The nine evidence archives in `ARCHIVE_MANIFEST.json` retain the earlier evidence packages, with anonymous text metadata where required. This code repository and the code-only ZIP exclude those large archives. Place the separately supplied archives under `archives/`; the complete reproduction ZIP includes them. See `ARTIFACTS.md` for the file inventory and access status. Then:
+For archived experiments, place the corresponding ZIP files in `archives/`, then list the available analyses or run one package:
 
 ```bash
 python verify_saved_evidence.py --list
 python verify_saved_evidence.py --package core --work-dir replay_core
 ```
 
-The optional `--package all` route reconstructs all earlier saved-evidence packages. It was already validated in the retained receipts; the present revision does not rerun all historical experiments. `RUNTIMES.md` records those earlier measured checks. Do not confuse saved-evidence verification with new model training or simulator regeneration.
+The runner extracts the selected package and writes its outputs under `--work-dir`. Use a new directory for each run. [`RUNTIMES.md`](RUNTIMES.md) lists the execution environments and recorded runtimes.
 
-`feedback_diagnostic_end_to_end_v1.zip` separately includes three study-trained checkpoints, readouts, normalizers and two fixed raw-image development examples. Extract it and follow its README to generate new projections and GPU rollouts. Its earlier clean GPU acceptance receipts remain in `validation/`. This is a limited demonstration, not reproduction of all training or all populations.
+## Model experiments
 
-## Code and paper map
+Training and rollout scripts are under `source/`. GPU experiments use the dataset, checkpoint, readout, and normalizer paths specified in their experiment manifests.
 
-| Paper evidence | Included implementation / evidence |
+For a raw-image example, extract `archives/feedback_diagnostic_end_to_end_v1.zip` and follow its README. That package contains checkpoints, readouts, normalizers, input images, and commands for projection and rollout.
+
+## Generate figures
+
+```bash
+python -m pip install -r requirements-figures.txt
+python figures/draw_training_readout_sensitivity.py --output-dir figure_output
+```
+
+Figure generators read the supplied plotting data and export PDF, SVG, and PNG files. [`figures/FIGURE_EDITING.md`](figures/FIGURE_EDITING.md) maps the paper figures to their generators and inputs.
+
+## Download materials
+
+The **v9 release** provides:
+
+| File | Contents |
 |---|---|
-| Figure 1, readout-preserving projection | `source/scripts/visual/readout_fiber.py`; prospective `scripts/s1_projection.py`, `stage2/projection_four.py`, `stage3/projection_eight.py` |
-| Figure 2, stronger task measurements | Core archive; independent evaluation-readout archive |
-| Figure 3, recursive training | Core archive; `source/strengthening/scripts/train_rolling.py` |
-| Figure 4A, reserved evaluator | `prospective/data/s1_*`; prospective fitting, projection, scoring and independent-reference source |
-| Figure 4B, incremental diagnosis | `prospective/data/s2_*`; prospective `stage2/regression.py` and `independent_regression.py` |
-| Figure 4C, matched decision | `prospective/data/s3_*`; prospective `stage3/population.py` and `decision_statistics.py` |
-| Motion constraints and rotated control | Motion archive, including original frozen evaluator sources and complete saved-token evidence |
-| Native PointMaze and failed measurement gates | PointMaze and velocity-qualification archives; original negatives retained |
-| Earlier cost decomposition and historical tests | Core/legacy/reporting archives and `historical_boundaries/` |
+| `when_predictions_become_inputs_anonymous_code_v9.zip` | Source code, configurations, plotting inputs, and saved analysis arrays |
+| `when_predictions_become_inputs_anonymous_reproduction_v9.zip` | Code package together with the experiment archives |
+| `SHA256SUMS.txt` | Checksums for the two ZIP files |
+| `ARCHIVE_MANIFEST.json` | Archive filenames, sizes, and checksums |
 
-Prospective source paths above are relative to `source/strengthening/prospective_mechanism_v9_20260923/`. The source tree retains the actual scientific functions and original CLI parsers. Infrastructure launchers are excluded. The original frozen-model production entry points require the bound external image corpora, encoder/predictor checkpoints, simulator and correctly remapped asset manifests; they are supplied for inspection, not advertised as portable one-command training. The runnable CPU entry points above and the archived two-case demonstration are the verified portable interfaces.
-
-## Resources and external assets
-
-The new tests reuse frozen predictors; only four new pose readouts and two ridge regressions are fitted. Successful measured allocations were 0.78 / 1.86 / 1.72 GPU-hours and 7.57 / 10.61 / 8.38 CPU-core-hours for measurement / diagnosis / decision, respectively. These exclude queue time, original model training and failed attempts. The initial missing-solver decision attempt used another 0.61 GPU-hours and 2.45 CPU-core-hours. GPU tasks used one RTX PRO 6000, with at most three concurrent decision jobs. The repaired solver was OSQP 0.6.7.post3 with QDLDL 0.1.9.post1; the repair did not alter scientific settings.
-
-Complete historical training images, every study-trained checkpoint and external DINO-WM weights are not redistributed here. Exact model/readout/normalizer identities and fixed data roles are retained in protocol and acceptance records. External DINO-WM acquisition follows the official source identified in the core archive. A full raw-input regeneration of all historical experiments was deferred; this release makes no claim that it was executed.
-
-## Figures, provenance and anonymity
-
-`figures/FIGURE_EDITING.md` lists the editable SVG/PDF assets, generators and supplied plotting inputs. All seven Figure 4 primary contrasts are shown; no result was selected for display by significance. `TERMINOLOGY.md` maps historical identifiers to the manuscript terms.
-
-`MANIFEST.json` authenticates supplied files; `SOURCE_DERIVATION.json` separately records original and anonymous hashes. Scientific source edits only anonymize machine/account metadata; numerical arrays are byte-identical. Reviewer documentation and Figure 1 sampling labels are synchronized with the manuscript. Original provenance hashes remain original identities, not hashes of redacted records. `/external-assets/` denotes intentionally unbundled assets, not a working path. No author identities, private host configuration, repository history, access tokens or review conversations are included. Public upstream author attributions remain intact.
-
-This repository publishes the anonymized code-only v9 payload. The companion v9 release provides the frozen code-only ZIP and complete reproduction ZIP, plus `SHA256SUMS.txt` and `ARCHIVE_MANIFEST.json`. The complete reproduction ZIP contains both code and all nine evidence archives; large archives remain outside Git history. `ARTIFACTS.md` documents their scope and expected hashes. File-content anonymization does not anonymize a hosting account: reviewer access must use a separately anonymized endpoint or anonymized supplementary files. No reviewer URL is asserted here.
+The complete package includes the `archives/` directory. [`TERMINOLOGY.md`](TERMINOLOGY.md) maps identifiers used in the code to the terms used in the paper.
