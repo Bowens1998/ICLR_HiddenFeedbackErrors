@@ -3031,9 +3031,9 @@
     "README.md": {
       "original_sha256": null,
       "path_metadata_changed": false,
-      "supplied_sha256": "685675a701c166494949472a6447caf7e02b1b1b3eb63d8782b57f5b39d51d31",
+      "supplied_sha256": "cc147b2d43733289c07dee50ee0706278e4f3bb5dd11599419aab4a211225453",
       "publication_documentation_updated": true,
-      "publication_note": "Repository overview organized around code structure, entry points, and downloadable materials."
+      "publication_note": "Add verified direct artifact-download links near the top of the repository README."
     },
     "archives/README.md": {
       "original_sha256": null,

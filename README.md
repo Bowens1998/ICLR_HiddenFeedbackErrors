@@ -4,6 +4,20 @@ Code and experiment materials for **When Predictions Become Inputs: Hidden Feedb
 
 The code follows the paper's experimental workflow: construct latent-model predictions, apply feedback interventions that preserve the current task readout, continue the rollout, and evaluate future predictions and action selection. It also includes readout fitting, recursive training, and figure generation.
 
+## Download materials
+
+**[Download the complete reproduction package (1.35 GB)](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/when_predictions_become_inputs_anonymous_reproduction_v9.zip)**
+
+The complete package contains the code and all nine experiment archives.
+
+| Download | Contents |
+|---|---|
+| [Code-only package (4.5 MB)](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/when_predictions_become_inputs_anonymous_code_v9.zip) | Source code, configurations, plotting inputs, and saved analysis arrays |
+| [SHA256SUMS.txt](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/SHA256SUMS.txt) | Checksums for the two ZIP files |
+| [ARCHIVE_MANIFEST.json](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/download/v9/ARCHIVE_MANIFEST.json) | Archive filenames, sizes, and checksums |
+
+All files are available on the **[v9 Release page](https://github.com/Bowens1998/ICLR_HiddenFeeadbackErrors/releases/tag/v9)**. Extract the complete package into its own directory, or copy its `archives/` directory into an existing clone.
+
 ## Repository structure
 
 ```text
@@ -70,15 +84,4 @@ python figures/draw_training_readout_sensitivity.py --output-dir figure_output
 
 Figure generators read the supplied plotting data and export PDF, SVG, and PNG files. [`figures/FIGURE_EDITING.md`](figures/FIGURE_EDITING.md) maps the paper figures to their generators and inputs.
 
-## Download materials
-
-The **v9 release** provides:
-
-| File | Contents |
-|---|---|
-| `when_predictions_become_inputs_anonymous_code_v9.zip` | Source code, configurations, plotting inputs, and saved analysis arrays |
-| `when_predictions_become_inputs_anonymous_reproduction_v9.zip` | Code package together with the experiment archives |
-| `SHA256SUMS.txt` | Checksums for the two ZIP files |
-| `ARCHIVE_MANIFEST.json` | Archive filenames, sizes, and checksums |
-
-The complete package includes the `archives/` directory. [`TERMINOLOGY.md`](TERMINOLOGY.md) maps identifiers used in the code to the terms used in the paper.
+See [`TERMINOLOGY.md`](TERMINOLOGY.md) for the mapping between code identifiers and paper terminology.
